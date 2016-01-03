@@ -1,80 +1,63 @@
-## Restore CLI
+# Restore Commerce CLI
 
-a tool for common Restore Commerce operation tasks.
+Restore Commerce command-line utility.
 
-## Name Variants
+## Installation
 
-`restore`, `restore-commerce`, `rstc`
+```sh
+$ npm i -g restore-cli
+```
 
 ## Usage
 
-### Initialization
-
-Configration stored in `restore.config.js`.
-
-Init with params:
-
 ```sh
-restore init --endpoint https://host.invend.eu --default  
+# Print the help index
+$ rstc -h
+
+# Print the help for a command
+$ rstc <command> -h
+
+# General command invocation
+$ rstc <command> [OPTIONS] <command> [OPTIONS] ...
 ```
 
-Interactive init:
+**See [REFERENCE.md](REFERENCE.md) for a reference documentation.**
 
-```sh
-restore init
+## Configuration Files
+
+There are two configuration files considered by the CLI:
+
+- `.restore-commerce-project.json`
+- `.restore-commerce-credentials.json`
+
+The CLI looks up these files in the following locations:
+
+- `./` ‒ the current directory
+- `~/` ‒ the user's home directory
+
+Settings found in the config files are used automatically,
+command line arguments take precedence.
+
+### `restore-commerce-project.json`
+
+Containts settings for 1..n projects.
+
+```json
+{
+  "projectId": {
+    "entry": "http://example.com"
+  }
+}
 ```
 
-Print config:
+### `restore-commerce-credentials.json`
 
-```
-restore info # show what's configured
-```
+Contains API keys for 1..n projects.
 
-### File Upload (OSS)
-
-```sh
-restore upload files # uploads according to the restore-commerce.config.js
-```
-
-Upload single dirs or files:
-
-```sh
-restore upload files dir # upload relative dir
-restore upload file dir/file # upload relative file
-```
-
-### Resource Upload (GSS)
-
-Equivalent to gulp gss, runs according to according to the `restore.config.js`. `import.json` should be put to `restore.config.js`:
-
-```sh
-restore upload resources
-```
-
-Upload a file with fixtures:
-
-```sh
-restore upload resource path/to/fixture.jsonld 
-```
-
-### Data Migration
-
-```sh
-restore migrate # run migrations according to the restore-commerce.config.js
-restore migrate otherMigration # run a custom migrations 
-```
-
-### Authorization
-
-```
-restore set-mode production # can run against server other than 127.0.0.1
-restore set-mode development # default; all API requests are only run if against 127.0.0.1
-```
-
-### Bootstrap
-
-Bootstrap the server
-
-```sh
-restore bootstrap
+```json
+{
+  "projectId": {
+    "apiKey": "someApiKey"
+  }
+}
 ```
