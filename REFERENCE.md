@@ -1,6 +1,6 @@
-# Global Command Line Arguments
+# Global Command Line Options
 
-Globally supported command line arguments:
+Globally supported command line options:
 
 `-v, --verbose`
 
@@ -18,6 +18,9 @@ Show help for a command.
 
 The API endpoint to use.
 
+`--key`
+
+The API key to use.
 
 # Command Reference
 
@@ -38,9 +41,7 @@ Application bootstrapping.
 
 Arguments:
 
-1. `username` the name of the bootstrap credentials
-2. `password` the password of the bootstrap credentials
-3. `data directory` the directory which contains the bootstrap data
+1. `data directory` the directory which contains the bootstrap data
 
 ## `info`
 
