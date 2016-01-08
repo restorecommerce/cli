@@ -6,5 +6,8 @@ coverage/
 .project
 .settings
 
+/.restore-commerce-project.json
+/.restore-commerce-credentials.json
+
 *.log
 *~
