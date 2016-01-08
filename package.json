@@ -13,7 +13,9 @@
     "chalk": "^1.1.1",
     "core-object": "^1.1.0",
     "debug": "^2.2.0",
+    "ember-cli-string-utils": "^1.0.0",
     "exit": "^0.1.2",
+    "get-caller-file": "^1.0.1",
     "inquirer": "^0.11.1",
     "is-git-url": "^0.2.3",
     "liftoff": "^2.2.0",
@@ -27,7 +29,8 @@
     "silent-error": "^1.0.0",
     "string": "^3.3.1",
     "through2": "^2.0.0",
-    "uuid": "^2.0.1"
+    "uuid": "^2.0.1",
+    "yam": "0.0.18"
   },
   "devDependencies": {
     "jshint": "^2.9.1-rc2",
@@ -51,6 +54,10 @@
     {
       "name": "Thomas Hoppe",
       "email": "thomas.hoppe@n-fuse.de"
+    },
+    {
+      "name": "Druvis Cukurs",
+      "email": "druvis.cukurs@n-fuse.de"
     }
   ],
   "scripts": {
