@@ -11,7 +11,7 @@
     "bcryptjs": "^2.3.0",
     "bluebird": "^3.1.1",
     "chalk": "^1.1.1",
-    "core-object": "^1.1.0",
+    "core-object": "0.0.2",
     "debug": "^2.2.0",
     "ember-cli-string-utils": "^1.0.0",
     "exit": "^0.1.2",
