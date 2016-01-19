@@ -1,0 +1,10 @@
+{
+  "@graph": [
+    {
+      "@id": "1",
+      "@type": "classes/CronJob",
+      "cronTime": "0 0 * * * *",
+      "commandName": "generateEvents"
+    }
+  ]
+}

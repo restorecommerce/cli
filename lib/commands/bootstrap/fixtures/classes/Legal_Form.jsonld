@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Legal_Form",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Legal Form",
+        "de": "Rechtsform"
+      },
+      "description": {
+        "en": "A kind of commercial, corporate and/or other institution that is formed in order to engage in business activities.",
+        "de": "Eine Art kommerzielle, gesellschaftliche und/oder andere Institution, welche gebildet wird, um einen Geschätszweck zu verfolgen."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

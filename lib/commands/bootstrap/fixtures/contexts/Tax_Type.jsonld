@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dct": "http://purl.org/dc/terms/",
+    "name": { "@id": "rdfs:label", "@container": "@language" },
+    "description": { "@id": "dct:description", "@container": "@language" },
+    "acronym": { "@id": "skos:altLabel", "@container": "@language" },
+    "created": "dct:created",
+    "modified": "dct:modified",
+    "creator": { "@id": "dct:creator", "@type": "@id" }
+  }
+}

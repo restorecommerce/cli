@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Difficulty_Level",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Difficulty Level",
+        "de": "Schwierigkeitsgrad"
+      },
+      "description": {
+        "en": "A level of difficulty classified by its order.",
+        "de": "Ein Schwierigkeitsgrad, welcher durch seine Rangordnung klassifiziert ist."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

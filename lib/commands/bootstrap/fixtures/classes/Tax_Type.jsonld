@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Tax_Type",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Tax Type",
+        "de": "Steuertyp"
+      },
+      "description": {
+        "en": "A kind of tax like sales tax.",
+        "de": "Eine Art von Steuer, wie etwa Mehrwertsteuer."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Analytics",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Analytics",
+        "de": "Analytik"
+      },
+      "description": {
+        "en": "Collection and analysis of the behaviour of users in an application.",
+        "de": "Erfassung und Auswertung des Verhaltens von Benutzern einer Applikation."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

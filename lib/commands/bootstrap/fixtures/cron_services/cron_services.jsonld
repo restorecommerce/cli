@@ -1,0 +1,16 @@
+{
+  "@graph": [
+    {
+      "@id": "default",
+      "@type": "classes/Cron_Service",
+      "name": {
+        "en": "Cron Service",
+        "de": "Cron Service"
+      },
+      "description": {
+        "en": "Default Restore Cron Service",
+        "de": "TODO"
+      }
+    }
+  ]
+}

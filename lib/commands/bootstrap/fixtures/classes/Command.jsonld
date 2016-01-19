@@ -1,0 +1,30 @@
+{
+  "@graph": [
+    {
+      "@id": "Command",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Command",
+        "de": "Kommando"
+      },
+      "description": {
+        "en": "A sytem command.",
+        "de": "Ein Systekommando."
+      },
+      "prototype": "classes/API_Resource",
+      "instanceOperation": [
+        {
+          "@id": "classes/Command#InvokeOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "Invokes this command.",
+            "de": "Ruft dieses Kommando auf."
+          },
+          "method": "POST",
+          "expects": "classes/Command",
+          "returns": "classes/Command"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Tax",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Tax",
+        "de": "Steuer"
+      },
+      "description": {
+        "en": "A financial charge or other levy imposed upon a taxpayer.",
+        "de": "Eine finanzielle Gebühr oder ander Abgabe, welche Steuerzahlern auferlegt wird."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

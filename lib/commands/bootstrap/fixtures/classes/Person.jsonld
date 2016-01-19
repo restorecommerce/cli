@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Person",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Person",
+        "de": "Person"
+      },
+      "description": {
+        "en": "A human being.",
+        "de": "Ein Mensch."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

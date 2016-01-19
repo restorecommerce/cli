@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Text",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Text",
+        "de": "Text"
+      },
+      "description": {
+        "en": "Written linguistic statement.",
+        "de": "Schriftliche linguistische Aussage."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "rdf": "http://www.w3.org/ns/org#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "undiscountedPrice": "rstc:classes/Offer#undiscountedPrice",
+    "price": "schema:price",
+    "priceCurrency": {
+      "@id": "rstc:classes/Offer#priceCurrency",
+      "@type": "@id"
+    },
+    "applicableTax": {
+      "@id": "rstc:classes/Offer#applicableTax",
+      "@type": "@id"
+    },
+    "acceptedPaymentMethod": {
+      "@id": "rstc:classes/Offer#acceptedPaymentMethod",
+      "@type": "@id"
+    },
+    "canBeSourced": "rstc:classes/Offer#canBeSourced",
+    "valueAddedTaxIncluded": "schema:valueAddedTaxIncluded",
+    "availability": {
+      "@id": "schema:availability",
+      "@type": "@id"
+    },
+    "inventoryLevel": "schema:inventoryLevel",
+    "itemOffered": {
+      "@id": "schema:itemOffered",
+      "@type": "@id"
+    },
+    "active": "rstc:classes/Offer#active",
+    "name": {
+      "@id": "rdfs:label",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "detailedDesc": {
+      "@type": "@id",
+      "@id": "rstc:classes/Offer#detailedDesc"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "image": {
+      "@id": "schema:image",
+      "@type": "@id"
+    },
+    "category": {
+      "@id": "rstc:classes/Offer#category",
+      "@type": "@id"
+    },
+    "categorySecondary": {
+      "@id": "rstc:classes/Offer#categorySecondary",
+      "@type": "@id"
+    },
+    "aggregateRating": "schema:aggregateRating",
+    "created": "dct:created",
+    "modified": "dct:modified",
+    "creator": {
+      "@id": "dct:creator",
+      "@type": "@id"
+    },
+    "productConfigurationAttribute": {
+      "@type": "@id",
+      "@id": "rstc:classes/Product#productConfigurationAttribute"
+    },
+    "productConfigurationAttributes": {
+      "@id": "rstc:classes/Product#productConfigurationAttributes",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "inventoryLevels": "rstc:classes/Product_Configuration_Attribute#inventoryLevels",
+    "productConfiguration": "rstc:classes/Product_Configuration_Attribute#productConfiguration",
+    "optionId": "rstc:classes/Product_Configuration_Attribute#optionId",
+    "prototype": { "@id": "rstc:classes/Product#prototype", "@type": "@id"}
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "@context" : {
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "schema": "http://schema.org/",
+    "qudt": "http://qudt.org/schema/qudt/",
+    "unit": "http://qudt.org/schema/qudt/Unit/",
+    "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "name": { "@id": "rdfs:label", "@container": "@language" },
+    "description": { "@id": "dct:description", "@container": "@language" },
+    "kind": "qudt:quantityKind",
+    "abbreviation": "qudt:abbreviation",
+    "symbol": "qudt:symbol",
+    "code": "qudt:code",
+    "uneceCommonCode": "qudt:uneceCommonCode",
+    "conversionMultiplier": "qudt:conversionMultiplier:",
+    "conversionOffset": "qudt:conversionOffset",
+    "sameAs": { "@id": "owl:sameAs", "@type": "@id" },
+    "seeAlso": { "@id": "rdfs:seeAlso", "@type": "@id" },
+    "created": "dct:created",
+    "modified": "dct:modified",
+    "creator": { "@id": "dct:creator", "@type": "@id" }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "@graph": [
+    {
+      "@id": "chamber-of-darkness",
+      "@type": "classes/Recurring_Event_Specification",
+      "name": {
+        "en": "Chamber of Darkness",
+        "de": "Chamber of Darkness"
+      },
+      "slug": "chamber-of-darkness",
+      "description": {
+        "en": "Age: From 16 years up\n DA curse has blinded you and your team. There is only one way to get your eyesight back. You have to face the evil in total darkness and defeat it. Are you ready for an unparalleled adventure? \n Please note that a short introduction is mandatory. Make sure that everyboday arrives 15 minutes before the game starts.",
+        "de": "Age: From 16 years up\n Ein Fluch hat dir und deinem Team das Augenlicht genommen. Es gibt nur einen Weg, dieses zurück zu erlangen: Stellt euch dem Bösen in völliger Dunkelheit und besiegt es. Seid ihr bereit für ein Abenteuer der Superlative? \n Bitte beachte noch, dass eine kurze Vorbesprechung zwingend notwendig ist. Es ist wichtig, dass dein Team mindestens 15 Minuten vor Spielbeginn vor Ort ist."      },
+      "location": {
+        "@type": "schema:EventVenue",
+        "name": {
+          "en": "Chamber of Darkness",
+          "de": "Chamber of Darkness"
+        },
+        "geo": {
+          "@type": "schema:GeoCoordinates",
+          "latitude": 48.7833,
+          "longitude": 9.1833
+        },
+        "address": {
+          "@type": "schema:PostalAddress",
+          "streetAddress": "Marienstraße 2",
+          "addressLocality": "Nürnberg",
+          "postalCode": "90402 ",
+          "addressCountry": "Germany"
+        }
+      },
+      "image": [
+        "data-img/60er.jpg"
+      ],
+      "category": "categories/category-1",
+      "organizer": "IRI to organizer org",
+      "audience": {
+        "@type": "schema:PeopleAudience",
+        "requiredMinAge": 16
+      },
+      "pricingModel": "classes/Recurring_Event_Specification#pricingModel-perEvent",
+      "billingModel": "classes/Recurring_Event_Specification#billingModel-billImmediately",
+      "minParticipants": 2,
+      "maxParticipants": 20,
+      "maxReservations": 1,
+      "duration": "PT1H",
+      "level": "medium",
+      "active": true,
+      "bookableMaxDaysUpfront": 730,
+      "applicableTax": "taxes/de_standard_1",
+      "addons": [
+        "offers/behindTheScene",
+        "offers/welcomeDrink",
+        "offers/jgaUeberraschung",
+        "offers/jgaPaket",
+        "offers/photo",
+        "offers/geburtstagsUeberraschung"
+      ],
+      "languages": [
+        {
+          "@id": "recurring_event_specifications/chamber-of-darkness#english",
+          "@type": "classes/Locale_Set",
+          "name": {
+            "en": "English",
+            "de": "Englisch"
+          },
+          "default": false
+        },
+        {
+          "@id": "recurring_event_specifications/chamber-of-darkness#german",
+          "@type": "classes/Locale_Set",
+          "name": {
+            "en": "German",
+            "de": "Deutsch"
+          },
+          "default": true
+        }
+      ],
+      "schedule": [
+        {
+          "@type": "classes/Recurring_Event_Schedule_Specification",
+          "@id": "recurring_event_specifications/chamber-of-darkness#schedule1",
+          "weekDays": "Mon,Tue,Wed",
+          "timeSlots": "14:15/15:45/17:15/19:15/20:45/22:15",
+          "timezone": "Europe/Berlin",
+          "priceSpecification": [
+            {
+              "@type": "schema:PriceSpecification",
+              "price": 70.00,
+              "priceCurrency": "currencies/EUR",
+              "valueAddedTaxIncluded": true,
+              "participantRange": {
+                "@type": "schema:QuantitativeValue",
+                "minValue": 2,
+                "maxValue": 2
+              }
+            },
+            {
+              "@type": "schema:PriceSpecification",
+              "price": 90.00,
+              "priceCurrency": "currencies/EUR",
+              "valueAddedTaxIncluded": true,
+              "participantRange": {
+                "@type": "schema:QuantitativeValue",
+                "minValue": 3,
+                "maxValue": 5
+              },
+              "additionalParticipants": {
+                "@type": "schema:Offer",
+                "priceSpecification": {
+                  "price": 10.00,
+                  "priceCurrency": "currencies/EUR",
+                  "valueAddedTaxIncluded": true,
+                  "participantRange": {
+                    "@type": "schema:QuantitativeValue",
+                    "minValue": 1
+                  },
+                  "eligibleQuantity": {
+                    "@type": "schema:QuantitativeValue",
+                    "minValue": 1
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "classes/Recurring_Event_Schedule_Specification",
+          "@id": "recurring_event_specifications/chamber-of-darkness#schedule2",
+          "weekDays": "Thu,Fri,Sat,Sun",
+          "timeSlots": "9:15/10:45/12:12/14:15/15:45/17:15/19:15/20:45/22:15",
+          "timezone": "Europe/Berlin",
+          "priceSpecification": [
+            {
+              "@type": "schema:PriceSpecification",
+              "price": 70.00,
+              "priceCurrency": "currencies/EUR",
+              "valueAddedTaxIncluded": true,
+              "participantRange": {
+                "@type": "schema:QuantitativeValue",
+                "minValue": 2,
+                "maxValue": 2
+              }
+            },
+            {
+              "@type": "schema:PriceSpecification",
+              "price": 90.00,
+              "priceCurrency": "currencies/EUR",
+              "valueAddedTaxIncluded": true,
+              "participantRange": {
+                "@type": "schema:QuantitativeValue",
+                "minValue": 3,
+                "maxValue": 5
+              },
+              "additionalParticipants": {
+                "@type": "schema:Offer",
+                "priceSpecification": {
+                  "price": 10.00,
+                  "priceCurrency": "currencies/EUR",
+                  "valueAddedTaxIncluded": true,
+                  "participantRange": {
+                    "@type": "schema:QuantitativeValue",
+                    "minValue": 1
+                  },
+                  "eligibleQuantity": {
+                    "@type": "schema:QuantitativeValue",
+                    "minValue": 1
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prototype": "product_prototypes/event"
+    }
+  ]
+}

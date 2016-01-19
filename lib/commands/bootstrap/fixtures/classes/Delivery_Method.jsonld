@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Delivery_Method",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Delivery Method",
+        "de": "Versandmethode"
+      },
+      "description": {
+        "en": "A description of a service or method for the shipment of things.",
+        "de": "Eine Beschreibung eines Dienstes oder einer Methode für den Versand von Dingen."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

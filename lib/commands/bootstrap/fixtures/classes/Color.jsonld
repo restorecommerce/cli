@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Color",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Color",
+        "de": "Farbe"
+      },
+      "description": {
+        "en": "Color defined by a code.",
+        "de": "Farbe, welche durch einen Code definiert ist."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

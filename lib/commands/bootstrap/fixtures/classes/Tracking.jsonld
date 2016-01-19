@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Tracking",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Tracking",
+        "de": "Tracking"
+      },
+      "description": {
+        "en": "Tracking configuration.",
+        "de": "Tracking configuration."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

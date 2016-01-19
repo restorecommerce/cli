@@ -1,0 +1,371 @@
+{
+  "@graph": [
+    {
+      "@id": "unauthenticated",
+      "@type": "classes/Business_Role",
+      "description": "Unauthenticated user",
+      "policy": [
+        {
+          "resource": "resources/",
+          "operation": [
+            "classes/API_Resource#RetrieveResourceOperation",
+            "classes/API_Resource#RetrieveCollectionOperation"
+          ],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/docroot",
+          "operation": [
+            "classes/Object#RetrieveObjectOperation",
+            "classes/Object#RetrieveIndexObjectOperation"
+          ],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/log_service",
+          "operation": [
+            "classes/Log_Service#AddLogEntryOperation"
+          ],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/voucher_files",
+          "operation": [],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/setting",
+          "operation": [],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/business_role",
+          "operation": [],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/credentials",
+          "operation": [],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/invoice",
+          "operation": [],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/cron_job",
+          "operation": [],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/job_service",
+          "operation": [],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/cron_service",
+          "operation": [],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/oauth_service",
+          "operation": [],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/reservation",
+          "operation": [
+            {
+              "method": "GET"
+            }
+          ],
+          "scope": "user"
+        },
+        {
+          "resource": "resources/pre_reservation",
+          "operation": [],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/api_key",
+          "operation": [
+            "classes/API_Key#RetrieveResourceOperation",
+            "classes/API_Key#RetrieveCollectionOperation"
+          ],
+          "scope": "user"
+        },
+        {
+          "resource": "resources/user",
+          "operation": [
+            "classes/User#RetrieveResourceOperation",
+            "classes/User#RetrieveCollectionOperation",
+            "classes/User#RegisterUserOperation",
+            "classes/User#StartPasswordResetProcessOperation"
+          ],
+          "scope": "user"
+        },
+        {
+          "resource": "resources/voucher",
+          "operation": [
+          ],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/voucher_status",
+          "operation": [
+            "classes/Voucher#GetVoucherStatusOperation"
+          ],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/public_order",
+          "operation": [
+            {
+              "method": "GET"
+            }
+          ],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/person",
+          "operation": [
+            {
+              "method": "POST"
+            },
+            {
+              "method": "PUT"
+            }
+          ],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/user_address",
+          "operation": [
+            {
+              "method": "POST"
+            },
+            {
+              "method": "PUT"
+            }
+          ],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/cart",
+          "operation": [
+            {
+              "method": "POST"
+            },
+            {
+              "method": "PUT"
+            },
+            {
+              "method": "PATCH"
+            },
+            {
+              "method": "DELETE"
+            }
+          ],
+          "scope": "user"
+        },
+        {
+          "resource": "resources/follower",
+          "operation": [
+            {
+              "method": "POST"
+            },
+            {
+              "method": "PUT"
+            },
+            {
+              "method": "DELETE"
+            }
+          ],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/message",
+          "operation": [
+            {
+              "method": "POST"
+            },
+            {
+              "method": "PUT"
+            }
+          ],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/order",
+          "operation": [
+            {
+              "method": "POST"
+            },
+            {
+              "method": "PUT"
+            },
+            "classes/Order#GetPublicOrderOperation"
+          ],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/parcel_delivery",
+          "operation": [
+            {
+              "method": "POST"
+            },
+            {
+              "method": "PUT"
+            }
+          ],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/event",
+          "operation": [
+            {
+              "method": "GET"
+            },
+            "classes/Event#PreReserveOperation",
+            "classes/Event#FreePreReservationOperation",
+            "classes/Event#ExtendPreReservationOperation"
+          ],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/oauth2ep",
+          "operation": [
+            "classes/OAuth2ep#GenerateTokenOperation",
+            "classes/OAuth2ep#InvalidateTokenOperation",
+            "classes/OAuth2ep#RefreshTokenOperation"
+          ],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/paypal_payment",
+          "operation": [
+            "classes/Payment#PayExecuteOperation"
+          ],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/user",
+          "operation": [
+            "classes/User#RegisterGuestUserOperation"
+          ],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/payment",
+          "operation": [
+          ],
+          "scope": "domain"
+        },
+        {
+          "resource": "/kibana/",
+          "operation": [],
+          "scope": "domain"
+        }
+      ],
+      "grantable": [
+        { "by":
+          { "holderOfBr" : "business_roles/unauthenticated",
+           "assignment": {
+             "scope": "domain",
+             "scopeInst": "//bookingdemo.restorecommerce.io/"}
+          }
+        }
+      ]
+    },
+    {
+      "@id": "operator",
+      "@type": "classes/Business_Role",
+      "description": "Operator",
+      "policy": [
+        {
+          "resource": "resources/",
+          "operation": [
+            {
+              "method": "GET"
+            },
+            {
+              "method": "POST"
+            },
+            {
+              "method": "PUT"
+            },
+            {
+              "method": "PATCH"
+            },
+            {
+              "method": "DELETE"
+            }
+          ],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/cron_job",
+          "operation": [],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/job_service",
+          "operation": [],
+          "scope": "domain"
+        },
+        {
+          "resource": "resources/cron_service",
+          "operation": [],
+          "scope": "domain"
+        }
+      ],
+      "grantable": [
+          { "by":
+            { "holderOfBr" : "business_roles/appadmin",
+             "assignment": {
+               "scope": "domain",
+               "scopeInst": "//bookingdemo.restorecommerce.io/"}
+            }
+          }
+      ]
+    },
+    {
+      "@id": "appadmin",
+      "@type": "classes/Business_Role",
+      "description": "Administrator of the application",
+      "policy": [
+        {
+          "resource": "resources/",
+          "operation": [
+            {
+              "method": "GET"
+            },
+            {
+              "method": "POST"
+            },
+            {
+              "method": "PUT"
+            },
+            {
+              "method": "PATCH"
+            },
+            {
+              "method": "DELETE"
+            }
+          ],
+          "scope": "domain"
+        }
+      ],
+      "grantable": [
+          { "by":
+            { "holderOfBr" : "business_roles/appadmin",
+             "assignment": {
+               "scope": "domain",
+               "scopeInst": "//bookingdemo.restorecommerce.io/"}
+            }
+          }
+       ]
+     }
+   ]
+}

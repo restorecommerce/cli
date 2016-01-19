@@ -1,0 +1,53 @@
+{
+  "@graph": [
+    {
+      "@id": "Proxy_Resource",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Proxy Resource",
+        "de": "Proxy Resource"
+      },
+      "description": {
+        "en": "A proxy resource.",
+        "de": "Ein proxy Resource."
+      },
+      "instanceOperation": [
+        {
+          "@id": "classes/Proxy_Resource#ReverseProxyOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "Retrieve the existing {{name}}.",
+            "de": "Existierende(n) {{name}} abrufen."
+          },
+          "method": "GET",
+          "expects": null,
+          "returns": "classes/Object"
+        },
+        {
+          "@id": "classes/Proxy_Resource#ReverseProxyOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "Replace the existing {{name}}.",
+            "de": "Existierende(n) {{name}} ersetzen."
+          },
+          "method": "POST",
+          "expects": "classes/Object",
+          "returns": "classes/Object"
+        }
+      ],
+      "collectionOperation": [
+        {
+          "@id": "classes/Proxy_Resource#ReverseProxyOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "Retrieve the collection of {{name}}.",
+            "de": "Liste von {{name}} abrufen."
+          },
+          "method": "GET",
+          "expects": null,
+          "returns": "classes/Object"
+        }
+      ]
+    }
+  ]
+}

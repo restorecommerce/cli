@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "note": "dct:description",
+    "purchasePrice": "schema:price",
+    "product": { "@type": "@id", "@id": "rstc:classes/Product" },
+    "created": "dct:created",
+    "modified": "dct:modified",
+    "creator": { "@id": "dct:creator", "@type": "@id" }
+  }
+}

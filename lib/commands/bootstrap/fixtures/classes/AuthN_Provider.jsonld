@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "AuthN_Provider",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Authentication Provider",
+        "de": "Authentifizierungdienst"
+      },
+      "description": {
+        "en": "A service provider for client authentication.",
+        "de": "Ein Dienst für die Authentifizierung von Clients."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

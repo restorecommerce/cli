@@ -1,0 +1,16 @@
+{
+  "@graph": [
+    {
+      "@id": "Structured_Data_Resource",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Structured Data Resource",
+        "de": "Strukturierte Data Ressource"
+      },
+      "description": {
+        "en": "A Web resource which represents structured data.",
+        "de": "Eine Web Ressource, welche strukturierte Daten repräsentiert."
+      }
+    }
+  ]
+}

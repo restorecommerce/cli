@@ -1,0 +1,75 @@
+{
+  "@graph": [
+    {
+      "@id": "Object",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Object",
+        "de": "Objekt"
+      },
+      "description": {
+        "en": "A piece of arbitrary binary or textual data with corresponding meta data.",
+        "de": "Ein Stück beliebiger binäre oder textueller Daten mit korrespondierenden Meta-Daten."
+      },
+      "instanceOperation": [
+        {
+          "@id": "classes/Object#RetrieveObjectOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "Retrieve the existing {{name}}.",
+            "de": "Existierende(n) {{name}} abrufen."
+          },
+          "method": "GET",
+          "expects": null,
+          "returns": "classes/Object"
+        },
+        {
+          "@id": "classes/Object#UpdateObjectOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "Replace the existing {{name}}.",
+            "de": "Existierende(n) {{name}} ersetzen."
+          },
+          "method": "PUT",
+          "expects": "classes/Object",
+          "returns": "classes/Object"
+        },
+        {
+          "@id": "classes/Object#DeleteObjectOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "Delete the existing {{name}}.",
+            "de": "Existierende(n) {{name}} löschen."
+          },
+          "method": "DELETE",
+          "expects": null,
+          "returns": "http://www.w3.org/2002/07/owl#Nothing"
+        }
+      ],
+      "collectionOperation": [
+        {
+          "@id": "classes/Object#RetrieveIndexObjectOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "Retrieve the collection of {{name}}.",
+            "de": "Liste von {{name}} abrufen."
+          },
+          "method": "GET",
+          "expects": null,
+          "returns": "classes/Object"
+        },
+        {
+          "@id": "classes/Object#CreateObjectOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "Create a new {{name}}.",
+            "de": "Neue(n) {{name}} anlegen."
+          },
+          "method": "POST",
+          "expects": "classes/Object",
+          "returns": "classes/Object"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "dct": "http://purl.org/dc/terms/",
+    "created": "dct:created",
+    "modified": "dct:modified",
+    "migrationName": "rstc:classes/Migration#migrationName",
+    "script": {
+      "@id": "rstc:classes/Migration#script",
+      "@container": "@set"
+    },
+    "expression": "rstc:classes/Migration#expression",
+    "creator": { "@id": "dct:creator", "@type": "@id" }
+  }
+}

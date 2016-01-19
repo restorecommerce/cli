@@ -1,0 +1,31 @@
+{
+  "@graph": [
+    {
+      "@id": "easy",
+      "@type": "classes/Difficulty_Level",
+      "name": {
+        "en": "easy",
+        "de": "leicht"
+      },
+      "order": 1
+    },
+    {
+      "@id": "medium",
+      "@type": "classes/Difficulty_Level",
+      "name": {
+        "en": "medium",
+        "de": "mittel"
+      },
+      "order": 5
+    },
+    {
+      "@id": "difficult",
+      "@type": "classes/Difficulty_Level",
+      "name": {
+        "en": "high",
+        "de": "hoch"
+      },
+      "order": 10
+    }
+  ]
+}

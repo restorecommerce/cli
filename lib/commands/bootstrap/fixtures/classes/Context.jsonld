@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Context",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "JSON-LD Context",
+        "de": "JSON-LD Context"
+      },
+      "description": {
+        "en": "JSON-LD Context.",
+        "de": "JSON-LD Context."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

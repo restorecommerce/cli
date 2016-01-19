@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "rdf": "http://www.w3.org/ns/org#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "additionalType": "schema:additionalType",
+    "commandName": "rstc:classes/CronJob#commandName",
+    "cronTime": "rstc:classes/CronJob#cronTime",
+    "apiKey": "rstc:classes/CronJob#apiKey",
+    "sameAs": "schema:sameAs",
+    "created": "dct:created",
+    "modified": "dct:modified",
+    "creator": "dct:creator"
+  }
+}

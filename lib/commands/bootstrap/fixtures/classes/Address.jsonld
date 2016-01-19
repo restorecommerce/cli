@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Address",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Address",
+        "de": "Addresse"
+      },
+      "description": {
+        "en": "A mailing address.",
+        "de": "Eine Postadresse."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "rdf": "http://www.w3.org/ns/org#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "sameAs": "schema:sameAs",
+    "additionalType": { "@id": "schema:additionalType", "@type": "@id"},
+    "name": { "@id": "rdfs:label", "@container": "@language" },
+    "description": { "@id": "dct:description", "@container": "@language" },
+    "details": "rstc:classes/Payment_Method#details",
+    "active": {
+      "@id": "rstc:classes/Payment_Method#active",
+      "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "iban": "rstc:classes/Payment_Method#iban",
+    "bic": "rstc:classes/Payment_Method#bic",
+    "bankInstitute": "rstc:classes/Payment_Method#bankInstitute",
+    "accountOwner": "rstc:classes/Payment_Method#accountOwner",
+    "recipient": "rstc:classes/Payment_Method#recipient",
+    "email": "schema:email",
+    "image": "schema:image",
+    "credentials": "rstc:classes/Credentials#credentials",
+    "apiEndpoint": "schema:url",
+    "apiMode": "rstc:classes/Payment_Method#apiMode",
+    "created": "dct:created",
+    "modified": "dct:modified",
+    "creator": { "@id": "dct:creator", "@type": "@id" },
+    "priceSpecification": "schema:priceSpecification",
+    "price": "schema:price",
+    "priceCurrency": { "@type": "@id", "@id": "rstc:classes/Payment_Method#priceCurrency" },
+    "displayOrder": {
+      "@id": "rstc:classes/Payment_Method#displayOrder",
+      "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+    }
+  }
+}

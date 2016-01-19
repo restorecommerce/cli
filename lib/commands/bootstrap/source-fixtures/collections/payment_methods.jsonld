@@ -1,0 +1,62 @@
+{
+  "@graph": [
+    {
+      "@id": "paypal",
+      "@type": "classes/Payment_Method",
+      "details": {
+        "email": "backoffice-facilitator@exitventures.de",
+        "apiEndpoint": "https://api.sandbox.paypal.com",
+        "apiMode": "sandbox"
+      },
+      "credentials": "credential_vault/pp_sandbox",
+      "name": {
+        "de": "PayPal",
+        "en": "PayPal"
+      },
+      "active": true,
+      "displayOrder": 1
+    },
+    {
+      "@id": "bank_transfer",
+      "@type": "classes/Payment_Method",
+      "price": 0,
+      "priceCurrency": "currencies/EUR",
+      "name": {
+        "de": "Vorkasse",
+        "en": "In advance"
+      },
+      "details": {
+        "iban": "DE21611913100818281006",
+        "bic": "GENODES1VBP",
+        "bankInstitute": "Volksbank Plochingen eG",
+        "accountOwner": "Invend GmbH"
+      },
+      "active": true,
+      "displayOrder": 2
+    },
+    {
+      "@id": "payment_on_the_spot",
+      "@type": "classes/Payment_Method",
+      "price": 0,
+      "priceCurrency": "currencies/EUR",
+      "name": {
+        "de": "Zahlung vor Ort",
+        "en": "Payment on the spot"
+      },
+      "active": true,
+      "displayOrder": 3
+    },
+    {
+      "@id": "voucher",
+      "@type": "classes/Payment_Method",
+      "price": 0,
+      "priceCurrency": "currencies/EUR",
+      "name": {
+        "de": "Gutschein",
+        "en": "Voucher"
+      },
+      "active": true,
+      "displayOrder": 4
+    }
+  ]
+}

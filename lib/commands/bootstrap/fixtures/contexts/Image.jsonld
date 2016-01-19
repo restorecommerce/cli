@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "rdf": "http://www.w3.org/ns/org#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "unitCode": "schema:unitCode",
+    "value": "schema:value",
+    "width": "schema:width",
+    "height": "schema:height",
+    "quality": "schema:height",
+    "format": "dct:format",
+    "url": { "@id" : "schema:contentUrl", "@type" : "@id" },
+    "variant": "rstc:classes/Image#variant",
+    "ccLicense": { "@id" : "rstc:classes/Image#ccLicense", "@type" : "@id" },
+    "caption": "schema:caption",
+    "created": "dct:created",
+    "modified": "dct:modified",
+    "creator": { "@id": "dct:creator", "@type": "@id" }
+  }
+}

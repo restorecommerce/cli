@@ -1,0 +1,76 @@
+{
+  "@graph": [
+    {
+      "@id": "Discontinued",
+      "@type": "classes/Item_Availability",
+      "sameAs": "http://schema.org/Discontinued",
+      "name": {
+        "en": "Discontinued",
+        "de": "Eingestellt"
+      }
+    },
+    {
+      "@id": "InStock",
+      "@type": "classes/Item_Availability",
+      "sameAs": "http://schema.org/InStock",
+      "name": {
+        "en": "In stock",
+        "de": "Auf Lager"
+      }
+    },
+    {
+      "@id": "InStoreOnly",
+      "@type": "classes/Item_Availability",
+      "sameAs": "http://schema.org/InStoreOnly",
+      "name": {
+        "en": "In store only",
+        "de": "Nur vor Ort verfügbar"
+      }
+    },
+    {
+      "@id": "LimitedAvailability",
+      "@type": "classes/Item_Availability",
+      "sameAs": "http://schema.org/LimitedAvailability",
+      "name": {
+        "en": "Limited availability",
+        "de": "Limitierte Verfügbarkeit"
+      }
+    },
+    {
+      "@id": "OnlineOnly",
+      "@type": "classes/Item_Availability",
+      "sameAs": "http://schema.org/OnlineOnly",
+      "name": {
+        "en": "Online only",
+        "de": "Nur online verfügbar"
+      }
+    },
+    {
+      "@id": "OutOfStock",
+      "@type": "classes/Item_Availability",
+      "sameAs": "http://schema.org/OutOfStock",
+      "name": {
+        "en": "Out of stock",
+        "de": "Nicht auf Lager"
+      }
+    },
+    {
+      "@id": "PreOrder",
+      "@type": "classes/Item_Availability",
+      "sameAs": "http://schema.org/PreOrder",
+      "name": {
+        "en": "Pre order",
+        "de": "Vorbestellung"
+      }
+    },
+    {
+      "@id": "SoldOut",
+      "@type": "classes/Item_Availability",
+      "sameAs": "http://schema.org/SoldOut",
+      "name": {
+        "en": "Sold out",
+        "de": "Ausverkauft"
+      }
+    }
+  ]
+}

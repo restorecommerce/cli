@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Message",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Message",
+        "de": "Nachricht"
+      },
+      "description": {
+        "en": "A message from a sender to a recipient.",
+        "de": "Eine Mitteilung von einem Sender an einen Empfänger."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

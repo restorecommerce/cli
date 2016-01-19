@@ -1,0 +1,5 @@
+[{
+  "@id": "timezone",
+  "@type": "/classes/Setting",
+  "value": "Europe/Berlin"
+}]

@@ -1,0 +1,11 @@
+{
+  "@graph": [
+    {
+      "@id": "age_term",
+      "@type": "classes/Term",
+      "template": "/tmpl/terms.hbs",
+      "templateName": "terms",
+      "needsAcceptance": true
+    }
+  ]
+}

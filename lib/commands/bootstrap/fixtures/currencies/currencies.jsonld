@@ -1,0 +1,4313 @@
+{
+  "@graph": [
+    {
+      "@id": "UYU",
+      "code": "UYU",
+      "currencyOf": "http://dbpedia.org/resource/Uruguay",
+      "symbol": {
+        "@language": "en",
+        "@value": "$ or $U"
+      },
+      "created": "2015-04-30T06:32:49.481Z",
+      "modified": "2015-04-30T06:32:49.481Z",
+      "name": {
+        "ca": "Peso uruguaià",
+        "zh": "烏拉圭比索",
+        "ja": "ウルグアイ・ペソ",
+        "ru": "Уругвайское песо",
+        "en": "Uruguayan peso",
+        "es": "Peso uruguayo",
+        "pt": "Peso uruguaio",
+        "cs": "Uruguayské peso",
+        "nl": "Uruguayaanse peso",
+        "it": "Peso uruguaiano",
+        "pl": "Peso urugwajskie",
+        "ko": "우루과이 페소",
+        "uk": "Уругвайський песо",
+        "de": "Uruguayischer Peso",
+        "no": "Uruguayansk peso",
+        "fr": "Peso uruguayen",
+        "hu": "Uruguayi peso",
+        "sv": "Uruguayansk peso"
+      }
+    },
+    {
+      "@id": "GBP",
+      "code": "GBP",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Angevin_Empire",
+        "http://dbpedia.org/resource/British_America",
+        "http://dbpedia.org/resource/Mercia",
+        "http://dbpedia.org/resource/Province_of_New_Hampshire",
+        "http://dbpedia.org/resource/Guernsey",
+        "http://dbpedia.org/resource/Western_Samoa_Trust_Territory",
+        "http://dbpedia.org/resource/British_North_America",
+        "http://dbpedia.org/resource/The_Protectorate",
+        "http://dbpedia.org/resource/Mosquito_Coast",
+        "http://dbpedia.org/resource/Colony_of_Tasmania",
+        "http://dbpedia.org/resource/Tristan_da_Cunha",
+        "http://dbpedia.org/resource/Bechuanaland_Protectorate",
+        "http://dbpedia.org/resource/United_Kingdom_of_Great_Britain_and_Ireland",
+        "http://dbpedia.org/resource/United_Kingdom",
+        "http://dbpedia.org/resource/British_Ceylon",
+        "http://dbpedia.org/resource/Irish_Republic",
+        "http://dbpedia.org/resource/Jersey",
+        "http://dbpedia.org/resource/British_Indian_Ocean_Territory",
+        "http://dbpedia.org/resource/Gibraltar",
+        "http://dbpedia.org/resource/Sark",
+        "http://dbpedia.org/resource/Herm",
+        "http://dbpedia.org/resource/Kingdom_of_Tahiti",
+        "http://dbpedia.org/resource/British_Antarctic_Territory",
+        "http://dbpedia.org/resource/Province_of_New_York",
+        "http://dbpedia.org/resource/Irish_Free_State",
+        "http://dbpedia.org/resource/Province_of_Massachusetts_Bay",
+        "http://dbpedia.org/resource/Province_of_Pennsylvania",
+        "http://dbpedia.org/resource/Austenasia",
+        "http://dbpedia.org/resource/South_Georgia_and_the_South_Sandwich_Islands",
+        "http://dbpedia.org/resource/Isle_of_Man",
+        "http://dbpedia.org/resource/England",
+        "http://dbpedia.org/resource/Scotland",
+        "http://dbpedia.org/resource/British_Solomon_Islands",
+        "http://dbpedia.org/resource/Wales",
+        "http://dbpedia.org/resource/Gambia_Colony_and_Protectorate",
+        "http://dbpedia.org/resource/Southern_Nigeria_Protectorate",
+        "http://dbpedia.org/resource/Northern_Ireland",
+        "http://dbpedia.org/resource/Alderney"
+      ],
+      "symbol": "£",
+      "created": "2015-04-30T06:32:49.481Z",
+      "modified": "2015-04-30T06:32:49.481Z",
+      "name": {
+        "fi": "Englannin punta",
+        "cs": "Libra šterlinků",
+        "ko": "영국 파운드",
+        "nl": "Pond sterling",
+        "no": "Britisk pund",
+        "fr": "Livre sterling",
+        "pt": "Libra esterlina",
+        "zh": "英镑",
+        "ca": "Lliura esterlina",
+        "uk": "Фунт стерлінгів",
+        "it": "Sterlina britannica",
+        "en": "Banknotes of the pound sterling",
+        "es": "Libra esterlina",
+        "vi": "Bảng Anh",
+        "ru": "Фунт стерлингов",
+        "sv": "Brittiskt pund",
+        "pl": "Funt szterling",
+        "ja": "スターリング・ポンド紙幣",
+        "de": "Pfund Sterling",
+        "hu": "Font sterling"
+      }
+    },
+    {
+      "@id": "LVR",
+      "code": "LVR",
+      "symbol": {
+        "@language": "en",
+        "@value": "Lvr"
+      },
+      "created": "2015-04-30T06:32:49.481Z",
+      "modified": "2015-04-30T06:32:49.481Z",
+      "name": {
+        "ru": "Латвийский рубль",
+        "en": "Latvian rublis",
+        "fr": "Rouble letton",
+        "pl": "Rubel łotewski",
+        "es": "Rublo letón"
+      }
+    },
+    {
+      "@id": "PEN",
+      "code": "PEN",
+      "currencyOf": "http://dbpedia.org/resource/Peru",
+      "symbol": {
+        "@language": "en",
+        "@value": "S/."
+      },
+      "created": "2015-04-30T06:32:49.481Z",
+      "modified": "2015-04-30T06:32:49.481Z",
+      "name": {
+        "pl": "Sol (waluta)",
+        "cs": "Peruánský nuevo sol",
+        "it": "Nuevo sol peruviano",
+        "es": "Nuevo sol",
+        "ru": "Перуанский соль",
+        "pt": "Sol novo",
+        "en": "Peruvian nuevo sol",
+        "nl": "Sol (munteenheid)",
+        "sv": "Nuevo sol",
+        "ko": "페루 누에보 솔",
+        "uk": "Новий соль",
+        "de": "Nuevo Sol",
+        "hu": "Perui új sol",
+        "no": "Peruansk nuevo sol",
+        "ja": "ヌエボ・ソル",
+        "ca": "Sol (moneda)",
+        "fr": "Nuevo sol"
+      }
+    },
+    {
+      "@id": "CLF",
+      "code": "CLF",
+      "symbol": {
+        "@language": "en",
+        "@value": "UF"
+      },
+      "created": "2015-04-30T06:32:49.481Z",
+      "modified": "2015-04-30T06:32:49.481Z",
+      "name": {
+        "en": "Unidad de Fomento",
+        "de": "Unidad de Fomento",
+        "es": "Unidad de Fomento"
+      }
+    },
+    {
+      "@id": "ARS",
+      "code": "ARS",
+      "currencyOf": [
+        "http://dbpedia.org/resource/United_Provinces_of_the_R%C3%ADo_de_la_Plata",
+        "http://dbpedia.org/resource/Argentina"
+      ],
+      "symbol": {
+        "@id": "http://dbpedia.org/resource/Dollar_sign"
+      },
+      "created": "2015-04-30T06:32:49.481Z",
+      "modified": "2015-04-30T06:32:49.482Z",
+      "name": {
+        "it": "Peso argentino",
+        "nl": "Argentijnse peso",
+        "fr": "Peso argentin",
+        "ko": "아르헨티나 페소",
+        "ru": "Аргентинское песо",
+        "zh": "阿根廷比索",
+        "es": "Peso de Argentina",
+        "pt": "Peso argentino",
+        "en": "Argentine peso",
+        "uk": "Аргентинський песо",
+        "cs": "Argentinské peso",
+        "de": "Argentinischer Peso",
+        "pl": "Peso argentyńskie",
+        "fi": "Argentiinan peso",
+        "hu": "Argentin peso",
+        "ca": "Peso argentí",
+        "no": "Argentinsk peso",
+        "ja": "アルゼンチン・ペソ",
+        "sv": "Argentinsk peso"
+      }
+    },
+    {
+      "@id": "ARL",
+      "code": "ARL",
+      "currencyOf": "http://dbpedia.org/resource/Occupation_of_the_Falkland_Islands",
+      "symbol": {
+        "@language": "en",
+        "@value": "$L"
+      },
+      "created": "2015-04-30T06:32:49.482Z",
+      "modified": "2015-04-30T06:32:49.482Z",
+      "name": {
+        "es": "Peso Ley 18.188",
+        "it": "Peso ley argentino",
+        "en": "Argentine peso ley"
+      }
+    },
+    {
+      "@id": "CZK",
+      "code": "CZK",
+      "currencyOf": "http://dbpedia.org/resource/Czech_Republic",
+      "symbol": {
+        "@language": "en",
+        "@value": "Kč"
+      },
+      "created": "2015-04-30T06:32:49.482Z",
+      "modified": "2015-04-30T06:32:49.482Z",
+      "name": {
+        "nl": "Tsjechische kroon",
+        "hu": "Cseh korona",
+        "ru": "Чешская крона",
+        "pl": "Korona czeska",
+        "cs": "Koruna česká",
+        "no": "Tsjekkisk koruna",
+        "zh": "捷克克朗",
+        "ja": "チェコ・コルナ",
+        "sv": "Tjeckisk krona",
+        "ca": "Corona txeca",
+        "fi": "Tšekin koruna",
+        "pt": "Coroa checa",
+        "uk": "Чеська крона",
+        "it": "Corona ceca",
+        "vi": "Koruna Séc",
+        "en": "Czech koruna",
+        "fr": "Couronne tchèque",
+        "es": "Corona checa",
+        "ko": "체코 코루나",
+        "de": "Tschechische Krone"
+      }
+    },
+    {
+      "@id": "GMD",
+      "code": "GMD",
+      "currencyOf": [
+        "http://dbpedia.org/resource/The_Gambia",
+        "http://dbpedia.org/resource/Economic_Community_of_West_African_States"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "D"
+      },
+      "created": "2015-04-30T06:32:49.482Z",
+      "modified": "2015-04-30T06:32:49.482Z",
+      "name": {
+        "no": "Gambisk dalasi",
+        "ca": "Dalasi",
+        "ru": "Гамбийский даласи",
+        "pt": "Dalasi",
+        "de": "Dalasi",
+        "it": "Dalasi gambese",
+        "ja": "ダラシ",
+        "sv": "Dalasi",
+        "pl": "Dalasi",
+        "zh": "甘比亞達拉西",
+        "fr": "Dalasi",
+        "nl": "Dalasi",
+        "fi": "Dalasi",
+        "ko": "감비아 달라시",
+        "en": "Gambian dalasi",
+        "es": "Dalasi",
+        "hu": "Gambiai dalasi"
+      }
+    },
+    {
+      "@id": "LRD",
+      "code": "LRD",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Economic_Community_of_West_African_States",
+        "http://dbpedia.org/resource/Liberia"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "L$"
+      },
+      "created": "2015-04-30T06:32:49.482Z",
+      "modified": "2015-04-30T06:32:49.482Z",
+      "name": {
+        "sv": "Liberiansk dollar",
+        "nl": "Liberiaanse dollar",
+        "fr": "Dollar libérien",
+        "ca": "Dòlar liberià",
+        "hu": "Libériai dollár",
+        "de": "Liberianischer Dollar",
+        "it": "Dollaro liberiano",
+        "pl": "Dolar liberyjski",
+        "ko": "라이베리아 달러",
+        "es": "Dólar liberiano",
+        "no": "Liberisk dollar",
+        "ja": "リベリア・ドル",
+        "ru": "Либерийский доллар",
+        "en": "Liberian dollar",
+        "zh": "賴比瑞亞元"
+      }
+    },
+    {
+      "@id": "MKD",
+      "code": "MKD, the three-digit identifier is 807",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Macedonia_(region)",
+        "http://dbpedia.org/resource/Republic_of_Macedonia",
+        "http://dbpedia.org/resource/Republic_of_Vev%C4%8Dani"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "ден"
+      },
+      "created": "2015-04-30T06:32:49.482Z",
+      "modified": "2015-04-30T06:32:49.482Z",
+      "name": {
+        "de": "Mazedonischer Denar",
+        "cs": "Makedonský denár",
+        "nl": "Denar",
+        "no": "Makedonsk denar",
+        "it": "Denaro macedone",
+        "zh": "馬其頓代納爾",
+        "ja": "マケドニア・ディナール",
+        "pl": "Denar macedoński",
+        "es": "Denar macedonio",
+        "fr": "Denar",
+        "ru": "Македонский денар",
+        "hu": "Macedón dénár",
+        "en": "Macedonian denar",
+        "fi": "Makedonian denaari",
+        "pt": "Dinar macedónio",
+        "ko": "마케도니아 데나르",
+        "ca": "Denar",
+        "sv": "Makedonisk denar",
+        "uk": "Македонський денар"
+      }
+    },
+    {
+      "@id": "NIO",
+      "code": "NIO",
+      "currencyOf": "http://dbpedia.org/resource/Nicaragua",
+      "symbol": {
+        "@language": "en",
+        "@value": "C$"
+      },
+      "created": "2015-04-30T06:32:49.482Z",
+      "modified": "2015-04-30T06:32:49.482Z",
+      "name": {
+        "ru": "Никарагуанская кордоба",
+        "pl": "Córdoba (waluta)",
+        "it": "Córdoba nicaraguense",
+        "cs": "Nikaragujská córdoba",
+        "pt": "Córdoba (moeda)",
+        "uk": "Нікарагуанська кордоба",
+        "de": "Córdoba Oro",
+        "sv": "Córdoba (valuta)",
+        "ko": "니카라과 코르도바",
+        "no": "Nicaraguansk córdoba",
+        "es": "Córdoba nicaragüense",
+        "fr": "Córdoba (monnaie)",
+        "ca": "Córdoba (moneda)",
+        "hu": "Nicaraguai córdoba",
+        "zh": "尼加拉瓜科多巴",
+        "nl": "Córdoba (munteenheid)",
+        "en": "Nicaraguan córdoba",
+        "ja": "ニカラグア・コルドバ"
+      }
+    },
+    {
+      "@id": "OMR",
+      "code": "OMR",
+      "currencyOf": "http://dbpedia.org/resource/Oman",
+      "symbol": {
+        "@language": "en",
+        "@value": "ر.ع."
+      },
+      "created": "2015-04-30T06:32:49.482Z",
+      "modified": "2015-04-30T06:32:49.482Z",
+      "name": {
+        "es": "Rial omaní",
+        "hu": "Ománi riál",
+        "sv": "Omansk rial",
+        "ru": "Оманский риал",
+        "ko": "오만 리알",
+        "nl": "Omaanse rial",
+        "it": "Riyal dell'Oman",
+        "ja": "オマーン・リアル",
+        "de": "Omanischer Rial",
+        "zh": "阿曼里亞爾",
+        "pl": "Rial omański",
+        "ca": "Rial omanita",
+        "cs": "Ománský rial",
+        "fr": "Rial omanais",
+        "no": "Omansk rial",
+        "pt": "Rial omanense",
+        "en": "Omani rial"
+      }
+    },
+    {
+      "@id": "PGK",
+      "code": "PGK",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Territory_of_Papua_and_New_Guinea",
+        "http://dbpedia.org/resource/Papua_New_Guinea"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "K"
+      },
+      "created": "2015-04-30T06:32:49.483Z",
+      "modified": "2015-04-30T06:32:49.483Z",
+      "name": {
+        "de": "Kina",
+        "fi": "Papua-Uuden-Guinean kina",
+        "ru": "Кина",
+        "zh": "巴布亞紐幾內亞基那",
+        "es": "Kina (moneda)",
+        "en": "Papua New Guinean kina",
+        "nl": "Kina",
+        "sv": "Kina (valuta)",
+        "ja": "キナ (通貨)",
+        "fr": "Kina",
+        "ko": "파푸아 뉴기니 키나",
+        "cs": "Papujsko-guinejská kina",
+        "it": "Kina papuana",
+        "no": "Papuansk kina",
+        "ca": "Kina",
+        "pl": "Kina (jednostka monetarna)",
+        "pt": "Kina",
+        "hu": "Pápua új-guineai kina"
+      }
+    },
+    {
+      "@id": "ARA",
+      "code": "ARA",
+      "symbol": {
+        "@language": "en",
+        "@value": "image|20px"
+      },
+      "created": "2015-04-30T06:32:49.483Z",
+      "modified": "2015-04-30T06:32:49.483Z",
+      "name": {
+        "pl": "Austral",
+        "en": "Argentine austral",
+        "ja": "アウストラル",
+        "pt": "Austral (moeda)",
+        "it": "Austral argentino",
+        "ru": "Аустраль",
+        "de": "Austral (Währung)",
+        "es": "Austral (moneda)",
+        "fr": "Austral (monnaie)",
+        "ca": "Austral (moneda)"
+      }
+    },
+    {
+      "@id": "BOB",
+      "code": "BOB",
+      "currencyOf": "http://dbpedia.org/resource/Bolivia",
+      "symbol": {
+        "@language": "en",
+        "@value": "Bs. or Bs"
+      },
+      "created": "2015-04-30T06:32:49.483Z",
+      "modified": "2015-04-30T06:32:49.483Z",
+      "name": {
+        "ko": "볼리비아 볼리비아노",
+        "de": "Boliviano",
+        "ru": "Боливиано",
+        "no": "Boliviansk boliviano",
+        "nl": "Boliviano",
+        "ca": "Boliviano",
+        "fr": "Boliviano",
+        "uk": "Болівіано",
+        "hu": "Bolíviai boliviano",
+        "ja": "ボリビアーノ",
+        "pt": "Boliviano (moeda)",
+        "cs": "Bolivijský boliviano",
+        "pl": "Boliviano",
+        "sv": "Boliviano",
+        "it": "Boliviano",
+        "en": "Bolivian boliviano",
+        "fi": "Bolivian boliviano",
+        "es": "Boliviano (moneda)",
+        "zh": "玻利維亞諾"
+      }
+    },
+    {
+      "@id": "BOP",
+      "code": "BOP",
+      "symbol": {
+        "@language": "en",
+        "@value": "b$."
+      },
+      "created": "2015-04-30T06:32:49.483Z",
+      "modified": "2015-04-30T06:32:49.483Z",
+      "name": {
+        "es": "Peso boliviano",
+        "it": "Peso boliviano",
+        "ca": "Peso bolivià",
+        "en": "Bolivian peso",
+        "pl": "Peso boliwijskie",
+        "fr": "Peso boliviano"
+      }
+    },
+    {
+      "@id": "BAM",
+      "code": "BAM",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Bosnia_and_Herzegovina",
+        "http://dbpedia.org/resource/Central_European_Free_Trade_Agreement",
+        "http://dbpedia.org/resource/Federation_of_Bosnia_and_Herzegovina",
+        "http://dbpedia.org/resource/Republika_Srpska"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "KM"
+      },
+      "created": "2015-04-30T06:32:49.483Z",
+      "modified": "2015-04-30T06:32:49.483Z",
+      "name": {
+        "fi": "Bosnian ja Hertsegovinan vaihdettava markka",
+        "ko": "보스니아 헤르체고비나 태환 마르카",
+        "pl": "Marka zamienna (jednostka monetarna)",
+        "de": "Konvertible Mark",
+        "en": "Bosnia and Herzegovina convertible mark",
+        "cs": "Konvertibilní marka",
+        "hu": "Bosnyák konvertibilis márka",
+        "sv": "Konvertibilna marka",
+        "es": "Marco bosnioherzegovino",
+        "ca": "Marc convertible",
+        "uk": "Конвертована марка",
+        "pt": "Marco conversível",
+        "nl": "Bosnische inwisselbare mark",
+        "no": "Konvertibilna mark",
+        "ru": "Боснийская конвертируемая марка",
+        "fr": "Marka (monnaie)",
+        "ja": "兌換マルク",
+        "it": "Marco bosniaco",
+        "zh": "波斯尼亚和黑塞哥维那可兑换马克"
+      }
+    },
+    {
+      "@id": "BWP",
+      "code": "BWP",
+      "currencyOf": "http://dbpedia.org/resource/Botswana",
+      "symbol": {
+        "@language": "en",
+        "@value": "P"
+      },
+      "created": "2015-04-30T06:32:49.483Z",
+      "modified": "2015-04-30T06:32:49.483Z",
+      "name": {
+        "ca": "Pula (moneda)",
+        "uk": "Ботсванська пула",
+        "sv": "Pula (valuta)",
+        "ja": "プラ",
+        "cs": "Botswanská pula",
+        "pl": "Pula (waluta)",
+        "fi": "Pula (rahayksikkö)",
+        "ru": "Ботсванская пула",
+        "nl": "Pula (munteenheid)",
+        "es": "Pula (moneda)",
+        "zh": "波札那普拉",
+        "it": "Pula del Botswana",
+        "ko": "보츠와나 풀라",
+        "no": "Pula (valuta)",
+        "hu": "Botswanai pula",
+        "pt": "Pula (moeda)",
+        "fr": "Pula (monnaie)",
+        "en": "Botswana pula",
+        "de": "Botswanischer Pula"
+      }
+    },
+    {
+      "@id": "BND",
+      "code": "BND",
+      "currencyOf": "http://dbpedia.org/resource/Brunei",
+      "symbol": {
+        "@id": "http://dbpedia.org/resource/Dollar_sign"
+      },
+      "created": "2015-04-30T06:32:49.483Z",
+      "modified": "2015-04-30T06:32:49.483Z",
+      "name": {
+        "fr": "Dollar de Brunei",
+        "ru": "Брунейский доллар",
+        "hu": "Brunei dollár",
+        "cs": "Brunejský dolar",
+        "ja": "ブルネイ・ドル",
+        "it": "Dollaro del Brunei",
+        "de": "Brunei-Dollar",
+        "pl": "Dolar Brunei",
+        "ko": "브루나이 달러",
+        "fi": "Brunein dollari",
+        "en": "Brunei dollar",
+        "no": "Bruneisk dollar",
+        "zh": "汶萊元",
+        "ca": "Dòlar de Brunei",
+        "nl": "Bruneise dollar",
+        "sv": "Bruneisk dollar",
+        "es": "Dólar de Brunéi",
+        "vi": "Đô la Brunei",
+        "pt": "Dólar de Brunei"
+      }
+    },
+    {
+      "@id": "XPF",
+      "code": "XPF",
+      "currencyOf": [
+        "http://dbpedia.org/resource/French_Union",
+        "http://dbpedia.org/resource/New_Caledonia",
+        "http://dbpedia.org/resource/French_Fifth_Republic",
+        "http://dbpedia.org/resource/Wallis_and_Futuna",
+        "http://dbpedia.org/resource/Wallis_%28island%29",
+        "http://dbpedia.org/resource/Wallis_(island)",
+        "http://dbpedia.org/resource/French_Polynesia"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "F"
+      },
+      "created": "2015-04-30T06:32:49.484Z",
+      "modified": "2015-04-30T06:32:49.484Z",
+      "name": {
+        "ja": "CFPフラン",
+        "sv": "CFP-franc",
+        "ca": "Franc CFP",
+        "fr": "Franc Pacifique",
+        "nl": "CFP-frank",
+        "es": "Franco CFP",
+        "no": "CFP-franc",
+        "ru": "Французский тихоокеанский франк",
+        "it": "Franco CFP",
+        "uk": "Французький тихоокеанський франк",
+        "hu": "Csendes-óceáni valutaközösségi frank",
+        "de": "CFP-Franc",
+        "cs": "CFP frank",
+        "en": "CFP franc",
+        "pl": "Frank CFP",
+        "ko": "CFP 프랑",
+        "zh": "太平洋法郎",
+        "fi": "CFP-frangi",
+        "pt": "Franco CFP"
+      }
+    },
+    {
+      "@id": "XPF363.",
+      "code": "XPF363.",
+      "currencyOf": [
+        "http://dbpedia.org/resource/French_Polynesia",
+        "http://dbpedia.org/resource/French_Union",
+        "http://dbpedia.org/resource/New_Caledonia",
+        "http://dbpedia.org/resource/French_Fifth_Republic",
+        "http://dbpedia.org/resource/Wallis_and_Futuna",
+        "http://dbpedia.org/resource/Wallis_%28island%29",
+        "http://dbpedia.org/resource/Wallis_(island)"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "F"
+      },
+      "created": "2015-04-30T06:32:49.484Z",
+      "modified": "2015-04-30T06:32:49.484Z",
+      "name": {
+        "ja": "CFPフラン",
+        "sv": "CFP-franc",
+        "ca": "Franc CFP",
+        "nl": "CFP-frank",
+        "fr": "Franc Pacifique",
+        "es": "Franco CFP",
+        "no": "CFP-franc",
+        "ru": "Французский тихоокеанский франк",
+        "it": "Franco CFP",
+        "uk": "Французький тихоокеанський франк",
+        "hu": "Csendes-óceáni valutaközösségi frank",
+        "de": "CFP-Franc",
+        "cs": "CFP frank",
+        "en": "CFP franc",
+        "pl": "Frank CFP",
+        "ko": "CFP 프랑",
+        "zh": "太平洋法郎",
+        "fi": "CFP-frangi",
+        "pt": "Franco CFP"
+      }
+    },
+    {
+      "@id": "CAD",
+      "code": "CAD",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Canada",
+        "http://dbpedia.org/resource/British_North_America",
+        "http://dbpedia.org/resource/Province_of_Canada"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "$ or C$ or CAD$"
+      },
+      "created": "2015-04-30T06:32:49.484Z",
+      "modified": "2015-04-30T06:32:49.484Z",
+      "name": {
+        "zh": "加拿大元",
+        "es": "Dólar canadiense",
+        "en": "Canadian dollar",
+        "vi": "Đô la Canada",
+        "ca": "Dòlar canadenc",
+        "fr": "Dollar canadien",
+        "pt": "Dólar canadense",
+        "no": "Canadisk dollar",
+        "ko": "캐나다 달러",
+        "ja": "カナダドル",
+        "nl": "Canadese dollar",
+        "pl": "Dolar kanadyjski",
+        "it": "Dollaro canadese",
+        "uk": "Канадський долар",
+        "cs": "Kanadský dolar",
+        "hu": "Kanadai dollár",
+        "fi": "Kanadan dollari",
+        "sv": "Kanadensisk dollar",
+        "ru": "Канадский доллар",
+        "de": "Kanadischer Dollar"
+      }
+    },
+    {
+      "@id": "KYD",
+      "code": "KYD",
+      "currencyOf": "http://dbpedia.org/resource/Cayman_Islands",
+      "symbol": {
+        "@id": "http://dbpedia.org/resource/Dollar_sign"
+      },
+      "created": "2015-04-30T06:32:49.484Z",
+      "modified": "2015-04-30T06:32:49.484Z",
+      "name": {
+        "ko": "케이맨 제도 달러",
+        "zh": "開曼群島元",
+        "ru": "Доллар Каймановых островов",
+        "ja": "ケイマン諸島・ドル",
+        "it": "Dollaro delle Cayman",
+        "sv": "Caymansk dollar",
+        "no": "Caymansk dollar",
+        "es": "Dólar de las Islas Caimán",
+        "ca": "Dòlar de les illes Caiman",
+        "vi": "Đô la Quần đảo Cayman",
+        "hu": "Kajmán-szigeteki dollár",
+        "uk": "Долар Кайманових островів",
+        "fr": "Dollar des îles Caïmans",
+        "de": "Kaiman-Dollar",
+        "pl": "Dolar kajmański",
+        "en": "Cayman Islands dollar",
+        "nl": "Kaaimaneilandse dollar"
+      }
+    },
+    {
+      "@id": "CUP",
+      "code": "CUP",
+      "currencyOf": "http://dbpedia.org/resource/Cuba",
+      "symbol": [
+        {
+          "@language": "en",
+          "@value": "$, $MN, or ₱"
+        },
+        {
+          "@language": "en",
+          "@value": "$, ₱ or $MN"
+        }
+      ],
+      "created": "2015-04-30T06:32:49.484Z",
+      "modified": "2015-04-30T06:32:49.484Z",
+      "name": {
+        "hu": "Kubai peso",
+        "uk": "Кубинський песо",
+        "ru": "Кубинское песо",
+        "zh": "古巴比索",
+        "es": "Peso cubano",
+        "it": "Peso cubano",
+        "fi": "Kuuban peso",
+        "ja": "キューバ・ペソ",
+        "fr": "Peso cubain",
+        "sv": "Kubansk peso",
+        "en": "Cuban peso",
+        "pt": "Peso cubano",
+        "no": "Cubansk peso",
+        "ca": "Peso cubà",
+        "vi": "Peso Cuba",
+        "cs": "Kubánské peso",
+        "de": "Kubanischer Peso",
+        "pl": "Peso kubańskie",
+        "ko": "쿠바 페소",
+        "nl": "Cubaanse peso"
+      }
+    },
+    {
+      "@id": "ERN",
+      "code": "ERN",
+      "currencyOf": "http://dbpedia.org/resource/Eritrea",
+      "symbol": {
+        "@language": "en",
+        "@value": "Nfk  ናቕፋ"
+      },
+      "created": "2015-04-30T06:32:49.484Z",
+      "modified": "2015-04-30T06:32:49.484Z",
+      "name": {
+        "de": "Eritreischer Nakfa",
+        "sv": "Nakfa",
+        "ja": "ナクファ",
+        "cs": "Eritrejská nakfa",
+        "ru": "Эритрейская накфа",
+        "es": "Nakfa",
+        "nl": "Nakfa (munteenheid)",
+        "en": "Eritrean nakfa",
+        "ca": "Nakfa",
+        "it": "Nacfa eritreo",
+        "pl": "Nakfa (waluta)",
+        "pt": "Nakfa",
+        "no": "Eritreisk nakfa",
+        "fr": "Nakfa",
+        "zh": "厄立特里亚纳克法",
+        "hu": "Eritreai nakfa",
+        "ko": "에리트레아 낙파"
+      }
+    },
+    {
+      "@id": "FKP",
+      "code": "FKP",
+      "currencyOf": "http://dbpedia.org/resource/Falkland_Islands_Dependencies",
+      "symbol": {
+        "@id": "http://dbpedia.org/resource/Pound_sign"
+      },
+      "created": "2015-04-30T06:32:49.485Z",
+      "modified": "2015-04-30T06:32:49.485Z",
+      "name": {
+        "hu": "Falkland-szigeteki font",
+        "en": "Falkland Islands pound",
+        "ru": "Фунт Фолклендских островов",
+        "no": "Falklandspund",
+        "sv": "Falklandspund",
+        "nl": "Falklandeilands pond",
+        "ca": "Lliura de les Malvines",
+        "pt": "Libra das Malvinas",
+        "fi": "Falklandin punta",
+        "ko": "포클랜드 제도 파운드",
+        "it": "Sterlina delle Falkland",
+        "ja": "フォークランド諸島ポンド",
+        "zh": "福克蘭群島鎊",
+        "es": "Libra malvinense",
+        "de": "Falkland-Pfund",
+        "cs": "Falklandská libra",
+        "fr": "Livre des Îles Malouines",
+        "pl": "Funt falklandzki"
+      }
+    },
+    {
+      "@id": "FJD",
+      "code": "FJD",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Colonial_Fiji",
+        "http://dbpedia.org/resource/Dominion_of_Fiji",
+        "http://dbpedia.org/resource/Fiji"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "FJ$"
+      },
+      "created": "2015-04-30T06:32:49.485Z",
+      "modified": "2015-04-30T06:32:49.485Z",
+      "name": {
+        "cs": "Fidžijský dolar",
+        "nl": "Fiji-dollar",
+        "en": "Fijian dollar",
+        "pl": "Dolar Fidżi",
+        "es": "Dólar fiyiano",
+        "fi": "Fidžin dollari",
+        "no": "Fijiansk dollar",
+        "de": "Fidschi-Dollar",
+        "sv": "Fijidollar",
+        "it": "Dollaro delle Figi",
+        "hu": "Fidzsi dollár",
+        "zh": "斐濟元",
+        "pt": "Dólar de Fiji",
+        "ko": "피지 달러",
+        "ja": "フィジー・ドル",
+        "ca": "Dòlar fijià",
+        "fr": "Dollar de Fidji",
+        "ru": "Доллар Фиджи"
+      }
+    },
+    {
+      "@id": "GTQ",
+      "code": "GTQ",
+      "currencyOf": "http://dbpedia.org/resource/Guatemala",
+      "symbol": {
+        "@language": "en",
+        "@value": "Q"
+      },
+      "created": "2015-04-30T06:32:49.485Z",
+      "modified": "2015-04-30T06:32:49.485Z",
+      "name": {
+        "ko": "과테말라 케찰",
+        "es": "Quetzal (moneda)",
+        "pt": "Quetzal (moeda)",
+        "no": "Guatemalansk quetzal",
+        "ru": "Гватемальский кетсаль",
+        "nl": "Quetzal (munteenheid)",
+        "hu": "Guatemalai quetzal",
+        "ja": "ケツァル",
+        "ca": "Quetzal (moneda)",
+        "cs": "Guatemalský quetzal",
+        "sv": "Quetzal (valuta)",
+        "pl": "Quetzal",
+        "it": "Quetzal guatemalteco",
+        "en": "Guatemalan quetzal",
+        "zh": "瓜地馬拉格查爾",
+        "de": "Guatemaltekischer Quetzal",
+        "fr": "Quetzal (monnaie)"
+      }
+    },
+    {
+      "@id": "GNF",
+      "code": "GNF",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Economic_Community_of_West_African_States",
+        "http://dbpedia.org/resource/Guinea"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "FG"
+      },
+      "created": "2015-04-30T06:32:49.485Z",
+      "modified": "2015-04-30T06:32:49.485Z",
+      "name": {
+        "ja": "ギニア・フラン",
+        "ca": "Franc guineà",
+        "pt": "Franco da Guiné",
+        "de": "Franc Guinéen",
+        "zh": "幾內亞法郎",
+        "it": "Franco guineano",
+        "ko": "기니 프랑",
+        "en": "Guinean franc",
+        "fr": "Franc guinéen",
+        "pl": "Frank gwinejski",
+        "hu": "Guineai frank",
+        "nl": "Guineese frank",
+        "sv": "Guinesisk franc",
+        "ru": "Гвинейский франк",
+        "es": "Franco guineano",
+        "no": "Guineansk franc"
+      }
+    },
+    {
+      "@id": "HKD",
+      "code": "HKD",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Portuguese_Macau",
+        "http://dbpedia.org/resource/Hong_Kong",
+        "http://dbpedia.org/resource/British_Hong_Kong"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "$ or HK$"
+      },
+      "created": "2015-04-30T06:32:49.485Z",
+      "modified": "2015-04-30T06:32:49.485Z",
+      "name": {
+        "pt": "Dólar de Hong Kong",
+        "ja": "香港ドル",
+        "ko": "홍콩 달러",
+        "hu": "Hongkongi dollár",
+        "fi": "Hongkongin dollari",
+        "en": "Banknotes of the Hong Kong dollar",
+        "ru": "Гонконгский доллар",
+        "it": "Dollaro di Hong Kong",
+        "sv": "Hongkongdollar",
+        "pl": "Dolar hongkoński",
+        "de": "Hongkong-Dollar",
+        "zh": "港元",
+        "vi": "Đô la Hồng Kông",
+        "uk": "Гонконгський долар",
+        "es": "Dólar de Hong Kong",
+        "fr": "Dollar de Hong Kong",
+        "cs": "Hongkongský dolar",
+        "ca": "Dòlar de Hong Kong",
+        "nl": "Hongkongse dollar",
+        "no": "Hongkongdollar"
+      }
+    },
+    {
+      "@id": "ILS",
+      "code": "ILS",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Governance_of_the_Gaza_Strip",
+        "http://dbpedia.org/resource/State_of_Palestine",
+        "http://dbpedia.org/resource/Israeli_Empire",
+        "http://dbpedia.org/resource/Israel",
+        "http://dbpedia.org/resource/Palestinian_territories",
+        "http://dbpedia.org/resource/Israeli_Civil_Administration"
+      ],
+      "symbol": {
+        "@id": "http://dbpedia.org/resource/Sheqel_sign"
+      },
+      "created": "2015-04-30T06:32:49.486Z",
+      "modified": "2015-04-30T06:32:49.486Z",
+      "name": {
+        "en": "Israeli new shekel",
+        "ru": "Израильский новый шекель",
+        "sv": "Shekel",
+        "ja": "新シェケル",
+        "de": "Schekel",
+        "es": "Nuevo shéquel",
+        "nl": "Sjekel",
+        "cs": "Nový izraelský šekel",
+        "no": "Ny israelsk shekel",
+        "pl": "Nowy izraelski szekel",
+        "fi": "Uusi Israelin sekeli",
+        "zh": "以色列新谢克尔",
+        "ko": "이스라엘 신 셰켈",
+        "uk": "Ізраїльський новий шекель",
+        "hu": "Izraeli új sékel",
+        "fr": "Shekel",
+        "it": "Nuovo siclo israeliano",
+        "ca": "Nou xéquel",
+        "pt": "Novo shekel israelense"
+      }
+    },
+    {
+      "@id": "LBP",
+      "code": "LBP",
+      "currencyOf": "http://dbpedia.org/resource/Lebanon",
+      "symbol": {
+        "@language": "en",
+        "@value": "ل.ل"
+      },
+      "created": "2015-04-30T06:32:49.486Z",
+      "modified": "2015-04-30T06:32:49.486Z",
+      "name": {
+        "no": "Libanesisk pund",
+        "de": "Libanesisches Pfund",
+        "pt": "Libra libanesa",
+        "hu": "Libanoni font",
+        "en": "Lebanese pound",
+        "nl": "Libanees pond",
+        "ru": "Ливанский фунт",
+        "pl": "Funt libański",
+        "it": "Lira libanese",
+        "ko": "레바논 파운드",
+        "fr": "Livre libanaise",
+        "uk": "Ліванський фунт",
+        "zh": "黎巴嫩鎊",
+        "ja": "レバノン・ポンド",
+        "ca": "Lliura libanesa",
+        "sv": "Libanesiskt pund",
+        "es": "Libra libanesa"
+      }
+    },
+    {
+      "@id": "MXN",
+      "code": "MXN",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Second_Mexican_Empire",
+        "http://dbpedia.org/resource/Mexico"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "$ or Mex$"
+      },
+      "created": "2015-04-30T06:32:49.486Z",
+      "modified": "2015-04-30T06:32:49.486Z",
+      "name": {
+        "uk": "Мексиканський песо",
+        "fi": "Meksikon peso",
+        "nl": "Mexicaanse peso",
+        "zh": "墨西哥比索",
+        "ja": "メキシコ・ペソ",
+        "en": "Mexican peso",
+        "hu": "Mexikói peso",
+        "pt": "Peso mexicano",
+        "vi": "Peso Mexico",
+        "de": "Mexikanischer Peso",
+        "es": "Peso mexicano",
+        "sv": "Mexikansk peso",
+        "pl": "Peso meksykańskie",
+        "no": "Meksikansk peso",
+        "cs": "Mexické peso",
+        "ko": "멕시코 페소",
+        "ca": "Peso mexicà",
+        "fr": "Peso mexicain",
+        "it": "Peso messicano",
+        "ru": "Мексиканское песо"
+      }
+    },
+    {
+      "@id": "NAD",
+      "code": "NAD",
+      "currencyOf": "http://dbpedia.org/resource/Namibia",
+      "symbol": {
+        "@language": "en",
+        "@value": "N$"
+      },
+      "created": "2015-04-30T06:32:49.486Z",
+      "modified": "2015-04-30T06:32:49.486Z",
+      "name": {
+        "it": "Dollaro namibiano",
+        "ko": "나미비아 달러",
+        "pl": "Dolar namibijski",
+        "de": "Namibia-Dollar",
+        "ru": "Доллар Намибии",
+        "fi": "Namibian dollari",
+        "no": "Namibisk dollar",
+        "fr": "Dollar namibien",
+        "sv": "Namibisk dollar",
+        "es": "Dólar namibio",
+        "pt": "Dólar da Namíbia",
+        "ca": "Dòlar namibià",
+        "uk": "Намібійський долар",
+        "ja": "ナミビア・ドル",
+        "zh": "納米比亞元",
+        "en": "Namibian dollar",
+        "cs": "Namibijský dolar",
+        "nl": "Namibische dollar",
+        "hu": "Namíbiai dollár"
+      }
+    },
+    {
+      "@id": "NPR",
+      "code": "NPR",
+      "currencyOf": "http://dbpedia.org/resource/Nepal",
+      "symbol": {
+        "@language": "en",
+        "@value": "Rs or ₨ or रू."
+      },
+      "created": "2015-04-30T06:32:49.486Z",
+      "modified": "2015-04-30T06:32:49.486Z",
+      "name": {
+        "no": "Nepalsk rupi",
+        "ca": "Rupia nepalesa",
+        "en": "Nepalese rupee",
+        "de": "Nepalesische Rupie",
+        "nl": "Nepalese roepie",
+        "pl": "Rupia nepalska",
+        "es": "Rupia nepalí",
+        "hu": "Nepáli rúpia",
+        "ru": "Непальская рупия",
+        "it": "Rupia nepalese",
+        "fi": "Nepalin rupia",
+        "zh": "尼泊尔卢比",
+        "fr": "Roupie népalaise",
+        "pt": "Rupia nepalesa",
+        "ja": "ネパール・ルピー",
+        "ko": "네팔 루피",
+        "sv": "Nepalesisk rupee"
+      }
+    },
+    {
+      "@id": "NOK",
+      "code": "NOK",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Svalbard",
+        "http://dbpedia.org/resource/Norway",
+        "http://dbpedia.org/resource/Union_between_Sweden_and_Norway",
+        "http://dbpedia.org/resource/European_Free_Trade_Association",
+        "http://dbpedia.org/resource/Quisling_regime"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "kr"
+      },
+      "created": "2015-04-30T06:32:49.486Z",
+      "modified": "2015-04-30T06:32:49.486Z",
+      "name": {
+        "ja": "ノルウェー・クローネ",
+        "ko": "노르웨이 크로네",
+        "vi": "Krone Na Uy",
+        "hu": "Norvég korona",
+        "en": "Norwegian krone",
+        "pt": "Coroa norueguesa",
+        "ru": "Норвежская крона",
+        "ca": "Corona noruega",
+        "fr": "Couronne norvégienne",
+        "de": "Norwegische Krone",
+        "pl": "Korona norweska",
+        "nl": "Noorse kroon",
+        "cs": "Norská koruna",
+        "zh": "挪威克朗",
+        "fi": "Norjan kruunu",
+        "sv": "Norsk krona",
+        "uk": "Норвезька крона",
+        "no": "Norsk krone",
+        "it": "Corona norvegese",
+        "es": "Corona noruega"
+      }
+    },
+    {
+      "@id": "SAR",
+      "code": "SAR",
+      "currencyOf": "http://dbpedia.org/resource/Saudi_Arabia",
+      "symbol": [
+        {
+          "@language": "en",
+          "@value": "ر.س , SR , ﷼"
+        },
+        {
+          "@language": "en",
+          "@value": ", SR ,"
+        }
+      ],
+      "created": "2015-04-30T06:32:49.487Z",
+      "modified": "2015-04-30T06:32:49.487Z",
+      "name": {
+        "hu": "Szaúdi riál",
+        "fi": "Saudi-Arabian rial",
+        "zh": "沙特阿拉伯里亚尔",
+        "fr": "Riyal saoudien",
+        "it": "Riyal saudita",
+        "de": "Saudi-Rial",
+        "es": "Riyal saudí",
+        "ru": "Саудовский риял",
+        "no": "Saudiarabisk riyal",
+        "pt": "Riyal",
+        "pl": "Rial saudyjski",
+        "nl": "Saoedi-Arabische riyal",
+        "ko": "사우디아라비아 리얄",
+        "ja": "サウジアラビア・リヤル",
+        "en": "Saudi riyal",
+        "ca": "Riyal saudita",
+        "sv": "Saudiarabisk rial"
+      }
+    },
+    {
+      "@id": "SGD",
+      "code": "SGD",
+      "currencyOf": "http://dbpedia.org/resource/Singapore",
+      "symbol": {
+        "@language": "en",
+        "@value": "S$"
+      },
+      "created": "2015-04-30T06:32:49.487Z",
+      "modified": "2015-04-30T06:32:49.487Z",
+      "name": {
+        "fr": "Dollar de Singapour",
+        "ko": "싱가포르 달러",
+        "ru": "Сингапурский доллар",
+        "no": "Singaporsk dollar",
+        "vi": "Đô la Singapore",
+        "ca": "Dòlar de Singapur",
+        "zh": "新加坡元",
+        "sv": "Singaporiansk dollar",
+        "es": "Dólar de Singapur",
+        "fi": "Singaporen dollari",
+        "ja": "シンガポールドル",
+        "pt": "Dólar de Singapura",
+        "en": "Singapore dollar",
+        "it": "Dollaro di Singapore",
+        "cs": "Singapurský dolar",
+        "de": "Singapur-Dollar",
+        "hu": "Szingapúri dollár",
+        "nl": "Singaporese dollar",
+        "pl": "Dolar singapurski"
+      }
+    },
+    {
+      "@id": "none",
+      "code": "none",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Tuvalu",
+        "http://dbpedia.org/resource/Nordic_countries",
+        "http://dbpedia.org/resource/Faroe_Islands",
+        "http://dbpedia.org/resource/Isle_of_Man",
+        "http://dbpedia.org/resource/Transnistria"
+      ],
+      "symbol": [
+        {
+          "@language": "en",
+          "@value": "kr"
+        },
+        {
+          "@language": "en",
+          "@value": "£ or M£"
+        },
+        {
+          "@language": "en",
+          "@value": "£ or M£ to distinguish it from other currencies with the £ symbol"
+        },
+        {
+          "@language": "en",
+          "@value": "$$"
+        },
+        {
+          "@id": "http://dbpedia.org/resource/Dollar_sign"
+        },
+        {
+          "@id": "http://dbpedia.org/resource/Pound_sign"
+        },
+        {
+          "@language": "en",
+          "@value": "р."
+        }
+      ],
+      "created": "2015-04-30T06:32:49.467Z",
+      "modified": "2015-04-30T06:32:49.467Z",
+      "name": {
+        "ca": "Lliura de l'illa de Man",
+        "ru": "Мэнский фунт",
+        "nl": "Guernseypond",
+        "no": "Tuvalsk dollar",
+        "pl": "Funt manx",
+        "ko": "저지 섬 파운드",
+        "fi": "Färsaarten kruunu",
+        "it": "Sterlina di Man",
+        "fr": "Livre de Guernesey",
+        "hu": "Dnyeszter menti rubel",
+        "de": "Tuvaluischer Dollar",
+        "ja": "ガーンジー・ポンド",
+        "zh": "澤西島鎊",
+        "en": "Salt Spring dollar",
+        "es": "Libra de Guernsey",
+        "cs": "Podněsterský rubl",
+        "uk": "Джерсійський фунт",
+        "sv": "Transnistrierubel",
+        "pt": "Coroa feroesa"
+      }
+    },
+    {
+      "@id": "KES",
+      "code": "KES",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Kenya",
+        "http://dbpedia.org/resource/East_African_Federation"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "KSh"
+      },
+      "created": "2015-04-30T06:32:49.468Z",
+      "modified": "2015-04-30T06:32:49.468Z",
+      "name": {
+        "zh": "肯亞先令",
+        "nl": "Keniaanse shilling",
+        "ca": "Xíling kenyà",
+        "ru": "Кенийский шиллинг",
+        "sv": "Kenyansk shilling",
+        "fi": "Kenian šillinki",
+        "es": "Chelín keniano",
+        "en": "Kenyan shilling",
+        "no": "Kenyansk shilling",
+        "fr": "Shilling kényan",
+        "it": "Scellino keniota",
+        "ja": "ケニア・シリング",
+        "de": "Kenia-Schilling",
+        "hu": "Kenyai shilling",
+        "pl": "Szyling kenijski",
+        "ko": "케냐 실링"
+      }
+    },
+    {
+      "@id": "SUR",
+      "code": "SUR",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Mari_Autonomous_Soviet_Socialist_Republic",
+        "http://dbpedia.org/resource/Bashkir_Autonomous_Soviet_Socialist_Republic",
+        "http://dbpedia.org/resource/Moldavian_Autonomous_Soviet_Socialist_Republic",
+        "http://dbpedia.org/resource/Karelo-Finnish_Soviet_Socialist_Republic",
+        "http://dbpedia.org/resource/Kurdistan_Uyezd",
+        "http://dbpedia.org/resource/Socialist_Soviet_Republic_of_Abkhazia",
+        "http://dbpedia.org/resource/Yakut_Autonomous_Soviet_Socialist_Republic",
+        "http://dbpedia.org/resource/Buryat_Autonomous_Soviet_Socialist_Republic",
+        "http://dbpedia.org/resource/Karakalpak_Autonomous_Soviet_Socialist_Republic",
+        "http://dbpedia.org/resource/Abkhaz_Autonomous_Soviet_Socialist_Republic",
+        "http://dbpedia.org/resource/Soviet_Union",
+        "http://dbpedia.org/resource/Pridnestrovian_Moldavian_Soviet_Socialist_Republic",
+        "http://dbpedia.org/resource/Adjar_Autonomous_Soviet_Socialist_Republic",
+        "http://dbpedia.org/resource/Komi_Autonomous_Soviet_Socialist_Republic",
+        "http://dbpedia.org/resource/Ukrainian_Soviet_Socialist_Republic"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "руб"
+      },
+      "created": "2015-04-30T06:32:49.487Z",
+      "modified": "2015-04-30T06:32:49.487Z",
+      "name": {
+        "ca": "Ruble soviètic",
+        "zh": "蘇聯盧布",
+        "no": "Sovjetisk rubel",
+        "it": "Rublo sovietico",
+        "en": "Soviet ruble",
+        "pl": "Rubel radziecki",
+        "ko": "소비에트 연방 루블",
+        "es": "Rublo soviético",
+        "fr": "Rouble soviétique",
+        "uk": "Радянський карбованець",
+        "ru": "Рубль СССР",
+        "hu": "Szovjet rubel",
+        "cs": "Sovětský rubl"
+      }
+    },
+    {
+      "@id": "LKR",
+      "code": "LKR",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Dominion_of_Ceylon",
+        "http://dbpedia.org/resource/British_Ceylon",
+        "http://dbpedia.org/resource/Sri_Lanka"
+      ],
+      "symbol": [
+        {
+          "@language": "en",
+          "@value": "රු, Rs, SLRs, /-"
+        },
+        {
+          "@language": "en",
+          "@value": "රු, Rs"
+        }
+      ],
+      "created": "2015-04-30T06:32:49.487Z",
+      "modified": "2015-04-30T06:32:49.487Z",
+      "name": {
+        "hu": "Srí Lanka-i rúpia",
+        "es": "Rupia de Sri Lanka",
+        "sv": "Lankesisk rupee",
+        "de": "Sri-Lanka-Rupie",
+        "zh": "斯里蘭卡盧比",
+        "it": "Rupia singalese",
+        "ja": "スリランカ・ルピー",
+        "en": "Sri Lankan rupee",
+        "ko": "스리랑카 루피",
+        "nl": "Sri Lankaanse roepie",
+        "ca": "Rupia de Sri Lanka",
+        "fr": "Roupie srilankaise",
+        "ru": "Шри-Ланкийская рупия",
+        "pt": "Rúpia do Sri Lanka",
+        "no": "Srilankisk rupi",
+        "pl": "Rupia lankijska",
+        "uk": "Шрі-Ланкійська рупія"
+      }
+    },
+    {
+      "@id": "CHF",
+      "code": "CHF",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Switzerland",
+        "http://dbpedia.org/resource/Liechtenstein",
+        "http://dbpedia.org/resource/European_Free_Trade_Association"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "CHF, SFr."
+      },
+      "created": "2015-04-30T06:32:49.487Z",
+      "modified": "2015-04-30T06:32:49.487Z",
+      "name": {
+        "uk": "Швейцарський франк",
+        "no": "Sveitsisk franc",
+        "ca": "Franc suís",
+        "fr": "Franc suisse",
+        "sv": "Schweizisk franc",
+        "pt": "Franco suíço",
+        "zh": "瑞士法郎",
+        "it": "Franco svizzero",
+        "ja": "スイス・フラン",
+        "en": "Swiss franc",
+        "de": "Schweizer Franken",
+        "fi": "Sveitsin frangi",
+        "ko": "스위스 프랑",
+        "hu": "Svájci frank",
+        "pl": "Frank szwajcarski",
+        "ru": "Швейцарский франк",
+        "es": "Franco suizo",
+        "nl": "Zwitserse frank",
+        "cs": "Švýcarský frank"
+      }
+    },
+    {
+      "@id": "MOP",
+      "code": "MOP",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Portuguese_Macau",
+        "http://dbpedia.org/resource/Macau"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "MOP$"
+      },
+      "created": "2015-04-30T06:32:49.468Z",
+      "modified": "2015-04-30T06:32:49.468Z",
+      "name": {
+        "cs": "Macauská pataca",
+        "ca": "Pataca",
+        "it": "Pataca di Macao",
+        "de": "Macao-Pataca",
+        "sv": "Pataca",
+        "en": "Macanese pataca",
+        "fi": "Macaon pataca",
+        "nl": "Pataca",
+        "hu": "Makaói pataca",
+        "no": "Macaoisk pataca",
+        "zh": "澳門幣",
+        "es": "Pataca",
+        "vi": "Pataca Macau",
+        "pt": "Pataca",
+        "ko": "마카오 파타카",
+        "ja": "マカオ・パタカ",
+        "ru": "Патака Макао",
+        "fr": "Pataca",
+        "pl": "Pataca"
+      }
+    },
+    {
+      "@id": "AED",
+      "code": "AED",
+      "currencyOf": "http://dbpedia.org/resource/United_Arab_Emirates",
+      "symbol": {
+        "@language": "en",
+        "@value": "د.إ"
+      },
+      "created": "2015-04-30T06:32:49.488Z",
+      "modified": "2015-04-30T06:32:49.488Z",
+      "name": {
+        "pl": "Dirham",
+        "en": "United Arab Emirates dirham",
+        "pt": "Dirham dos Emirados Árabes Unidos",
+        "zh": "阿联酋迪尔汗",
+        "de": "VAE-Dirham",
+        "ca": "Dírham dels Emirats Àrabs Units",
+        "ko": "아랍에미리트 디르함",
+        "ja": "UAEディルハム",
+        "ru": "Дирхам ОАЭ",
+        "sv": "Emiratisk dirham",
+        "no": "Emiratarabisk dirham",
+        "es": "Dírham de los Emiratos Árabes Unidos",
+        "hu": "Emirátusi dirham",
+        "it": "Dirham degli Emirati Arabi Uniti",
+        "fr": "Dirham des Émirats arabes unis",
+        "nl": "VAE-Dirham",
+        "fi": "Yhdistyneiden arabiemiirikuntien dirhami"
+      }
+    },
+    {
+      "@id": "NZD",
+      "code": "NZD",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Pitcairn_Islands",
+        "http://dbpedia.org/resource/Tokelau",
+        "http://dbpedia.org/resource/New_Zealand"
+      ],
+      "symbol": {
+        "@id": "http://dbpedia.org/resource/Dollar_sign"
+      },
+      "created": "2015-04-30T06:32:49.488Z",
+      "modified": "2015-04-30T06:32:49.488Z",
+      "name": {
+        "vi": "Đô la New Zealand",
+        "zh": "紐西蘭元",
+        "it": "Dollaro neozelandese",
+        "en": "New Zealand dollar",
+        "no": "Newzealandsk dollar",
+        "pt": "Dólar neozelandês",
+        "ja": "ニュージーランド・ドル",
+        "pl": "Dolar nowozelandzki",
+        "ko": "뉴질랜드 달러",
+        "nl": "Nieuw-Zeelandse dollar",
+        "fi": "Uuden-Seelannin dollari",
+        "es": "Dólar neozelandés",
+        "de": "Neuseeland-Dollar",
+        "fr": "Dollar néo-zélandais",
+        "cs": "Novozélandský dolar",
+        "uk": "Новозеландський долар",
+        "ca": "Dòlar neozelandès",
+        "hu": "Új-zélandi dollár",
+        "sv": "Nyzeeländsk dollar",
+        "ru": "Новозеландский доллар"
+      }
+    },
+    {
+      "@id": "BRC",
+      "code": "BRC",
+      "symbol": {
+        "@language": "en",
+        "@value": "Cz$"
+      },
+      "created": "2015-04-30T06:32:49.488Z",
+      "modified": "2015-04-30T06:32:49.488Z",
+      "name": {
+        "de": "Cruzado",
+        "hu": "Brazil cruzado",
+        "ca": "Cruzado",
+        "pt": "Cruzado (BRC)",
+        "en": "Brazilian cruzado"
+      }
+    },
+    {
+      "@id": "MVR",
+      "code": "MVR",
+      "currencyOf": "http://dbpedia.org/resource/Maldives",
+      "symbol": {
+        "@language": "en",
+        "@value": "Rf, MRf, MVR, .ރ or /-"
+      },
+      "created": "2015-04-30T06:32:49.468Z",
+      "modified": "2015-04-30T06:32:49.468Z",
+      "name": {
+        "hu": "Maldív-szigeteki rúfia",
+        "cs": "Maledivská rupie",
+        "zh": "馬爾地夫拉菲亞",
+        "de": "Rufiyaa",
+        "sv": "Rufiyah",
+        "no": "Maldivisk rufiyah",
+        "ca": "Rupia de les Maldives",
+        "it": "Rufiyaa delle Maldive",
+        "en": "Maldivian rufiyaa",
+        "ko": "몰디브 루피야",
+        "nl": "Rufiyaa",
+        "ru": "Мальдивская руфия",
+        "ja": "ルフィヤ",
+        "fr": "Rufiyaa",
+        "pl": "Rupia malediwska",
+        "es": "Rupia de Maldivas"
+      }
+    },
+    {
+      "@id": "MNT",
+      "code": "MNT",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Mongolia",
+        "http://dbpedia.org/resource/Mongolian_People's_Republic"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "₮"
+      },
+      "created": "2015-04-30T06:32:49.468Z",
+      "modified": "2015-04-30T06:32:49.468Z",
+      "name": {
+        "no": "Mongolsk togrog",
+        "hu": "Mongol tugrik",
+        "uk": "Монгольський тугрик",
+        "ru": "Монгольский тугрик",
+        "es": "Tugrik mongol",
+        "pl": "Tugrik",
+        "sv": "Tögrög",
+        "it": "Tugrik mongolo",
+        "vi": "Tögrög",
+        "ca": "Tögrög",
+        "de": "Tögrög",
+        "nl": "Tugrik",
+        "cs": "Tugrik",
+        "ja": "トゥグルグ",
+        "en": "Mongolian tögrög",
+        "zh": "蒙古图格里克",
+        "ko": "몽골 투그릭",
+        "fr": "Tugrik"
+      }
+    },
+    {
+      "@id": "PKR",
+      "code": "PKR",
+      "currencyOf": [
+        "http://dbpedia.org/resource/East_Bengal",
+        "http://dbpedia.org/resource/Pakistan",
+        "http://dbpedia.org/resource/West_Pakistan",
+        "http://dbpedia.org/resource/East_Pakistan",
+        "http://dbpedia.org/resource/Dominion_of_Pakistan"
+      ],
+      "symbol": [
+        {
+          "@language": "en",
+          "@value": "Rs"
+        },
+        {
+          "@language": "en",
+          "@value": "Rp., 20px"
+        },
+        {
+          "@language": "en",
+          "@value": "₨"
+        }
+      ],
+      "created": "2015-04-30T06:32:49.468Z",
+      "modified": "2015-04-30T06:32:49.468Z",
+      "name": {
+        "ca": "Rupia pakistanesa",
+        "en": "Pakistani rupee",
+        "de": "Pakistanische Rupie",
+        "pl": "Rupia pakistańska",
+        "ko": "파키스탄 루피",
+        "ru": "Пакистанская рупия",
+        "hu": "Pakisztáni rúpia",
+        "vi": "Rupee Pakistan",
+        "cs": "Pákistánská rupie",
+        "fr": "Roupie pakistanaise",
+        "no": "Pakistansk rupi",
+        "nl": "Pakistaanse roepie",
+        "fi": "Pakistanin rupia",
+        "uk": "Пакистанська рупія",
+        "ja": "パキスタン・ルピー",
+        "sv": "Pakistansk rupee",
+        "zh": "巴基斯坦盧比",
+        "es": "Rupia pakistaní",
+        "it": "Rupia pakistana"
+      }
+    },
+    {
+      "@id": "NFD",
+      "code": "NFD",
+      "currencyOf": "http://dbpedia.org/resource/Dominion_of_Newfoundland",
+      "symbol": {
+        "@language": "en",
+        "@value": "$ or NF$"
+      },
+      "created": "2015-04-30T06:32:49.489Z",
+      "modified": "2015-04-30T06:32:49.489Z",
+      "name": {
+        "vi": "Đô la Newfoundland",
+        "it": "Dollaro di Terranova",
+        "en": "Newfoundland dollar",
+        "fr": "Dollar de Terre-Neuve",
+        "pl": "Dolar nowofundlandzki"
+      }
+    },
+    {
+      "@id": "MAD",
+      "code": "MAD",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Arab_Maghreb_Union",
+        "http://dbpedia.org/resource/Western_Sahara",
+        "http://dbpedia.org/resource/Morocco"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "د.م."
+      },
+      "created": "2015-04-30T06:32:49.489Z",
+      "modified": "2015-04-30T06:32:49.489Z",
+      "name": {
+        "en": "Moroccan dirham",
+        "de": "Marokkanischer Dirham",
+        "it": "Dirham marocchino",
+        "fi": "Marokon dirham",
+        "pt": "Dirham marroquino",
+        "ko": "모로코 디르함",
+        "hu": "Marokkói dirham",
+        "cs": "Marocký dirham",
+        "fr": "Dirham marocain",
+        "uk": "Марокканський дирхам",
+        "pl": "Dirham marokański",
+        "sv": "Marockansk dirham",
+        "es": "Dírham marroquí",
+        "nl": "Marokkaanse dirham",
+        "ru": "Марокканский дирхам",
+        "ca": "Dírham marroquí",
+        "no": "Marokkansk dirham",
+        "ja": "モロッコ・ディルハム",
+        "zh": "摩洛哥迪尔汗"
+      }
+    },
+    {
+      "@id": "BRN",
+      "code": "BRN",
+      "symbol": {
+        "@language": "en",
+        "@value": "NCz$"
+      },
+      "created": "2015-04-30T06:32:49.489Z",
+      "modified": "2015-04-30T06:32:49.489Z",
+      "name": {
+        "@language": "en",
+        "@value": "Brazilian cruzado novo"
+      }
+    },
+    {
+      "@id": "AFN",
+      "code": "AFN",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Republic_of_Afghanistan",
+        "http://dbpedia.org/resource/Democratic_Republic_of_Afghanistan",
+        "http://dbpedia.org/resource/Kingdom_of_Afghanistan",
+        "http://dbpedia.org/resource/Afghanistan",
+        "http://dbpedia.org/resource/Islamic_State_of_Afghanistan"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "؋  or Af  or Afs"
+      },
+      "created": "2015-04-30T06:32:49.489Z",
+      "modified": "2015-04-30T06:32:49.489Z",
+      "name": {
+        "en": "Afghan afghani",
+        "hu": "Afgán afgáni",
+        "fi": "Afganistanin afgaani",
+        "no": "Afghansk afghani",
+        "zh": "阿富汗尼",
+        "fr": "Afghani",
+        "es": "Afgani afgano",
+        "sv": "Afghani",
+        "uk": "Афгані",
+        "ru": "Афгани",
+        "it": "Afghani afgano",
+        "pt": "Afegane",
+        "de": "Afghani",
+        "ca": "Afgani",
+        "ko": "아프가니스탄 아프가니",
+        "pl": "Afgani",
+        "cs": "Afghánský afghání",
+        "ja": "アフガニ",
+        "nl": "Afghani"
+      }
+    },
+    {
+      "@id": "PYG",
+      "code": "PYG",
+      "currencyOf": "http://dbpedia.org/resource/Paraguay",
+      "symbol": 12,
+      "created": "2015-04-30T06:32:49.468Z",
+      "modified": "2015-04-30T06:32:49.468Z",
+      "name": {
+        "pt": "Guarani (moeda)",
+        "sv": "Guarani (valuta)",
+        "fr": "Guaraní (monnaie)",
+        "en": "Paraguayan guaraní",
+        "hu": "Paraguayi guaraní",
+        "zh": "巴拉圭瓜拉尼",
+        "fi": "Paraguayn guaraní",
+        "it": "Guaraní paraguaiano",
+        "de": "Paraguayischer Guaraní",
+        "es": "Guaraní paraguayo",
+        "pl": "Guaraní (waluta)",
+        "ca": "Guaraní (moneda)",
+        "cs": "Paraguayský guaraní",
+        "ru": "Парагвайский гуарани",
+        "no": "Paraguayansk guaraní",
+        "ko": "파라과이 과라니",
+        "uk": "Парагвайський гуарані",
+        "nl": "Guaraní (munteenheid)",
+        "ja": "グアラニー (通貨)"
+      }
+    },
+    {
+      "@id": "RUB",
+      "code": "RUB",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Chechen_Republic_of_Ichkeria",
+        "http://dbpedia.org/resource/Russian_Republic",
+        "http://dbpedia.org/resource/Russian_Empire",
+        "http://dbpedia.org/resource/Mountain_Autonomous_Soviet_Socialist_Republic",
+        "http://dbpedia.org/resource/Heian_Japan",
+        "http://dbpedia.org/resource/Duchy_of_Courland_and_Semigallia_%281918%29",
+        "http://dbpedia.org/resource/Tsardom_of_Russia",
+        "http://dbpedia.org/resource/South_Ossetia",
+        "http://dbpedia.org/resource/Grand_Duchy_of_Finland",
+        "http://dbpedia.org/resource/Grand_Duchy_of_Moscow",
+        "http://dbpedia.org/resource/Duchy_of_Courland_and_Semigallia_(1918)",
+        "http://dbpedia.org/resource/Kuban_People's_Republic",
+        "http://dbpedia.org/resource/Russia",
+        "http://dbpedia.org/resource/Russian_Dalian"
+      ],
+      "symbol": [
+        {
+          "@language": "en",
+          "@value": "₱, a \"Р\" with one horizontal strike."
+        },
+        {
+          "@language": "en",
+          "@value": "&#x20bd;"
+        },
+        {
+          "@language": "en",
+          "@value": "руб. / р. / ₷"
+        },
+        {
+          "@language": "en",
+          "@value": "руб. / р."
+        },
+        {
+          "@language": "en",
+          "@value": "Р"
+        }
+      ],
+      "created": "2015-04-30T06:32:49.469Z",
+      "modified": "2015-04-30T06:32:49.469Z",
+      "name": {
+        "de": "Russischer Rubel",
+        "sv": "Rysk rubel",
+        "zh": "俄罗斯卢布",
+        "ru": "Российский рубль",
+        "ja": "ロシア・ルーブル",
+        "cs": "Ruský rubl",
+        "nl": "Russische roebel",
+        "hu": "Orosz rubel",
+        "ca": "Ruble rus",
+        "no": "Russisk rubel",
+        "vi": "Rúp Nga",
+        "es": "Rublo ruso",
+        "uk": "Російський рубль",
+        "ko": "러시아 루블",
+        "it": "Rublo russo",
+        "fr": "Rouble russe",
+        "fi": "Venäjän rupla",
+        "en": "Russian ruble"
+      }
+    },
+    {
+      "@id": "SVC",
+      "code": "SVC",
+      "symbol": {
+        "@language": "en",
+        "@value": "₡"
+      },
+      "created": "2015-04-30T06:32:49.469Z",
+      "modified": "2015-04-30T06:32:49.469Z",
+      "name": {
+        "pt": "Colón do Salvador",
+        "it": "Colón salvadoregno",
+        "sv": "Salvadoransk colón",
+        "ja": "サルバドール・コロン",
+        "es": "Colón salvadoreño",
+        "en": "Salvadoran colón",
+        "ko": "엘살바도르 콜론",
+        "zh": "薩爾瓦多科朗",
+        "nl": "Salvadoraanse colon",
+        "hu": "Salvadori colón",
+        "ru": "Сальвадорский колон",
+        "ca": "Colón salvadorenc",
+        "no": "Salvadoransk colón",
+        "de": "El-Salvador-Colón"
+      }
+    },
+    {
+      "@id": "--",
+      "code": "--",
+      "symbol": {
+        "@language": "en",
+        "@value": "D."
+      },
+      "created": "2015-04-30T06:32:49.489Z",
+      "modified": "2015-04-30T06:32:49.489Z",
+      "name": {
+        "en": "Andorran diner",
+        "fr": "Monnaies andorranes",
+        "ca": "Moneda andorrana",
+        "es": "Moneda andorrana",
+        "pl": "Diner",
+        "de": "Andorranischer Diner",
+        "ru": "Андоррский динер"
+      }
+    },
+    {
+      "@id": "BSD",
+      "code": "BSD",
+      "currencyOf": "http://dbpedia.org/resource/The_Bahamas",
+      "symbol": {
+        "@language": "en",
+        "@value": "B$"
+      },
+      "created": "2015-04-30T06:32:49.489Z",
+      "modified": "2015-04-30T06:32:49.489Z",
+      "name": {
+        "ru": "Багамский доллар",
+        "es": "Dólar bahameño",
+        "ja": "バハマ・ドル",
+        "ca": "Dòlar de les Bahames",
+        "vi": "Đô la Bahamas",
+        "fi": "Bahaman dollari",
+        "pl": "Dolar bahamski",
+        "ko": "바하마 달러",
+        "no": "Bahamansk dollar",
+        "fr": "Dollar bahaméen",
+        "en": "Bahamian dollar",
+        "cs": "Bahamský dolar",
+        "it": "Dollaro delle Bahamas",
+        "sv": "Bahamansk dollar",
+        "hu": "Bahamai dollár",
+        "nl": "Bahamaanse dollar",
+        "pt": "Dólar baamiano",
+        "uk": "Багамський долар",
+        "zh": "巴哈馬元",
+        "de": "Bahama-Dollar"
+      }
+    },
+    {
+      "@id": "BBD",
+      "code": "BBD",
+      "currencyOf": "http://dbpedia.org/resource/Barbados",
+      "symbol": {
+        "@language": "en",
+        "@value": "Bds$"
+      },
+      "created": "2015-04-30T06:32:49.489Z",
+      "modified": "2015-04-30T06:32:49.489Z",
+      "name": {
+        "no": "Barbadisk dollar",
+        "es": "Dólar de Barbados",
+        "sv": "Barbadisk dollar",
+        "fr": "Dollar barbadien",
+        "pl": "Dolar Barbadosu",
+        "ja": "バルバドス・ドル",
+        "ko": "바베이도스 달러",
+        "hu": "Barbadosi dollár",
+        "vi": "Đô la Barbados",
+        "fi": "Barbadoksen dollari",
+        "cs": "Barbadoský dolar",
+        "nl": "Barbadiaanse dollar",
+        "ru": "Барбадосский доллар",
+        "en": "Barbadian dollar",
+        "pt": "Dólar barbadense",
+        "zh": "巴貝多元",
+        "ca": "Dòlar de Barbados",
+        "de": "Barbados-Dollar",
+        "it": "Dollaro di Barbados",
+        "uk": "Барбадоський долар"
+      }
+    },
+    {
+      "@id": "TTD",
+      "code": "TTD",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Tobago",
+        "http://dbpedia.org/resource/Trinidad_and_Tobago",
+        "http://dbpedia.org/resource/Trinidad_and_Tobago_(Commonwealth_realm)"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "$ or TT$"
+      },
+      "created": "2015-04-30T06:32:49.469Z",
+      "modified": "2015-04-30T06:32:49.469Z",
+      "name": {
+        "ja": "トリニダード・トバゴ・ドル",
+        "uk": "Долар Тринідаду та Тобаго",
+        "it": "Dollaro di Trinidad e Tobago",
+        "no": "Trinidadisk dollar",
+        "es": "Dólar trinitense",
+        "ru": "Доллар Тринидада и Тобаго",
+        "de": "Trinidad-und-Tobago-Dollar",
+        "hu": "Trinidad és Tobagó-i dollár",
+        "ca": "Dòlar de Trinitat i Tobago",
+        "fr": "Dollar de Trinité-et-Tobago",
+        "fi": "Trinidad ja Tobagon dollari",
+        "nl": "Trinidad en Tobagodollar",
+        "pl": "Dolar Trynidadu i Tobago",
+        "en": "Trinidad and Tobago dollar",
+        "pt": "Dólar de Trinidad e Tobago",
+        "ko": "트리니다드 토바고 달러",
+        "sv": "Trinidaddollar",
+        "zh": "千里達托貝哥元"
+      }
+    },
+    {
+      "@id": "VUV",
+      "code": "VUV",
+      "currencyOf": "http://dbpedia.org/resource/Vanuatu",
+      "symbol": {
+        "@language": "en",
+        "@value": "VT"
+      },
+      "created": "2015-04-30T06:32:49.469Z",
+      "modified": "2015-04-30T06:32:49.469Z",
+      "name": {
+        "ca": "Vatu",
+        "uk": "Вануатський вату",
+        "pl": "Vatu",
+        "cs": "Vanuatský vatu",
+        "es": "Vatu",
+        "nl": "Vatu",
+        "ko": "바누아투 바투",
+        "fi": "Vanuatun vatu",
+        "no": "Vanuatisk vatu",
+        "en": "Vanuatu vatu",
+        "ru": "Вануатский вату",
+        "zh": "萬那杜瓦圖",
+        "hu": "Vanuatui vatu",
+        "pt": "Vatu",
+        "ja": "バツ (通貨)",
+        "it": "Vatu di Vanuatu",
+        "sv": "Vatu",
+        "de": "Vatu",
+        "fr": "Vatu"
+      }
+    },
+    {
+      "@id": "BZD",
+      "code": "BZD",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Belize",
+        "http://dbpedia.org/resource/British_Honduras"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "BZ$"
+      },
+      "created": "2015-04-30T06:32:49.490Z",
+      "modified": "2015-04-30T06:32:49.490Z",
+      "name": {
+        "es": "Dólar beliceño",
+        "de": "Belize-Dollar",
+        "ru": "Белизский доллар",
+        "sv": "Belizisk dollar",
+        "it": "Dollaro del Belize",
+        "zh": "貝里斯元",
+        "vi": "Đô la Belize",
+        "en": "Belize dollar",
+        "pt": "Dólar de Belize",
+        "pl": "Dolar Belize",
+        "no": "Belizisk dollar",
+        "hu": "Belize-i dollár",
+        "ja": "ベリーズ・ドル",
+        "ca": "Dòlar de Belize",
+        "fr": "Dollar bélizien",
+        "ko": "벨리즈 달러",
+        "cs": "Belizský dolar",
+        "nl": "Belizaanse dollar"
+      }
+    },
+    {
+      "@id": "BTN",
+      "code": "BTN",
+      "currencyOf": "http://dbpedia.org/resource/Bhutan",
+      "symbol": {
+        "@language": "en",
+        "@value": "Nu."
+      },
+      "created": "2015-04-30T06:32:49.490Z",
+      "modified": "2015-04-30T06:32:49.490Z",
+      "name": {
+        "nl": "Ngultrum",
+        "it": "Ngultrum del Bhutan",
+        "fr": "Ngultrum",
+        "ru": "Нгултрум",
+        "pl": "Ngultrum",
+        "pt": "Ngultrum",
+        "ko": "부탄 눌트럼",
+        "en": "Bhutanese ngultrum",
+        "hu": "Bhutáni ngultrum",
+        "ca": "Ngultrum",
+        "cs": "Bhútánský ngultrum",
+        "ja": "ニュルタム",
+        "uk": "Нгултрум",
+        "no": "Bhutansk ngultrum",
+        "de": "Ngultrum",
+        "sv": "Ngultrum",
+        "zh": "不丹努尔特鲁姆",
+        "es": "Ngultrum butanés"
+      }
+    },
+    {
+      "@id": "BGN",
+      "code": "BGN",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Bulgaria",
+        "http://dbpedia.org/resource/Kingdom_of_Bulgaria",
+        "http://dbpedia.org/resource/Macedonia_(region)",
+        "http://dbpedia.org/resource/Independent_State_of_Macedonia",
+        "http://dbpedia.org/resource/People's_Republic_of_Bulgaria",
+        "http://dbpedia.org/resource/Principality_of_Bulgaria"
+      ],
+      "symbol": [
+        {
+          "@language": "en",
+          "@value": "лв."
+        },
+        {
+          "@language": "en",
+          "@value": "лв"
+        }
+      ],
+      "created": "2015-04-30T06:32:49.490Z",
+      "modified": "2015-04-30T06:32:49.490Z",
+      "name": {
+        "fr": "Lev bulgare",
+        "fi": "Bulgarian leva",
+        "uk": "Болгарський лев",
+        "ja": "レフ",
+        "zh": "保加利亞列弗",
+        "it": "Lev bulgaro",
+        "pl": "Lew (jednostka monetarna)",
+        "cs": "Bulharský lev",
+        "ru": "Болгарский лев",
+        "hu": "Bolgár leva",
+        "ca": "Lev",
+        "no": "Bulgarsk lev",
+        "es": "Lev (moneda)",
+        "nl": "Lev",
+        "en": "Bulgarian lev",
+        "ko": "불가리아 레프",
+        "de": "Lew (Währung)",
+        "pt": "Lev búlgaro",
+        "sv": "Lev (valuta)"
+      }
+    },
+    {
+      "@id": "ALL",
+      "code": "ALL",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Macedonia_(region)",
+        "http://dbpedia.org/resource/Central_European_Free_Trade_Agreement",
+        "http://dbpedia.org/resource/Principality_of_Albania",
+        "http://dbpedia.org/resource/Albanian_Kingdom_(1939%E2%80%931943)",
+        "http://dbpedia.org/resource/Albania",
+        "http://dbpedia.org/resource/Albanian_Kingdom_(1943%E2%80%931944)",
+        "http://dbpedia.org/resource/Albanian_Kingdom",
+        "http://dbpedia.org/resource/People's_Socialist_Republic_of_Albania"
+      ],
+      "symbol": [
+        {
+          "@id": "http://dbpedia.org/resource/Albanian_lek"
+        },
+        {
+          "@id": "http://dbpedia.org/resource/Albanian_Lek"
+        }
+      ],
+      "created": "2015-04-30T06:32:49.469Z",
+      "modified": "2015-04-30T06:32:49.469Z",
+      "name": {
+        "pt": "Lek",
+        "es": "Lek albanés",
+        "nl": "Lek (munteenheid)",
+        "pl": "Lek (jednostka monetarna)",
+        "ru": "Албанский лек",
+        "en": "Albanian lek",
+        "ca": "Lek",
+        "it": "Lek albanese",
+        "fr": "Lek (monnaie)",
+        "zh": "阿爾巴尼亞列克",
+        "fi": "Albanian lek",
+        "cs": "Albánský lek",
+        "uk": "Албанський лек",
+        "ko": "알바니아 렉",
+        "no": "Albansk lek",
+        "de": "Albanischer Lek",
+        "ja": "レク (通貨)",
+        "hu": "Albán lek",
+        "sv": "Lek (valuta)"
+      }
+    },
+    {
+      "@id": "AWG",
+      "code": "AWG",
+      "currencyOf": "http://dbpedia.org/resource/Aruba",
+      "symbol": {
+        "@language": "en",
+        "@value": "Afl."
+      },
+      "created": "2015-04-30T06:32:49.469Z",
+      "modified": "2015-04-30T06:32:49.470Z",
+      "name": {
+        "fi": "Aruban floriini",
+        "it": "Fiorino arubano",
+        "ca": "Florí d'Aruba",
+        "nl": "Arubaanse florin",
+        "sv": "Arubansk florin",
+        "cs": "Arubský florin",
+        "ja": "アルバ・フロリン",
+        "pl": "Florin arubański",
+        "no": "Arubansk florin",
+        "fr": "Florin arubais",
+        "ru": "Арубанский флорин",
+        "uk": "Арубський флорін",
+        "es": "Florín arubeño",
+        "zh": "阿魯巴弗羅林",
+        "hu": "Arubai florin",
+        "ko": "아루바 플로린",
+        "en": "Aruban florin",
+        "de": "Aruba-Florin",
+        "pt": "Florim arubano"
+      }
+    },
+    {
+      "@id": "BRL",
+      "code": "BRL",
+      "currencyOf": "http://dbpedia.org/resource/Brazil",
+      "symbol": {
+        "@language": "en",
+        "@value": "R$"
+      },
+      "created": "2015-04-30T06:32:49.470Z",
+      "modified": "2015-04-30T06:32:49.470Z",
+      "name": {
+        "fr": "Réal brésilien",
+        "zh": "巴西雷亚尔",
+        "pt": "Real (moeda)",
+        "ca": "Real (moneda)",
+        "it": "Real brasiliano",
+        "es": "Real brasileño",
+        "en": "Brazilian real",
+        "ru": "Бразильский реал",
+        "pl": "Real brazylijski",
+        "nl": "Real (munteenheid)",
+        "ja": "レアル",
+        "sv": "Real",
+        "ko": "브라질 헤알",
+        "uk": "Бразильський реал",
+        "de": "Brasilianischer Real",
+        "hu": "Brazil real",
+        "fi": "Brasilian real",
+        "no": "Brasiliansk real",
+        "cs": "Brazilský real"
+      }
+    },
+    {
+      "@id": "XAF",
+      "code": "XAF",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Gabon",
+        "http://dbpedia.org/resource/Equatorial_Guinea",
+        "http://dbpedia.org/resource/Chad",
+        "http://dbpedia.org/resource/Republic_of_the_Congo",
+        "http://dbpedia.org/resource/Cameroon",
+        "http://dbpedia.org/resource/Central_African_Republic"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "FCFA"
+      },
+      "created": "2015-04-30T06:32:49.470Z",
+      "modified": "2015-04-30T06:32:49.470Z",
+      "name": {
+        "ko": "중앙아프리카 CFA 프랑",
+        "vi": "CFA franc Trung Phi",
+        "fr": "Franc CFA (CEMAC)",
+        "en": "Central African CFA franc",
+        "es": "Franco CFA de África Central",
+        "de": "CFA-Franc BEAC",
+        "zh": "中非法郎",
+        "ca": "Franc CFA de l'Àfrica Central"
+      }
+    },
+    {
+      "@id": "CVE",
+      "code": "CVE",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Economic_Community_of_West_African_States",
+        "http://dbpedia.org/resource/Cape_Verde"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": ", $, or Esc"
+      },
+      "created": "2015-04-30T06:32:49.490Z",
+      "modified": "2015-04-30T06:32:49.490Z",
+      "name": {
+        "cs": "Kapverdské escudo",
+        "ko": "카보베르데 이스쿠두",
+        "pt": "Escudo cabo-verdiano",
+        "no": "Kappverdisk escudo",
+        "hu": "Zöld-foki köztársasági escudo",
+        "ca": "Escut de Cap Verd",
+        "en": "Cape Verdean escudo",
+        "sv": "Kapverdisk escudo",
+        "ja": "カーボベルデ・エスクード",
+        "de": "Kap-Verde-Escudo",
+        "zh": "維德角埃斯庫多",
+        "fr": "Escudo cap-verdien",
+        "ru": "Эскудо Кабо-Верде",
+        "pl": "Escudo zielonoprzylądkowe",
+        "nl": "Kaapverdische escudo",
+        "it": "Escudo capoverdiano",
+        "es": "Escudo caboverdiano"
+      }
+    },
+    {
+      "@id": "KMF",
+      "code": "KMF",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Grande_Comore",
+        "http://dbpedia.org/resource/Moh%C3%A9li",
+        "http://dbpedia.org/resource/Comoros",
+        "http://dbpedia.org/resource/Anjouan"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "CF"
+      },
+      "created": "2015-04-30T06:32:49.490Z",
+      "modified": "2015-04-30T06:32:49.490Z",
+      "name": {
+        "sv": "Komoransk franc",
+        "cs": "Komorský frank",
+        "nl": "Comorese frank",
+        "it": "Franco delle Comore",
+        "de": "Komoren-Franc",
+        "ca": "Franc de les Comores",
+        "es": "Franco comorano",
+        "en": "Comorian franc",
+        "pl": "Frank komoryjski",
+        "zh": "葛摩法郎",
+        "ko": "코모로 프랑",
+        "no": "Komoriske franc",
+        "hu": "Comore-i frank",
+        "ru": "Франк Комор",
+        "ja": "コモロ・フラン",
+        "fr": "Franc comorien"
+      }
+    },
+    {
+      "@id": "CDF",
+      "code": "CDF",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Belgian_Congo",
+        "http://dbpedia.org/resource/Democratic_Republic_of_the_Congo",
+        "http://dbpedia.org/resource/Zaire",
+        "http://dbpedia.org/resource/Ruanda-Urundi",
+        "http://dbpedia.org/resource/Kingdom_of_Burundi",
+        "http://dbpedia.org/resource/French_Congo"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "FC"
+      },
+      "created": "2015-04-30T06:32:49.470Z",
+      "modified": "2015-04-30T06:32:49.470Z",
+      "name": {
+        "it": "Franco congolese",
+        "pt": "Franco congolês",
+        "nl": "Congolese frank",
+        "de": "Kongo-Franc",
+        "hu": "Kongói frank",
+        "fr": "Franc congolais",
+        "en": "Congolese franc",
+        "es": "Franco congoleño",
+        "ja": "コンゴ・フラン",
+        "ca": "Franc congolès",
+        "sv": "Kongolesisk franc",
+        "pl": "Frank kongijski",
+        "ru": "Конголезский франк",
+        "ko": "콩고 프랑",
+        "zh": "剛果法郎",
+        "no": "Kongolesisk franc"
+      }
+    },
+    {
+      "@id": "HRK",
+      "code": "HRK",
+      "currencyOf": "http://dbpedia.org/resource/Croatia",
+      "symbol": {
+        "@language": "en",
+        "@value": "kn"
+      },
+      "created": "2015-04-30T06:32:49.470Z",
+      "modified": "2015-04-30T06:32:49.470Z",
+      "name": {
+        "it": "Kuna croata",
+        "pl": "Kuna (waluta)",
+        "sv": "Kroatisk kuna",
+        "ca": "Kuna (moneda)",
+        "ko": "크로아티아 쿠나",
+        "fi": "Kroatian kuna",
+        "de": "Kroatische Kuna",
+        "ru": "Хорватская куна",
+        "hu": "Horvát kuna",
+        "es": "Kuna croata",
+        "nl": "Kuna (munteenheid)",
+        "uk": "Хорватська куна",
+        "en": "Croatian kuna",
+        "fr": "Kuna (monnaie)",
+        "no": "Kroatisk kuna",
+        "ja": "クーナ",
+        "zh": "克羅埃西亞庫納",
+        "cs": "Chorvatská kuna",
+        "pt": "Kuna croata"
+      }
+    },
+    {
+      "@id": "CSK",
+      "code": "CSK",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Czechoslovak_Socialist_Republic",
+        "http://dbpedia.org/resource/Czech_and_Slovak_Federal_Republic",
+        "http://dbpedia.org/resource/First_Czechoslovak_Republic",
+        "http://dbpedia.org/resource/Czechoslovakia",
+        "http://dbpedia.org/resource/History_of_Czechoslovakia_(1945%E2%80%931948)"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "Kčs"
+      },
+      "created": "2015-04-30T06:32:49.471Z",
+      "modified": "2015-04-30T06:32:49.471Z",
+      "name": {
+        "en": "Czechoslovak koruna",
+        "cs": "Koruna československá",
+        "ca": "Corona txecoslovaca",
+        "hu": "Csehszlovák korona",
+        "no": "Tsjekkoslovakisk koruna",
+        "uk": "Чехословацька крона",
+        "ja": "チェコスロバキア・コルナ",
+        "ko": "체코슬로바키아 코루나",
+        "fr": "Couronne tchécoslovaque",
+        "sv": "Tjeckoslovakisk krona",
+        "pl": "Korona czechosłowacka",
+        "nl": "Tsjecho-Slowaakse kroon",
+        "es": "Corona checoslovaca",
+        "zh": "捷克斯洛伐克克朗",
+        "ru": "Чехословацкая крона",
+        "de": "Tschechoslowakische Krone",
+        "it": "Corona cecoslovacca"
+      }
+    },
+    {
+      "@id": "XCD",
+      "code": "XCD",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Saint_Lucia",
+        "http://dbpedia.org/resource/Saint_Kitts_and_Nevis",
+        "http://dbpedia.org/resource/Saint_Vincent_and_the_Grenadines",
+        "http://dbpedia.org/resource/Carriacou_and_Petite_Martinique",
+        "http://dbpedia.org/resource/Nevis",
+        "http://dbpedia.org/resource/Dominica",
+        "http://dbpedia.org/resource/Grenada",
+        "http://dbpedia.org/resource/Saint_Christopher-Nevis-Anguilla",
+        "http://dbpedia.org/resource/Montserrat",
+        "http://dbpedia.org/resource/Antigua_and_Barbuda",
+        "http://dbpedia.org/resource/Anguilla"
+      ],
+      "symbol": {
+        "@id": "http://dbpedia.org/resource/Dollar_sign"
+      },
+      "created": "2015-04-30T06:32:49.490Z",
+      "modified": "2015-04-30T06:32:49.490Z",
+      "name": {
+        "it": "Dollaro dei Caraibi orientali",
+        "es": "Dólar del Caribe Oriental",
+        "fr": "Dollar des Caraïbes orientales",
+        "ca": "Dòlar del Carib Oriental",
+        "cs": "Východokaribský dolar",
+        "en": "East Caribbean dollar",
+        "vi": "Đô la Đông Caribe",
+        "pl": "Dolar wschodniokaraibski",
+        "zh": "東加勒比元",
+        "uk": "Східно-карибський долар",
+        "de": "Ostkaribischer Dollar",
+        "pt": "Dólar do Caribe Oriental",
+        "ru": "Восточно-карибский доллар",
+        "nl": "Oost-Caribische dollar",
+        "ko": "동카리브 달러",
+        "no": "Østkaribisk dollar",
+        "ja": "東カリブ・ドル",
+        "hu": "Kelet-karibi dollár",
+        "sv": "Östkaribisk dollar",
+        "fi": "Itä-Karibian dollari"
+      }
+    },
+    {
+      "@id": "DKK",
+      "code": "DKK",
+      "currencyOf": "http://dbpedia.org/resource/Greenland",
+      "symbol": {
+        "@language": "en",
+        "@value": "kr."
+      },
+      "created": "2015-04-30T06:32:49.471Z",
+      "modified": "2015-04-30T06:32:49.471Z",
+      "name": {
+        "ru": "Датская крона",
+        "no": "Dansk krone",
+        "pt": "Coroa dinamarquesa",
+        "ko": "덴마크 크로네",
+        "fr": "Couronne danoise",
+        "fi": "Tanskan kruunu",
+        "cs": "Dánská koruna",
+        "de": "Dänische Krone",
+        "vi": "Krone Đan Mạch",
+        "es": "Corona danesa",
+        "uk": "Данська крона",
+        "en": "Danish krone",
+        "nl": "Deense kroon",
+        "pl": "Korona duńska",
+        "hu": "Dán korona",
+        "it": "Corona danese",
+        "sv": "Dansk krona",
+        "ca": "Corona danesa",
+        "zh": "丹麥克朗",
+        "ja": "デンマーク・クローネ"
+      }
+    },
+    {
+      "@id": "DJF",
+      "code": "DJF",
+      "currencyOf": "http://dbpedia.org/resource/Djibouti",
+      "symbol": {
+        "@language": "en",
+        "@value": "Fdj"
+      },
+      "created": "2015-04-30T06:32:49.471Z",
+      "modified": "2015-04-30T06:32:49.471Z",
+      "name": {
+        "de": "Dschibuti-Franc",
+        "en": "Djiboutian franc",
+        "ja": "ジブチ・フラン",
+        "ca": "Franc de Djibouti",
+        "sv": "Djiboutisk franc",
+        "no": "Djiboutisk franc",
+        "nl": "Djiboutiaanse frank",
+        "pl": "Frank dżibutyjski",
+        "fr": "Franc de Djibouti",
+        "zh": "吉布地法郎",
+        "hu": "Dzsibuti frank",
+        "it": "Franco gibutiano",
+        "ru": "Франк Джибути",
+        "es": "Franco yibutiano",
+        "pt": "Franco do Jibuti",
+        "ko": "지부티 프랑"
+      }
+    },
+    {
+      "@id": "ECS",
+      "code": "ECS",
+      "symbol": {
+        "@language": "en",
+        "@value": "S/."
+      },
+      "created": "2015-04-30T06:32:49.471Z",
+      "modified": "2015-04-30T06:32:49.471Z",
+      "name": {
+        "it": "Sucre ecuadoriano",
+        "pt": "Sucre (moeda)",
+        "de": "Ecuadorianischer Sucre",
+        "pl": "Sucre (waluta)",
+        "es": "Sucre ecuatoriano",
+        "fr": "Sucre (monnaie)",
+        "ca": "Sucre (moneda)",
+        "nl": "Sucre (munteenheid)",
+        "ko": "에콰도르 수크레",
+        "zh": "厄瓜多蘇克雷",
+        "ru": "Эквадорский сукре",
+        "en": "Ecuadorian sucre",
+        "sv": "Sucre (valuta)"
+      }
+    },
+    {
+      "@id": "GEL",
+      "code": "GEL",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Government_of_the_Autonomous_Republic_of_Abkhazia",
+        "http://dbpedia.org/resource/Javakhk_Autonomous_Republic",
+        "http://dbpedia.org/resource/Adjara",
+        "http://dbpedia.org/resource/Georgia_%28country%29",
+        "http://dbpedia.org/resource/Provisional_Administrative_Entity_of_South_Ossetia",
+        "http://dbpedia.org/resource/Autonomous_Republic_of_Abkhazia",
+        "http://dbpedia.org/resource/Georgia_(country)"
+      ],
+      "symbol": {
+        "@id": "http://dbpedia.org/resource/%E1%83%9A"
+      },
+      "created": "2015-04-30T06:32:49.491Z",
+      "modified": "2015-04-30T06:32:49.491Z",
+      "name": {
+        "ru": "Грузинский лари",
+        "es": "Lari georgiano",
+        "de": "Georgischer Lari",
+        "it": "Lari georgiano",
+        "fi": "Georgian lari",
+        "ko": "조지아 라리",
+        "zh": "格鲁吉亚拉里",
+        "no": "Georgisk lari",
+        "hu": "Grúz lari",
+        "uk": "Ларі",
+        "pt": "Lari (moeda)",
+        "pl": "Lari (waluta)",
+        "en": "Georgian lari",
+        "cs": "Gruzínské lari",
+        "ca": "Lari (moneda)",
+        "nl": "Lari (munteenheid)",
+        "ja": "ラリ",
+        "fr": "Lari (monnaie)"
+      }
+    },
+    {
+      "@id": "GIP",
+      "code": "GIP",
+      "currencyOf": "http://dbpedia.org/resource/Gibraltar",
+      "symbol": {
+        "@id": "http://dbpedia.org/resource/Pound_sign"
+      },
+      "created": "2015-04-30T06:32:49.491Z",
+      "modified": "2015-04-30T06:32:49.491Z",
+      "name": {
+        "it": "Sterlina di Gibilterra",
+        "ko": "지브롤터 파운드",
+        "cs": "Gibraltarská libra",
+        "ca": "Lliura de Gibraltar",
+        "sv": "Gibraltarpund",
+        "es": "Libra gibraltareña",
+        "nl": "Gibraltarees pond",
+        "de": "Gibraltar-Pfund",
+        "zh": "直布羅陀鎊",
+        "ja": "ジブラルタル・ポンド",
+        "en": "Gibraltar pound",
+        "fr": "Livre de Gibraltar",
+        "uk": "Гібралтарський фунт",
+        "no": "Gibraltarsk pund",
+        "pl": "Funt gibraltarski",
+        "pt": "Libra de Gibraltar",
+        "fi": "Gibraltarin punta",
+        "hu": "Gibraltári font",
+        "ru": "Гибралтарский фунт"
+      }
+    },
+    {
+      "@id": "HTG",
+      "code": "HTG",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Haitian_occupation_of_Santo_Domingo",
+        "http://dbpedia.org/resource/Haiti",
+        "http://dbpedia.org/resource/Unification_of_Hispaniola"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "G"
+      },
+      "created": "2015-04-30T06:32:49.491Z",
+      "modified": "2015-04-30T06:32:49.491Z",
+      "name": {
+        "nl": "Gourde",
+        "ca": "Gourde",
+        "pt": "Gourde",
+        "fr": "Gourde (monnaie)",
+        "ja": "グールド (通貨)",
+        "sv": "Gourde",
+        "it": "Gourde haitiano",
+        "de": "Gourde",
+        "ko": "아이티 구르드",
+        "es": "Gourde haitiano",
+        "cs": "Haitský gourde",
+        "no": "Haitisk gourde",
+        "hu": "Haiti gourde",
+        "uk": "Гаїтянський гурд",
+        "fi": "Haitin gourde",
+        "en": "Haitian gourde",
+        "ru": "Гаитянский гурд",
+        "zh": "海地古德",
+        "pl": "Gourde"
+      }
+    },
+    {
+      "@id": "HUF",
+      "code": "HUF",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Kingdom_of_Hungary",
+        "http://dbpedia.org/resource/Hungary",
+        "http://dbpedia.org/resource/Republic_of_Hungary_(1946%E2%80%931949)"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "Ft"
+      },
+      "created": "2015-04-30T06:32:49.471Z",
+      "modified": "2015-04-30T06:32:49.471Z",
+      "name": {
+        "es": "Florín húngaro",
+        "sv": "Forint",
+        "de": "Forint",
+        "zh": "匈牙利福林",
+        "hu": "Magyar forint",
+        "it": "Fiorino ungherese",
+        "en": "Hungarian forint",
+        "nl": "Forint",
+        "pt": "Florim húngaro",
+        "pl": "Forint",
+        "fr": "Forint",
+        "no": "Ungarsk forint",
+        "uk": "Угорський форинт",
+        "ru": "Венгерский форинт",
+        "cs": "Maďarský forint",
+        "fi": "Unkarin forintti",
+        "ko": "헝가리 포린트",
+        "ca": "Fòrint",
+        "vi": "Forint",
+        "ja": "フォリント"
+      }
+    },
+    {
+      "@id": "IDR",
+      "code": "IDR",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Indonesia",
+        "http://dbpedia.org/resource/Republic_of_the_United_States_of_Indonesia"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "Rp"
+      },
+      "created": "2015-04-30T06:32:49.471Z",
+      "modified": "2015-04-30T06:32:49.471Z",
+      "name": {
+        "cs": "Indonéská rupie",
+        "hu": "Indonéz rúpia",
+        "vi": "Rupiah",
+        "fi": "Indonesian rupia",
+        "pt": "Rupia indonésia",
+        "zh": "印尼盾",
+        "pl": "Rupia indonezyjska",
+        "ru": "Индонезийская рупия",
+        "es": "Rupia indonesia",
+        "ko": "인도네시아 루피아",
+        "en": "Indonesian rupiah",
+        "nl": "Roepia",
+        "no": "Indonesisk rupiah",
+        "fr": "Roupie indonésienne",
+        "it": "Rupia indonesiana",
+        "ja": "ルピア",
+        "de": "Indonesische Rupiah",
+        "sv": "Rupiah",
+        "ca": "Rupia indonèsia"
+      }
+    },
+    {
+      "@id": "JMD",
+      "code": "JMD",
+      "currencyOf": "http://dbpedia.org/resource/Jamaica",
+      "symbol": {
+        "@id": "http://dbpedia.org/resource/Dollar_sign"
+      },
+      "created": "2015-04-30T06:32:49.471Z",
+      "modified": "2015-04-30T06:32:49.471Z",
+      "name": {
+        "es": "Dólar jamaiquino",
+        "nl": "Jamaicaanse dollar",
+        "ja": "ジャマイカ・ドル",
+        "en": "Jamaican dollar",
+        "de": "Jamaika-Dollar",
+        "no": "Jamaicansk dollar",
+        "it": "Dollaro giamaicano",
+        "zh": "牙買加元",
+        "pl": "Dolar jamajski",
+        "fi": "Jamaikan dollari",
+        "ko": "자메이카 달러",
+        "sv": "Jamaicansk dollar",
+        "hu": "Jamaicai dollár",
+        "fr": "Dollar jamaïcain",
+        "ca": "Dòlar jamaicà",
+        "uk": "Ямайський долар",
+        "ru": "Ямайский доллар",
+        "pt": "Dólar jamaicano"
+      }
+    },
+    {
+      "@id": "HNL",
+      "code": "HNL",
+      "currencyOf": "http://dbpedia.org/resource/Honduras",
+      "symbol": {
+        "@language": "en",
+        "@value": "L"
+      },
+      "created": "2015-04-30T06:32:49.491Z",
+      "modified": "2015-04-30T06:32:49.491Z",
+      "name": {
+        "cs": "Honduraská lempira",
+        "en": "Honduran lempira",
+        "ko": "온두라스 렘피라",
+        "pt": "Lempira",
+        "ja": "レンピラ (通貨)",
+        "zh": "宏都拉斯倫皮拉",
+        "sv": "Lempira",
+        "ru": "Гондурасская лемпира",
+        "pl": "Lempira (waluta)",
+        "de": "Lempira",
+        "no": "Honduransk lempira",
+        "ca": "Lempira (moneda)",
+        "hu": "Hondurasi lempira",
+        "es": "Lempira (moneda)",
+        "nl": "Lempira (munteenheid)",
+        "fr": "Lempira (monnaie)",
+        "fi": "Hondurasin lempira",
+        "it": "Lempira honduregna"
+      }
+    },
+    {
+      "@id": "IQD",
+      "code": "IQD",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Iraqi_Republic_%281958%E2%80%9368%29",
+        "http://dbpedia.org/resource/Iraq",
+        "http://dbpedia.org/resource/History_of_Iraq_under_Ba'athist_rule",
+        "http://dbpedia.org/resource/Ba%27athist_Iraq",
+        "http://dbpedia.org/resource/Ba'athist_Iraq",
+        "http://dbpedia.org/resource/Iraqi_Kurdistan",
+        "http://dbpedia.org/resource/Coalition_Provisional_Authority",
+        "http://dbpedia.org/resource/Iraqi_Republic_(1958%E2%80%9368)"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "ع.د"
+      },
+      "created": "2015-04-30T06:32:49.491Z",
+      "modified": "2015-04-30T06:32:49.491Z",
+      "name": {
+        "ca": "Dinar iraquià",
+        "pl": "Dinar iracki",
+        "es": "Dinar iraquí",
+        "fr": "Dinar irakien",
+        "no": "Irakisk dinar",
+        "nl": "Iraakse dinar",
+        "uk": "Іракський динар",
+        "zh": "伊拉克第納爾",
+        "hu": "Iraki dinár",
+        "pt": "Dinar iraquiano",
+        "de": "Irakischer Dinar",
+        "ja": "イラク・ディナール",
+        "ru": "Иракский динар",
+        "ko": "이라크 디나르",
+        "en": "Iraqi dinar",
+        "it": "Dinaro iracheno",
+        "sv": "Irakisk dinar"
+      }
+    },
+    {
+      "@id": "TWD",
+      "code": "TWD",
+      "currencyOf": "http://dbpedia.org/resource/Taiwan",
+      "symbol": {
+        "@language": "en",
+        "@value": "$ or NT$"
+      },
+      "created": "2015-04-30T06:32:49.492Z",
+      "modified": "2015-04-30T06:32:49.492Z",
+      "name": {
+        "nl": "Taiwanese dollar",
+        "hu": "Tajvani új dollár",
+        "cs": "Tchajwanský dolar",
+        "fi": "Uusi Taiwanin dollari",
+        "pl": "Dolar tajwański",
+        "en": "New Taiwan dollar",
+        "de": "Neuer Taiwan-Dollar",
+        "ja": "ニュー台湾ドル",
+        "uk": "Новий тайванський долар",
+        "es": "Nuevo dólar taiwanés",
+        "zh": "新臺幣",
+        "ko": "신 타이완 달러",
+        "fr": "Nouveau dollar de Taïwan",
+        "vi": "Tân Đài tệ",
+        "it": "Dollaro taiwanese",
+        "ca": "Nou dòlar de Taiwan",
+        "no": "Taiwansk dollar",
+        "sv": "Taiwanesisk dollar",
+        "ru": "Новый тайваньский доллар"
+      }
+    },
+    {
+      "@id": "LSL",
+      "code": "LSL",
+      "currencyOf": "http://dbpedia.org/resource/Lesotho",
+      "symbol": {
+        "@language": "en",
+        "@value": "L or M"
+      },
+      "created": "2015-04-30T06:32:49.472Z",
+      "modified": "2015-04-30T06:32:49.472Z",
+      "name": {
+        "no": "Lesothisk loti",
+        "hu": "Lesothói loti",
+        "sv": "Loti",
+        "cs": "Lesothský loti",
+        "ca": "Loti",
+        "de": "Lesothischer Loti",
+        "nl": "Loti",
+        "ru": "Лоти Лесото",
+        "uk": "Лоті",
+        "ja": "ロチ",
+        "pl": "Loti",
+        "pt": "Loti",
+        "en": "Lesotho loti",
+        "zh": "賴索托洛蒂",
+        "ko": "레소토 로티",
+        "fr": "Loti",
+        "es": "Loti",
+        "it": "Loti lesothiano"
+      }
+    },
+    {
+      "@id": "LYD",
+      "code": "LYD",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Libya",
+        "http://dbpedia.org/resource/History_of_Libya_under_Muammar_Gaddafi__%D8%A7%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9_%D8%A7%D9%84%D9%84%D9%8A%D8%A8%D9%8A%D8%A9Al-Jumh%C5%ABr%C4%AByah_al-%CA%BFArabiyy__1",
+        "http://dbpedia.org/resource/History_of_Libya_under_Muammar_Gaddafi__%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1%D9%8A%D8%A9_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9_%D8%A7%D9%84%D9%84%D9%8A%D8%A8%D9%8A%D8%A9_%D8%A7%D9%84%D8%B4%D8%B9%D8%A8%D9%8A%D8%A9_%D8%A7%D9%84%D8%A5%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%D9%8A%D8%A9_%D8%A7%D9%84%D8%B9%D8%B8__1",
+        "http://dbpedia.org/resource/Federation_of_Arab_Republics",
+        "http://dbpedia.org/resource/Arab_Maghreb_Union"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "LD and ل.د"
+      },
+      "created": "2015-04-30T06:32:49.472Z",
+      "modified": "2015-04-30T06:32:49.472Z",
+      "name": {
+        "ru": "Ливийский динар",
+        "en": "Libyan dinar",
+        "pl": "Dinar libijski",
+        "sv": "Libysk dinar",
+        "de": "Libyscher Dinar",
+        "hu": "Líbiai dinár",
+        "ca": "Dinar libi",
+        "cs": "Libyjský dinár",
+        "ja": "リビア・ディナール",
+        "no": "Libysk dinar",
+        "ko": "리비아 디나르",
+        "es": "Dinar libio",
+        "nl": "Libische dinar",
+        "it": "Dinaro libico",
+        "fr": "Dinar libyen",
+        "zh": "利比亞第納爾",
+        "fi": "Libyan dinaari"
+      }
+    },
+    {
+      "@id": "MWK",
+      "code": "MWK",
+      "currencyOf": "http://dbpedia.org/resource/Malawi",
+      "symbol": {
+        "@language": "en",
+        "@value": "MK"
+      },
+      "created": "2015-04-30T06:32:49.472Z",
+      "modified": "2015-04-30T06:32:49.472Z",
+      "name": {
+        "fr": "Kwacha malawien",
+        "pt": "Kwacha do Maláui",
+        "ja": "マラウイ・クワチャ",
+        "de": "Malawi-Kwacha",
+        "zh": "馬拉威克瓦查",
+        "ko": "말라위 콰차",
+        "ca": "Kwacha malawià",
+        "pl": "Kwacha malawijska",
+        "hu": "Malawi kwacha",
+        "uk": "Малавійська квача",
+        "it": "Kwacha malawiano",
+        "ru": "Малавийская квача",
+        "es": "Kwacha malauí",
+        "sv": "Malawisk kwacha",
+        "en": "Malawian kwacha",
+        "no": "Malawisk kwacha",
+        "nl": "Malawische kwacha"
+      }
+    },
+    {
+      "@id": "PEI",
+      "code": "PEI",
+      "symbol": {
+        "@language": "en",
+        "@value": "I/."
+      },
+      "created": "2015-04-30T06:32:49.492Z",
+      "modified": "2015-04-30T06:32:49.492Z",
+      "name": {
+        "ja": "インティ (通貨)",
+        "es": "Inti (moneda)",
+        "cs": "Inti (měna)",
+        "fr": "Inti (monnaie)",
+        "de": "Inti (Währung)",
+        "ca": "Inti (moneda)",
+        "ru": "Перуанский инти",
+        "pl": "Inti (jednostka monetarna)",
+        "it": "Inti peruviano",
+        "en": "Peruvian inti",
+        "pt": "Inti"
+      }
+    },
+    {
+      "@id": "CNY",
+      "code": "CNY",
+      "currencyOf": [
+        "http://dbpedia.org/resource/China",
+        "http://dbpedia.org/resource/Wa_State"
+      ],
+      "symbol": [
+        {
+          "@id": "http://dbpedia.org/resource/CNY"
+        },
+        {
+          "@id": "http://dbpedia.org/resource/%C2%A5"
+        }
+      ],
+      "created": "2015-04-30T06:32:49.492Z",
+      "modified": "2015-04-30T06:32:49.492Z",
+      "name": {
+        "ja": "人民元",
+        "ca": "Renminbi",
+        "pt": "Yuan",
+        "hu": "Renminbi",
+        "sv": "Renminbi",
+        "ru": "Жэньминьби",
+        "fr": "Yuan",
+        "es": "Yuan chino",
+        "pl": "Renminbi",
+        "no": "Kinesisk renminbi",
+        "it": "Renminbi cinese",
+        "nl": "Renminbi",
+        "vi": "Nhân dân tệ",
+        "fi": "Renminbi",
+        "zh": "人民币",
+        "uk": "Юань",
+        "cs": "Čínský jüan",
+        "de": "Renminbi",
+        "ko": "런민비",
+        "en": "Renminbi"
+      }
+    },
+    {
+      "@id": "SRD",
+      "code": "SRD",
+      "currencyOf": "http://dbpedia.org/resource/Suriname",
+      "symbol": {
+        "@id": "http://dbpedia.org/resource/Dollar_sign"
+      },
+      "created": "2015-04-30T06:32:49.492Z",
+      "modified": "2015-04-30T06:32:49.492Z",
+      "name": {
+        "cs": "Surinamský dolar",
+        "it": "Dollaro surinamese",
+        "ru": "Суринамский доллар",
+        "ko": "수리남 달러",
+        "zh": "蘇利南元",
+        "ja": "スリナム・ドル",
+        "no": "Surinamsk dollar",
+        "hu": "Suriname-i dollár",
+        "de": "Suriname-Dollar",
+        "sv": "Surinamesisk dollar",
+        "nl": "Surinaamse dollar",
+        "pt": "Dólar do Suriname",
+        "ca": "Dòlar de Surinam",
+        "es": "Dólar surinamés",
+        "en": "Surinamese dollar",
+        "fr": "Dollar de Surinam",
+        "pl": "Dolar surinamski"
+      }
+    },
+    {
+      "@id": "MYR",
+      "code": "MYR",
+      "currencyOf": "http://dbpedia.org/resource/Malaysia",
+      "symbol": {
+        "@language": "en",
+        "@value": "RM"
+      },
+      "created": "2015-04-30T06:32:49.472Z",
+      "modified": "2015-04-30T06:32:49.472Z",
+      "name": {
+        "es": "Ringgit",
+        "de": "Ringgit",
+        "sv": "Ringgit",
+        "no": "Malaysisk ringgit",
+        "en": "Malaysian ringgit",
+        "fi": "Malesian ringgit",
+        "ko": "말레이시아 링깃",
+        "hu": "Maláj ringgit",
+        "it": "Ringgit malese",
+        "uk": "Малайзійський ринггіт",
+        "ca": "Ringgit",
+        "fr": "Ringgit",
+        "ja": "リンギット",
+        "vi": "Ringgit",
+        "zh": "馬來西亞令吉",
+        "ru": "Малайзийский ринггит",
+        "pt": "Ringgit malaio",
+        "nl": "Ringgit",
+        "cs": "Malajsijský ringgit",
+        "pl": "Ringgit"
+      }
+    },
+    {
+      "@id": "MRO",
+      "code": "MRO",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Western_Sahara",
+        "http://dbpedia.org/resource/Mauritania",
+        "http://dbpedia.org/resource/Arab_Maghreb_Union"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "UM"
+      },
+      "created": "2015-04-30T06:32:49.472Z",
+      "modified": "2015-04-30T06:32:49.472Z",
+      "name": {
+        "ko": "모리타니 우기야",
+        "es": "Uquiya",
+        "ca": "Ouguiya",
+        "ja": "ウギア",
+        "hu": "Mauritániai ouguiya",
+        "fr": "Ouguiya",
+        "ru": "Мавританская угия",
+        "no": "Mauritansk ouguiya",
+        "de": "Ouguiya",
+        "pl": "Ugija",
+        "nl": "Ouguiya",
+        "fi": "Mauritanian ouguiya",
+        "en": "Mauritanian ouguiya",
+        "zh": "毛里塔尼亞烏吉亞",
+        "pt": "Uguia",
+        "it": "Ouguiya mauritana",
+        "sv": "Ouguiya"
+      }
+    },
+    {
+      "@id": "ANG",
+      "code": "ANG",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Sint_Maarten",
+        "http://dbpedia.org/resource/Netherlands_Antilles",
+        "http://dbpedia.org/resource/Cura%C3%A7ao"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "NAƒ, NAf, ƒ, or f"
+      },
+      "created": "2015-04-30T06:32:49.472Z",
+      "modified": "2015-04-30T06:32:49.472Z",
+      "name": {
+        "de": "Antillen-Gulden",
+        "ja": "アンティル・ギルダー",
+        "ca": "Florí de les Antilles Neerlandeses",
+        "es": "Florín antillano neerlandés",
+        "nl": "Antilliaanse gulden",
+        "sv": "Antillergulden",
+        "ko": "네덜란드령 안틸레스 휠던",
+        "hu": "Holland antillákbeli forint",
+        "it": "Fiorino delle Antille Olandesi",
+        "zh": "荷屬安的列斯盾",
+        "ru": "Нидерландский антильский гульден",
+        "fr": "Florin des Antilles néerlandaises",
+        "en": "Netherlands Antillean guilder",
+        "no": "Antilliansk gylden",
+        "cs": "Gulden Nizozemských Antil",
+        "pt": "Florim das Antilhas Neerlandesas",
+        "pl": "Gulden antylski"
+      }
+    },
+    {
+      "@id": "SEK",
+      "code": "SEK",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Union_between_Sweden_and_Norway",
+        "http://dbpedia.org/resource/Sweden"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "kr"
+      },
+      "created": "2015-04-30T06:32:49.492Z",
+      "modified": "2015-04-30T06:32:49.492Z",
+      "name": {
+        "de": "Schwedische Krone",
+        "it": "Corona svedese",
+        "hu": "Svéd korona",
+        "fi": "Ruotsin kruunu",
+        "en": "Swedish krona",
+        "ca": "Corona sueca",
+        "nl": "Zweedse kroon",
+        "pt": "Coroa sueca",
+        "ja": "スウェーデン・クローナ",
+        "sv": "Svensk krona",
+        "vi": "Krona Thụy Điển",
+        "ru": "Шведская крона",
+        "ko": "스웨덴 크로나",
+        "cs": "Švédská koruna",
+        "pl": "Korona szwedzka",
+        "fr": "Couronne suédoise",
+        "es": "Corona sueca",
+        "zh": "瑞典克朗",
+        "no": "Svensk krone",
+        "uk": "Шведська крона"
+      }
+    },
+    {
+      "@id": "TZS",
+      "code": "TZS",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Tanzania",
+        "http://dbpedia.org/resource/East_African_Federation"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "x/y"
+      },
+      "created": "2015-04-30T06:32:49.492Z",
+      "modified": "2015-04-30T06:32:49.492Z",
+      "name": {
+        "pt": "Xelim tanzaniano",
+        "it": "Scellino tanzaniano",
+        "fi": "Tansanian šillinki",
+        "en": "Tanzanian shilling",
+        "cs": "Tanzanský šilink",
+        "ca": "Xíling tanzà",
+        "fr": "Shilling tanzanien",
+        "es": "Chelín tanzano",
+        "zh": "坦尚尼亞先令",
+        "hu": "Tanzániai shilling",
+        "ru": "Танзанийский шиллинг",
+        "ja": "タンザニア・シリング",
+        "sv": "Tanzanisk shilling",
+        "ko": "탄자니아 실링",
+        "pl": "Szyling tanzański",
+        "no": "Tanzaniansk shilling",
+        "nl": "Tanzaniaanse shilling"
+      }
+    },
+    {
+      "@id": "NGN",
+      "code": "NGN",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Economic_Community_of_West_African_States",
+        "http://dbpedia.org/resource/Nigeria"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "₦"
+      },
+      "created": "2015-04-30T06:32:49.472Z",
+      "modified": "2015-04-30T06:32:49.472Z",
+      "name": {
+        "zh": "奈及利亞奈拉",
+        "ru": "Нигерийская найра",
+        "ca": "Naira",
+        "hu": "Nigériai naira",
+        "de": "Naira",
+        "sv": "Naira",
+        "nl": "Naira",
+        "fr": "Naira",
+        "it": "Naira nigeriana",
+        "fi": "Nigerian naira",
+        "en": "Nigerian naira",
+        "ja": "ナイラ",
+        "cs": "Nigerijská naira",
+        "uk": "Нігерійська найра",
+        "pl": "Naira",
+        "pt": "Naira",
+        "ko": "나이지리아 나이라",
+        "es": "Naira",
+        "no": "Nigeriansk naira"
+      }
+    },
+    {
+      "@id": "PAB",
+      "code": "PAB",
+      "currencyOf": "http://dbpedia.org/resource/Panama",
+      "symbol": {
+        "@language": "en",
+        "@value": "B/."
+      },
+      "created": "2015-04-30T06:32:49.473Z",
+      "modified": "2015-04-30T06:32:49.473Z",
+      "name": {
+        "ko": "파나마 발보아",
+        "cs": "Panamská balboa",
+        "ca": "Balboa (moneda)",
+        "pl": "Balboa",
+        "ja": "バルボア (通貨)",
+        "hu": "Panamai balboa",
+        "en": "Panamanian balboa",
+        "es": "Balboa panameño",
+        "zh": "巴拿馬巴波亞",
+        "ru": "Панамский бальбоа",
+        "de": "Panamaischer Balboa",
+        "no": "Panamansk balboa",
+        "pt": "Balboa (moeda)",
+        "fi": "Panaman balboa",
+        "nl": "Balboa (munteenheid)",
+        "fr": "Balboa (monnaie)",
+        "it": "Balboa panamense",
+        "uk": "Панамське бальбоа",
+        "sv": "Balboa (valuta)"
+      }
+    },
+    {
+      "@id": "PHP",
+      "code": "PHP",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Commonwealth_of_the_Philippines",
+        "http://dbpedia.org/resource/History_of_the_Philippines_(1946%E2%80%931965)",
+        "http://dbpedia.org/resource/First_Philippine_Republic",
+        "http://dbpedia.org/resource/History_of_the_Philippines_(1965%E2%80%931986)",
+        "http://dbpedia.org/resource/Spanish_East_Indies"
+      ],
+      "symbol": [
+        {
+          "@id": "http://dbpedia.org/resource/₱"
+        },
+        {
+          "@id": "http://dbpedia.org/resource/%E2%82%B1"
+        },
+        {
+          "@language": "en",
+          "@value": "PhilippinePeso.svg"
+        }
+      ],
+      "created": "2015-04-30T06:32:49.473Z",
+      "modified": "2015-04-30T06:32:49.473Z",
+      "name": {
+        "cs": "Filipínské peso",
+        "zh": "菲律賓披索",
+        "ru": "Филиппинское песо",
+        "ko": "필리핀 페소",
+        "no": "Filippinsk peso",
+        "hu": "Fülöp-szigeteki peso",
+        "ja": "フィリピン・ペソ",
+        "ca": "Peso filipí",
+        "es": "Peso filipino",
+        "fr": "Peso philippin",
+        "it": "Peso filippino",
+        "nl": "Filipijnse peso",
+        "vi": "Peso Philippines",
+        "de": "Philippinischer Peso",
+        "sv": "Filippinsk peso",
+        "pl": "Peso filipińskie",
+        "pt": "Peso filipino",
+        "en": "Philippine peso"
+      }
+    },
+    {
+      "@id": "USD",
+      "code": "USD",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Kingdom_of_Hawaii",
+        "http://dbpedia.org/resource/El_Salvador",
+        "http://dbpedia.org/resource/International_Coffee_Organization",
+        "http://dbpedia.org/resource/Northern_Mariana_Islands",
+        "http://dbpedia.org/resource/Puerto_Rico",
+        "http://dbpedia.org/resource/Republic_of_Maryland",
+        "http://dbpedia.org/resource/Republic_of_Hawaii",
+        "http://dbpedia.org/resource/Republic_of_Lakotah",
+        "http://dbpedia.org/resource/Ascension_Island",
+        "http://dbpedia.org/resource/East_Timor",
+        "http://dbpedia.org/resource/WikiProject_Ecuador",
+        "http://dbpedia.org/resource/Principality_of_Sealand",
+        "http://dbpedia.org/resource/United_Nations_Transitional_Administration_in_East_Timor",
+        "http://dbpedia.org/resource/United_States_Minor_Outlying_Islands",
+        "http://dbpedia.org/resource/Marshall_Islands",
+        "http://dbpedia.org/resource/United_States_Virgin_Islands",
+        "http://dbpedia.org/resource/British_Virgin_Islands",
+        "http://dbpedia.org/resource/British_Indian_Ocean_Territory",
+        "http://dbpedia.org/resource/Provisional_Government_of_Oregon",
+        "http://dbpedia.org/resource/Seneca_Nation_of_New_York",
+        "http://dbpedia.org/resource/Palau",
+        "http://dbpedia.org/resource/Caribbean_Netherlands",
+        "http://dbpedia.org/resource/Cherokee_Nation_(19th_century)",
+        "http://dbpedia.org/resource/American_Samoa",
+        "http://dbpedia.org/resource/Sint_Eustatius",
+        "http://dbpedia.org/resource/Turks_and_Caicos_Islands",
+        "http://dbpedia.org/resource/Bonaire",
+        "http://dbpedia.org/resource/Federated_States_of_Micronesia",
+        "http://dbpedia.org/resource/Saba",
+        "http://dbpedia.org/resource/Mohegan_Indian_Tribe",
+        "http://dbpedia.org/resource/Trust_Territory_of_the_Pacific_Islands",
+        "http://dbpedia.org/resource/Empire_of_Atlantium",
+        "http://dbpedia.org/resource/Ecuador"
+      ],
+      "symbol": "$",
+      "created": "2015-04-30T06:32:49.493Z",
+      "modified": "2015-04-30T06:32:49.493Z",
+      "name": {
+        "pt": "Dólar dos Estados Unidos",
+        "ca": "Dòlar dels Estats Units",
+        "ja": "アメリカ合衆国ドル",
+        "it": "Dollaro statunitense",
+        "cs": "Americký dolar",
+        "pl": "Dolar amerykański",
+        "de": "US-Dollar",
+        "vi": "Đô la Mỹ",
+        "es": "Dólar de los Estados Unidos",
+        "ko": "미국 달러",
+        "nl": "Amerikaanse dollar",
+        "ru": "Доллар США",
+        "fr": "Dollar américain",
+        "fi": "Yhdysvaltain dollari",
+        "en": "United States dollar",
+        "uk": "Долар США",
+        "sv": "Amerikansk dollar",
+        "hu": "Amerikai dollár",
+        "no": "Amerikansk dollar",
+        "zh": "美元"
+      }
+    },
+    {
+      "@id": "VEF",
+      "code": "VEF",
+      "currencyOf": "http://dbpedia.org/resource/Venezuela",
+      "symbol": {
+        "@language": "en",
+        "@value": "Bs.F. or Bs."
+      },
+      "created": "2015-04-30T06:32:49.493Z",
+      "modified": "2015-04-30T06:32:49.493Z",
+      "name": {
+        "pl": "Boliwar (waluta)",
+        "pt": "Bolívar venezuelano",
+        "zh": "委內瑞拉玻利瓦爾",
+        "it": "Bolívar venezuelano",
+        "ca": "Bolívar (moneda)",
+        "ja": "ボリバル・フエルテ",
+        "de": "Venezolanischer Bolívar",
+        "uk": "Болівар (грошова одиниця)",
+        "no": "Venezuelansk bolívar",
+        "hu": "Venezuelai bolívar",
+        "ko": "베네수엘라 볼리바르",
+        "cs": "Venezuelský bolívar",
+        "es": "Bolívar (moneda)",
+        "fi": "Venezuelan bolívar",
+        "fr": "Bolívar vénézuélien",
+        "ru": "Венесуэльский боливар",
+        "nl": "Bolívar (munteenheid)",
+        "en": "Venezuelan bolívar"
+      }
+    },
+    {
+      "@id": "SHP",
+      "code": "SHP",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Saint_Helena",
+        "http://dbpedia.org/resource/Saint_Helena,_Ascension_and_Tristan_da_Cunha"
+      ],
+      "symbol": {
+        "@id": "http://dbpedia.org/resource/Pound_sign"
+      },
+      "created": "2015-04-30T06:32:49.480Z",
+      "modified": "2015-04-30T06:32:49.480Z",
+      "name": {
+        "ko": "세인트헬레나 파운드",
+        "pt": "Libra de Santa Helena",
+        "no": "Sankthelensk pund",
+        "es": "Libra de Santa Elena",
+        "ca": "Lliura de Santa Helena",
+        "fr": "Livre de Sainte-Hélène",
+        "de": "St.-Helena-Pfund",
+        "en": "Saint Helena pound",
+        "it": "Sterlina di Sant'Elena",
+        "cs": "Svatohelenská libra",
+        "ja": "セントヘレナ・ポンド",
+        "pl": "Funt Świętej Heleny",
+        "nl": "Sint-Heleens pond",
+        "sv": "Sankthelenskt pund",
+        "ru": "Фунт Святой Елены",
+        "hu": "Szent Ilona-i font",
+        "zh": "圣赫勒拿镑"
+      }
+    },
+    {
+      "@id": "SLL",
+      "code": "SLL",
+      "currencyOf": "http://dbpedia.org/resource/Economic_Community_of_West_African_States",
+      "symbol": {
+        "@language": "en",
+        "@value": "Le"
+      },
+      "created": "2015-04-30T06:32:49.481Z",
+      "modified": "2015-04-30T06:32:49.481Z",
+      "name": {
+        "ca": "Leone",
+        "zh": "塞拉利昂利昂",
+        "en": "Sierra Leonean leone",
+        "sv": "Leone",
+        "pl": "Leone",
+        "ja": "レオン (通貨)",
+        "it": "Leone sierraleonese",
+        "no": "Sierraleonsk leone",
+        "es": "Leone",
+        "hu": "Sierra Leone-i leone",
+        "fr": "Leone (monnaie)",
+        "pt": "Leone (moeda)",
+        "ko": "시에라리온 레온",
+        "de": "Sierra-leonischer Leone",
+        "nl": "Leone (munteenheid)"
+      }
+    },
+    {
+      "@id": "YER",
+      "code": "YER",
+      "currencyOf": "http://dbpedia.org/resource/Yemen",
+      "symbol": {
+        "@language": "en",
+        "@value": "﷼"
+      },
+      "created": "2015-04-30T06:32:49.493Z",
+      "modified": "2015-04-30T06:32:49.493Z",
+      "name": {
+        "zh": "葉門里亞爾",
+        "fr": "Rial yéménite",
+        "ko": "예멘 리알",
+        "sv": "Jemenitisk rial",
+        "nl": "Jemenitische rial",
+        "no": "Jemenittisk rial",
+        "de": "Jemen-Rial",
+        "ca": "Rial iemenita",
+        "ja": "イエメン・リアル",
+        "hu": "Jemeni riál",
+        "en": "Yemeni rial",
+        "it": "Riyal yemenita",
+        "fi": "Jemenin rial",
+        "ru": "Йеменский риал",
+        "es": "Rial yemení",
+        "pt": "Rial iemenita",
+        "pl": "Rial jemeński"
+      }
+    },
+    {
+      "@id": "EHP",
+      "code": "EHP",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Western_Sahara",
+        "http://dbpedia.org/resource/Sahrawi_Arab_Democratic_Republic"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "₧  / Ptas."
+      },
+      "created": "2015-04-30T06:32:49.493Z",
+      "modified": "2015-04-30T06:32:49.493Z",
+      "name": {
+        "es": "Peseta saharaui",
+        "fr": "Peseta sahraouie",
+        "ru": "Сахарская песета",
+        "de": "Saharaui-Peseta",
+        "en": "Sahrawi peseta"
+      }
+    },
+    {
+      "@id": "SBD",
+      "code": "SBD",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Solomon_Islands",
+        "http://dbpedia.org/resource/British_Solomon_Islands"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "SI$"
+      },
+      "created": "2015-04-30T06:32:49.481Z",
+      "modified": "2015-04-30T06:32:49.481Z",
+      "name": {
+        "no": "Salomonsk dollar",
+        "nl": "Salomon-dollar",
+        "it": "Dollaro delle Salomone",
+        "es": "Dólar de las Islas Salomón",
+        "pl": "Dolar Wysp Salomona",
+        "cs": "Dolar Šalamounových ostrovů",
+        "en": "Solomon Islands dollar",
+        "ru": "Доллар Соломоновых Островов",
+        "sv": "Salomondollar",
+        "ja": "ソロモン諸島ドル",
+        "fr": "Dollar des îles Salomon",
+        "hu": "Salamon-szigeteki dollár",
+        "ca": "Dòlar de les illes Salomó",
+        "zh": "所罗门群岛元",
+        "de": "Salomonen-Dollar",
+        "ko": "솔로몬 제도 달러"
+      }
+    },
+    {
+      "@id": "None",
+      "code": "None",
+      "symbol": {
+        "@language": "en",
+        "@value": "$ or ALD"
+      },
+      "created": "2015-04-30T06:32:49.463Z",
+      "modified": "2015-04-30T06:32:49.463Z",
+      "name": {
+        "sv": "Liberty Dollar",
+        "en": "Liberty Dollar",
+        "pl": "Dolar Liberty",
+        "fr": "Liberty dollar"
+      }
+    },
+    {
+      "@id": "KZT",
+      "code": "KZT",
+      "currencyOf": "http://dbpedia.org/resource/Kazakhstan",
+      "symbol": 8,
+      "created": "2015-04-30T06:32:49.463Z",
+      "modified": "2015-04-30T06:32:49.463Z",
+      "name": {
+        "ko": "카자흐스탄 텡게",
+        "uk": "Казахстанський тенге",
+        "en": "Kazakhstani tenge",
+        "nl": "Tenge",
+        "fi": "Kazakstanin tenge",
+        "ja": "テンゲ",
+        "it": "Tenge kazako",
+        "pl": "Tenge",
+        "hu": "Kazah tenge",
+        "no": "Kasakhstansk tenge",
+        "fr": "Tengue",
+        "ca": "Tenge",
+        "zh": "哈萨克斯坦坚戈",
+        "sv": "Tenge",
+        "pt": "Tenge",
+        "de": "Tenge",
+        "ru": "Казахстанский тенге",
+        "es": "Tenge kazajo",
+        "cs": "Tenge"
+      }
+    },
+    {
+      "@id": "CMG",
+      "code": "CMG",
+      "symbol": {
+        "@language": "en",
+        "@value": "CMg, CMƒ, CMf, ƒ, or f"
+      },
+      "created": "2015-04-30T06:32:49.464Z",
+      "modified": "2015-04-30T06:32:49.464Z",
+      "name": {
+        "de": "Karibischer Gulden",
+        "nl": "Caribische gulden",
+        "en": "Caribbean guilder",
+        "es": "Florín caribeño",
+        "hu": "Karibi forint"
+      }
+    },
+    {
+      "@id": "ARM",
+      "code": "ARM",
+      "symbol": {
+        "@language": "en",
+        "@value": "m$n or $m/n"
+      },
+      "created": "2015-04-30T06:32:49.464Z",
+      "modified": "2015-04-30T06:32:49.464Z",
+      "name": {
+        "it": "Peso moneda nacional argentino",
+        "es": "Peso Moneda Nacional",
+        "en": "Argentine peso moneda nacional"
+      }
+    },
+    {
+      "@id": "pending",
+      "code": "pending",
+      "currencyOf": "http://dbpedia.org/resource/Niue",
+      "symbol": {
+        "@id": "http://dbpedia.org/resource/Dollar_sign"
+      },
+      "created": "2015-04-30T06:32:49.464Z",
+      "modified": "2015-04-30T06:32:49.464Z",
+      "name": {
+        "ru": "Доллар Ниуэ",
+        "en": "Niue dollar"
+      }
+    },
+    {
+      "@id": "DZD",
+      "code": "DZD",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Algeria",
+        "http://dbpedia.org/resource/Western_Sahara",
+        "http://dbpedia.org/resource/Sahrawi_Arab_Democratic_Republic",
+        "http://dbpedia.org/resource/Arab_Maghreb_Union"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "دج  or DA"
+      },
+      "created": "2015-04-30T06:32:49.464Z",
+      "modified": "2015-04-30T06:32:49.464Z",
+      "name": {
+        "ru": "Алжирский динар",
+        "it": "Dinaro algerino",
+        "sv": "Algerisk dinar",
+        "uk": "Алжирський динар",
+        "no": "Algerisk dinar",
+        "de": "Algerischer Dinar",
+        "zh": "阿爾及利亞第納爾",
+        "cs": "Alžírský dinár",
+        "pt": "Dinar argelino",
+        "nl": "Algerijnse dinar",
+        "ca": "Dinar algerià",
+        "hu": "Algériai dinár",
+        "ko": "알제리 디나르",
+        "fr": "Dinar algérien",
+        "es": "Dinar argelino",
+        "en": "Algerian dinar",
+        "pl": "Dinar algierski",
+        "ja": "アルジェリア・ディナール"
+      }
+    },
+    {
+      "@id": "AZN",
+      "code": "AZN",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Azerbaijan",
+        "http://dbpedia.org/resource/Azerbaijan_Democratic_Republic",
+        "http://dbpedia.org/resource/Nakhchivan_Autonomous_Republic"
+      ],
+      "symbol": 10,
+      "created": "2015-04-30T06:32:49.464Z",
+      "modified": "2015-04-30T06:32:49.464Z",
+      "name": {
+        "ca": "Manat azerbaidjanès",
+        "pt": "Manat azeri",
+        "ru": "Азербайджанский манат",
+        "pl": "Manat azerski",
+        "es": "Manat azerí",
+        "zh": "阿塞拜疆马纳特",
+        "it": "Manat azero",
+        "en": "Azerbaijani manat",
+        "de": "Aserbaidschan-Manat",
+        "cs": "Ázerbájdžánský manat",
+        "fr": "Manat azerbaïdjanais",
+        "hu": "Azeri manat",
+        "nl": "Azerbeidzjaanse manat",
+        "sv": "Azerbajdzjansk manat",
+        "uk": "Азербайджанський манат",
+        "no": "Aserbajdsjansk manat",
+        "ko": "아제르바이잔 마나트",
+        "ja": "アゼルバイジャン・マナト"
+      }
+    },
+    {
+      "@id": "BYR",
+      "code": "BYR",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Belarus",
+        "http://dbpedia.org/resource/Union_State"
+      ],
+      "symbol": {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "16"
+      },
+      "created": "2015-04-30T06:32:49.464Z",
+      "modified": "2015-04-30T06:32:49.464Z",
+      "name": {
+        "fr": "Rouble biélorusse",
+        "fi": "Valko-Venäjän rupla",
+        "nl": "Wit-Russische roebel",
+        "hu": "Belarusz rubel",
+        "ko": "벨라루스 루블",
+        "pt": "Rublo bielorrusso",
+        "ja": "ベラルーシ・ルーブル",
+        "de": "Weißrussischer Rubel",
+        "cs": "Běloruský rubl",
+        "es": "Rublo bielorruso",
+        "it": "Rublo bielorusso",
+        "no": "Hviterussisk rubel",
+        "vi": "Rúp Belarus",
+        "ru": "Белорусский рубль",
+        "uk": "Білоруський рубль",
+        "en": "Belarusian ruble",
+        "pl": "Rubel białoruski",
+        "zh": "白俄羅斯盧布",
+        "sv": "Vitrysk rubel",
+        "ca": "Ruble bielorús"
+      }
+    },
+    {
+      "@id": "BMD",
+      "code": "BMD",
+      "currencyOf": "http://dbpedia.org/resource/Bermuda",
+      "symbol": [
+        {
+          "@language": "en",
+          "@value": "BD$"
+        },
+        {
+          "@id": "http://dbpedia.org/resource/Dollar_sign"
+        }
+      ],
+      "created": "2015-04-30T06:32:49.464Z",
+      "modified": "2015-04-30T06:32:49.464Z",
+      "name": {
+        "ja": "バミューダ・ドル",
+        "ru": "Бермудский доллар",
+        "de": "Bermuda-Dollar",
+        "it": "Dollaro della Bermuda",
+        "sv": "Bermudisk dollar",
+        "vi": "Đô la Bermuda",
+        "ko": "버뮤다 달러",
+        "uk": "Бермудський долар",
+        "pl": "Dolar bermudzki",
+        "fi": "Bermudan dollari",
+        "ca": "Dòlar de les Bermudes",
+        "nl": "Bermuda-dollar",
+        "fr": "Dollar bermudien",
+        "es": "Dólar bermudeño",
+        "no": "Bermudisk dollar",
+        "hu": "Bermudai dollár",
+        "en": "Bermudian dollar",
+        "zh": "百慕達元"
+      }
+    },
+    {
+      "@id": "MMK",
+      "code": "MMK",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Burma",
+        "http://dbpedia.org/resource/Pagan_Kingdom"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "K"
+      },
+      "created": "2015-04-30T06:32:49.464Z",
+      "modified": "2015-04-30T06:32:49.464Z",
+      "name": {
+        "pl": "Kiat",
+        "ko": "미얀마 챠트",
+        "ja": "チャット (通貨)",
+        "hu": "Mianmari kjap",
+        "cs": "Myanmarský kyat",
+        "nl": "Kyat",
+        "sv": "Kyat",
+        "ru": "Мьянманский кьят",
+        "no": "Burmesisk kyat",
+        "vi": "Kyat",
+        "zh": "缅元",
+        "en": "Burmese kyat",
+        "ca": "Kyat",
+        "fr": "Kyat",
+        "de": "Kyat",
+        "es": "Kyat birmano",
+        "it": "Kyat birmano"
+      }
+    },
+    {
+      "@id": "BIF",
+      "code": "BIF",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Kingdom_of_Burundi",
+        "http://dbpedia.org/resource/Burundi",
+        "http://dbpedia.org/resource/East_African_Federation"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "FBu"
+      },
+      "created": "2015-04-30T06:32:49.465Z",
+      "modified": "2015-04-30T06:32:49.465Z",
+      "name": {
+        "ca": "Franc de Burundi",
+        "ja": "ブルンジ・フラン",
+        "fr": "Franc burundais",
+        "pl": "Frank burundyjski",
+        "hu": "Burundi frank",
+        "en": "Burundian franc",
+        "no": "Burundisk franc",
+        "nl": "Burundese frank",
+        "ko": "부룬디 프랑",
+        "es": "Franco de Burundi",
+        "cs": "Burundský frank",
+        "ru": "Бурундийский франк",
+        "zh": "蒲隆地法郎",
+        "it": "Franco del Burundi",
+        "de": "Burundi-Franc",
+        "pt": "Franco do Burúndi",
+        "sv": "Burundisk franc"
+      }
+    },
+    {
+      "@id": "COP",
+      "code": "COP",
+      "currencyOf": [
+        "http://dbpedia.org/resource/United_States_of_Colombia",
+        "http://dbpedia.org/resource/Granadine_Confederation",
+        "http://dbpedia.org/resource/Colombia",
+        "http://dbpedia.org/resource/Republic_of_New_Granada"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "$"
+      },
+      "created": "2015-04-30T06:32:49.465Z",
+      "modified": "2015-04-30T06:32:49.465Z",
+      "name": {
+        "ja": "コロンビア・ペソ",
+        "es": "Peso colombiano",
+        "zh": "哥伦比亚比索",
+        "hu": "Kolumbiai peso",
+        "ca": "Peso colombià",
+        "cs": "Kolumbijské peso",
+        "ru": "Колумбийское песо",
+        "nl": "Colombiaanse peso",
+        "ko": "콜롬비아 페소",
+        "sv": "Colombiansk peso",
+        "no": "Colombiansk peso",
+        "de": "Kolumbianischer Peso",
+        "fr": "Peso colombien",
+        "en": "Colombian peso",
+        "pl": "Peso kolumbijskie",
+        "it": "Peso colombiano",
+        "pt": "Peso colombiano"
+      }
+    },
+    {
+      "@id": "CRC",
+      "code": "CRC",
+      "currencyOf": "http://dbpedia.org/resource/Costa_Rica",
+      "symbol": {
+        "@language": "en",
+        "@value": "₡"
+      },
+      "created": "2015-04-30T06:32:49.465Z",
+      "modified": "2015-04-30T06:32:49.465Z",
+      "name": {
+        "hu": "Costa Rica-i colón",
+        "ru": "Костариканский колон",
+        "pt": "Colón costa-riquenho",
+        "ko": "코스타리카 콜론",
+        "ca": "Colón costa-riqueny",
+        "zh": "哥斯大黎加科朗",
+        "no": "Costaricansk colón",
+        "nl": "Costa Ricaanse colon",
+        "sv": "Costaricansk colón",
+        "fi": "Costa Rican colón",
+        "de": "Costa-Rica-Colón",
+        "cs": "Kostarický colón",
+        "it": "Colón costaricano",
+        "fr": "Colon (monnaie)",
+        "ja": "コスタリカ・コロン",
+        "en": "Costa Rican colón",
+        "uk": "Костариканський колон",
+        "pl": "Colón (waluta)",
+        "es": "Colón costarricense"
+      }
+    },
+    {
+      "@id": "CUC",
+      "code": "CUC",
+      "currencyOf": "http://dbpedia.org/resource/Cuba",
+      "symbol": {
+        "@language": "en",
+        "@value": "$, CUC or CUC$"
+      },
+      "created": "2015-04-30T06:32:49.465Z",
+      "modified": "2015-04-30T06:32:49.465Z",
+      "name": {
+        "nl": "Convertibele peso",
+        "it": "Peso cubano convertibile",
+        "en": "Cuban convertible peso",
+        "ko": "쿠바 태환 페소",
+        "fi": "Kuuban vaihdettava peso",
+        "hu": "Kubai konvertibilis peso",
+        "fr": "Peso cubain convertible",
+        "pt": "Peso convertível",
+        "ja": "兌換ペソ",
+        "es": "Peso cubano convertible",
+        "ca": "Peso convertible",
+        "de": "Peso convertible",
+        "cs": "Kubánské konvertibilní peso",
+        "zh": "可兌換比索",
+        "pl": "Peso kubańskie wymienialne"
+      }
+    },
+    {
+      "@id": "DOP",
+      "code": "DOP",
+      "currencyOf": "http://dbpedia.org/resource/Dominican_Republic",
+      "symbol": {
+        "@language": "en",
+        "@value": "$ or RD$"
+      },
+      "created": "2015-04-30T06:32:49.465Z",
+      "modified": "2015-04-30T06:32:49.465Z",
+      "name": {
+        "en": "Dominican peso",
+        "de": "Dominikanischer Peso",
+        "es": "Peso dominicano",
+        "hu": "Dominikai peso",
+        "ja": "ドミニカ・ペソ",
+        "uk": "Домініканський песо",
+        "pt": "Peso dominicano",
+        "zh": "多明尼加比索",
+        "cs": "Dominikánské peso",
+        "ca": "Peso dominicà",
+        "fr": "Peso dominicain",
+        "it": "Peso dominicano",
+        "nl": "Dominicaanse peso",
+        "no": "Dominikansk peso",
+        "pl": "Peso dominikańskie",
+        "ko": "도미니카 페소",
+        "sv": "Dominikansk peso",
+        "ru": "Доминиканское песо"
+      }
+    },
+    {
+      "@id": "EGP",
+      "code": "EGP",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Palestinian_National_Authority",
+        "http://dbpedia.org/resource/Governance_of_the_Gaza_Strip",
+        "http://dbpedia.org/resource/Gaza_Strip",
+        "http://dbpedia.org/resource/Khedivate_of_Egypt",
+        "http://dbpedia.org/resource/Anglo-Egyptian_Sudan",
+        "http://dbpedia.org/resource/Egyptian_Second_Republic",
+        "http://dbpedia.org/resource/Egyptian_Third_Republic",
+        "http://dbpedia.org/resource/Egyptian_First_Republic",
+        "http://dbpedia.org/resource/Egyptian_Fourth_Republic",
+        "http://dbpedia.org/resource/Egypt",
+        "http://dbpedia.org/resource/United_Arab_Republic",
+        "http://dbpedia.org/resource/Egyptian_Fifth_Republic",
+        "http://dbpedia.org/resource/Palestinian_territories",
+        "http://dbpedia.org/resource/Federation_of_Arab_Republics"
+      ],
+      "symbol": [
+        {
+          "@language": "en",
+          "@value": "EGP, LE, E£ or"
+        },
+        {
+          "@language": "en",
+          "@value": "LE, EGP, E£ or"
+        }
+      ],
+      "created": "2015-04-30T06:32:49.465Z",
+      "modified": "2015-04-30T06:32:49.465Z",
+      "name": {
+        "pt": "Libra egípcia",
+        "it": "Sterlina egiziana",
+        "es": "Libra egipcia",
+        "sv": "Egyptiskt pund",
+        "en": "Egyptian pound",
+        "nl": "Egyptisch pond",
+        "de": "Ägyptisches Pfund",
+        "ca": "Lliura egípcia",
+        "fi": "Egyptin punta",
+        "fr": "Livre égyptienne",
+        "ko": "이집트 파운드",
+        "ja": "エジプト・ポンド",
+        "ru": "Египетский фунт",
+        "cs": "Egyptská libra",
+        "zh": "埃及鎊",
+        "uk": "Єгипетський фунт",
+        "no": "Egyptisk pund",
+        "pl": "Funt egipski",
+        "hu": "Egyiptomi font"
+      }
+    },
+    {
+      "@id": "EUR",
+      "code": "EUR",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Macedonia_(region)",
+        "http://dbpedia.org/resource/Twente",
+        "http://dbpedia.org/resource/Germany",
+        "http://dbpedia.org/resource/Slovenia",
+        "http://dbpedia.org/resource/San_Marino",
+        "http://dbpedia.org/resource/Belgium",
+        "http://dbpedia.org/resource/%C3%8Eles_des_Saintes",
+        "http://dbpedia.org/resource/French_Southern_and_Antarctic_Lands",
+        "http://dbpedia.org/resource/French_Fifth_Republic",
+        "http://dbpedia.org/resource/Netherlands",
+        "http://dbpedia.org/resource/Ad%C3%A9lie_Land",
+        "http://dbpedia.org/resource/Kingdom_of_Wallachia",
+        "http://dbpedia.org/resource/Akrotiri_and_Dhekelia",
+        "http://dbpedia.org/resource/Greece",
+        "http://dbpedia.org/resource/Community_of_Serb_municipalities,_Kosovo",
+        "http://dbpedia.org/resource/Saint_Barth%C3%A9lemy",
+        "http://dbpedia.org/resource/Saint_Pierre_and_Miquelon",
+        "http://dbpedia.org/resource/Collectivity_of_Saint_Martin",
+        "http://dbpedia.org/resource/Austria",
+        "http://dbpedia.org/resource/Latvia",
+        "http://dbpedia.org/resource/Spain",
+        "http://dbpedia.org/resource/Kerguelen_Islands",
+        "http://dbpedia.org/resource/Spanish_Protectorate_of_Morocco",
+        "http://dbpedia.org/resource/Mayotte",
+        "http://dbpedia.org/resource/Portugal",
+        "http://dbpedia.org/resource/Luxembourg",
+        "http://dbpedia.org/resource/Republic_of_Saugeais",
+        "http://dbpedia.org/resource/Estonia",
+        "http://dbpedia.org/resource/Republic_of_Ireland",
+        "http://dbpedia.org/resource/United_Nations_Interim_Administration_Mission_in_Kosovo",
+        "http://dbpedia.org/resource/Andorra",
+        "http://dbpedia.org/resource/Montenegro",
+        "http://dbpedia.org/resource/Finland",
+        "http://dbpedia.org/resource/Serbia_and_Montenegro"
+      ],
+      "symbol": "€",
+      "created": "2015-04-30T06:32:49.466Z",
+      "modified": "2015-04-30T06:32:49.466Z",
+      "name": {
+        "fi": "Euro",
+        "hu": "Euró",
+        "zh": "欧元",
+        "ru": "Евро",
+        "es": "Euro",
+        "nl": "Euro",
+        "sv": "Euro",
+        "en": "Euro",
+        "ko": "유로",
+        "it": "Euro",
+        "uk": "Євро",
+        "ca": "Euro",
+        "no": "Euro",
+        "fr": "Euro",
+        "pt": "Euro",
+        "cs": "Euro",
+        "vi": "Euro",
+        "ja": "ユーロ",
+        "de": "Euro",
+        "pl": "Euro"
+      }
+    },
+    {
+      "@id": "GYD",
+      "code": "GYD",
+      "currencyOf": "http://dbpedia.org/resource/Guyana",
+      "symbol": {
+        "@language": "en",
+        "@value": "$ and G$"
+      },
+      "created": "2015-04-30T06:32:49.466Z",
+      "modified": "2015-04-30T06:32:49.466Z",
+      "name": {
+        "it": "Dollaro della Guyana",
+        "nl": "Guyaanse dollar",
+        "ru": "Гайанский доллар",
+        "sv": "Guyansk dollar",
+        "de": "Guyana-Dollar",
+        "fr": "Dollar guyanien",
+        "zh": "圭亞那元",
+        "ja": "ガイアナ・ドル",
+        "en": "Guyanese dollar",
+        "es": "Dólar guyanés",
+        "ko": "가이아나 달러",
+        "no": "Guyansk dollar",
+        "fi": "Guyanan dollari",
+        "cs": "Guyanský dolar",
+        "ca": "Dòlar de Guyana",
+        "pt": "Dólar da Guiana",
+        "hu": "Guyanai dollár",
+        "pl": "Dolar gujański"
+      }
+    },
+    {
+      "@id": "INR",
+      "code": "INR",
+      "currencyOf": [
+        "http://dbpedia.org/resource/India",
+        "http://dbpedia.org/resource/Azad_Hind",
+        "http://dbpedia.org/resource/Dominion_of_India"
+      ],
+      "symbol": {
+        "@language": "en",
+        "@value": "₹"
+      },
+      "created": "2015-04-30T06:32:49.466Z",
+      "modified": "2015-04-30T06:32:49.466Z",
+      "name": {
+        "ja": "インド・ルピー",
+        "pt": "Rupia indiana",
+        "ru": "Индийская рупия",
+        "de": "Indische Rupie",
+        "cs": "Indická rupie",
+        "hu": "Indiai rúpia",
+        "en": "Indian rupee",
+        "fr": "Roupie indienne",
+        "es": "Rupia india",
+        "ca": "Rupia índia",
+        "fi": "Intian rupia",
+        "sv": "Indisk rupee",
+        "pl": "Rupia indyjska",
+        "vi": "Rupee Ấn Độ",
+        "it": "Rupia indiana",
+        "uk": "Індійська рупія",
+        "ko": "인도 루피",
+        "no": "Indisk rupi",
+        "nl": "Indiase roepie"
+      }
+    },
+    {
+      "@id": "JPY",
+      "code": "JPY",
+      "currencyOf": [
+        "http://dbpedia.org/resource/Karafuto_Prefecture",
+        "http://dbpedia.org/resource/East_Hebei_Autonomous_Council",
+        "http://dbpedia.org/resource/Japanese_colonialism",
+        "http://dbpedia.org/resource/South_Pacific_Mandate",
+        "http://dbpedia.org/resource/Japan",
+        "http://dbpedia.org/resource/Empire_of_Japan",
+        "http://dbpedia.org/resource/Kwantung_Leased_Territory"
+      ],
+      "symbol": [
+        {
+          "@language": "en",
+          "@value": "円"
+        },
+        {
+          "@language": "en",
+          "@value": "¥"
+        },
+        {
+          "@language": "en",
+          "@value": "圓"
+        }
+      ],
+      "created": "2015-04-30T06:32:49.467Z",
+      "modified": "2015-04-30T06:32:49.467Z",
+      "name": {
+        "ja": "円 (通貨)",
+        "de": "Yen",
+        "ru": "Японская иена",
+        "fi": "Japanin jeni",
+        "nl": "Yen",
+        "pt": "Iene",
+        "uk": "Єна",
+        "vi": "Yên Nhật",
+        "it": "Yen giapponese",
+        "no": "Japansk yen",
+        "en": "Japanese yen",
+        "zh": "日圓",
+        "ko": "일본 엔",
+        "hu": "Japán jen",
+        "sv": "Yen",
+        "pl": "Jen",
+        "cs": "Japonský jen",
+        "fr": "Yen",
+        "es": "Yen",
+        "ca": "Ien"
+      }
+    }
+  ]
+}

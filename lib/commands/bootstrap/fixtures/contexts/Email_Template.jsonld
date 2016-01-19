@@ -1,0 +1,25 @@
+
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "rdf": "http://www.w3.org/ns/org#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "label": { "@id": "rdfs:label", "@container": "@language" },
+    "description": { "@id": "dct:description", "@container": "@language" },
+    "format": "rstc:classes/Email_Template#format",
+    "senderName": "rstc:classes/Email_Template#senderName",
+    "senderAddress": "rstc:classes/Email_Template#senderAddress",
+    "contentType": "rstc:classes/Email_Template#contentType",
+    "subject": "rstc:classes/Email_Template#subject",
+    "body": { "@id": "rstc:classes/Email_Template#body", "@type": "@id" },
+    "needs": {
+      "@id": "rstc:classes/Page#needs",
+      "@container": "@set"
+    },
+    "created": "dct:created",
+    "modified": "dct:modified",
+    "creator": { "@id": "dct:creator", "@type": "@id" }
+  }
+}

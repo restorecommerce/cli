@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Offer",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Offer",
+        "de": "Angebot"
+      },
+      "description": {
+        "en": "A proposal to buy a specific product or service.",
+        "de": "Die Möglichkeit ein bestimmtes Produkt oder einen Dienst zu kaufen."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

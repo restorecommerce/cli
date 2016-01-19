@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "og": "http://ogp.me/ns#",
+    "follower": { "@id": "schema:agent", "@type": "@id" },
+    "followee": { "@id": "schema:followee", "@type": "@id" },
+    "prefLocale": { "@id": "og:locale", "@type": "@id" },
+    "email": "schema:email",
+    "created": "dct:created",
+    "modified": "dct:modified",
+    "creator": { "@id": "dct:creator", "@type": "@id" },
+    "accessToken": "rstc:classes/Follower#accessToken",
+    "accessTokenExpireDate": "rstc:classes/Follower#accessTokenExpireDate"
+  }
+}

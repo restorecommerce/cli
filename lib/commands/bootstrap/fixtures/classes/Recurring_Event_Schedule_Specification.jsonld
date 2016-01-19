@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Recurring_Event_Schedule_Specification",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Schedule of a recurring event",
+        "de": "Zeitplan eines wiederkehrenden Events"
+      },
+      "description": {
+        "en": "A schedule of a recurring events.",
+        "de": "Ein Zeitplan eines wiederkehrend stattfindenden Events."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

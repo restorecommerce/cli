@@ -1,0 +1,16 @@
+{
+  "@graph": [
+    {
+      "@id": "Compute_Resource",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Compute resource",
+        "de": "Compute resource"
+      },
+      "description": {
+        "en": "A Compute resource.",
+        "de": "Ein Compute resource."
+      }
+    }
+  ]
+}

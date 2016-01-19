@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "configuration" : {"@id" : "rstc:classes/Tracking#configuration", "@container" : "@set"},
+    "name" : "rstc:classes/Tracking#name",
+    "params" : "rstc:classes/Tracking#params",
+    "trackingId": "rstc:clases/Tracking#trackingId",
+    "siteSpeedSampleRate": "rstc:clases/Tracking#siteSpeedSampleRate",
+    "anonymizeIp": "rstc:clases/Tracking#anonymizeIp"
+  }
+}

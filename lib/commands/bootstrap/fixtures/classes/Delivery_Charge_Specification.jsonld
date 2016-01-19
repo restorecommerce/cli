@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Delivery_Charge_Specification",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Delivery Charge Specification",
+        "de": "Versandkostenspezifikation"
+      },
+      "description": {
+        "en": "The price for the delivery of an offer using a particular delivery method.",
+        "de": "Der Preis für den Versand eines Angebots in Verbindung mit einer bestimmten Versandmethode."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

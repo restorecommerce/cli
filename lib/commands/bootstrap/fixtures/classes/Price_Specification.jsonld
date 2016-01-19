@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Price_Specification",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Price Specification",
+        "de": "Preisspezifikation"
+      },
+      "description": {
+        "en": "A structured value representing a monetary amount.",
+        "de": "Ein strukturierter wert, der einen monetären Betrag repräsentiert."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

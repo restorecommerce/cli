@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Image",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Image",
+        "de": "Bild"
+      },
+      "description": {
+        "en": "A digital, two-dimensional image.",
+        "de": "Ein digitales, zweidimensionales Bild."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "dct": "http://purl.org/dc/terms/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "name": "rdfs:label",
+    "path": "rstc:classes/Resource#path",
+    "domain": "rstc:classes/Resource#domain",
+    "cors": {
+      "@id": "rstc:classes/Resource#cors",
+      "@container": "@set"
+    },
+    "maxAgeSeconds": "rstc:classes/Resource#maxAgeSeconds",
+    "method": {
+      "@id": "rstc:classes/Resource#method",
+      "@container": "@set"
+    },
+    "origin": {
+      "@id": "rstc:classes/Resource#origin",
+      "@container": "@set"
+    },
+    "responseHeader": {
+      "@id": "rstc:classes/Resource#responseHeader",
+      "@container": "@set"
+    },
+    "cacheControl": "rstc:classes/Resource#cacheControl",
+    "targetType": {
+      "@id": "http://www.n-fuse.de/classes/Resource#targetType",
+      "@type": "@id"
+    },
+    "extendedOperation": {
+      "@id": "rstc:classes/Resource#extendedOperation",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "resourceBasedAccessControl": "rstc:classes/Resource#resourceBasedAccessControl",
+    "service": "rstc:classes/Resource#service",
+    "serviceOptions": "rstc:classes/Resource#serviceOptions",
+    "provider": "rstc:classes/Resource#provider",
+    "caching": "rstc:classes/Resource#caching",
+    "expiresIn": "rstc:classes/Resource#expiresIn",
+    "placement": "rstc:classes/Resource#placement",
+    "region": "rstc:classes/Resource#region",
+    "zone": "rstc:classes/Resource#zone",
+    "schema": "rstc:classes/Resource#schema",
+    "created": "dct:created",
+    "modified": "dct:modified"
+  }
+}
+
+

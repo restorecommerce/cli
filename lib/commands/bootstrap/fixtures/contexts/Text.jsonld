@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "key": "dct:identifier",
+    "slug": { "@id" : "rstc:classes/Text#slug", "@container" : "@language"},
+    "text": { "@id": "rdfs:label", "@container": "@language"},
+    "pkg": "rstc:classes/Text#package",
+    "created": "dct:created",
+    "modified": "dct:modified",
+    "creator": { "@id": "dct:creator", "@type": "@id" }
+  }
+}

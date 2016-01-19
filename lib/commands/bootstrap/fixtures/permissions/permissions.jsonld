@@ -1,0 +1,31 @@
+{
+  "@graph": [
+    {
+      "@id": "read",
+      "@type": "classes/Permission",
+      "name": {
+        "en": "read access",
+        "de": "lesender Zugriff"
+      },
+      "sameAs": "acl:Read"
+    },
+    {
+      "@id": "write",
+      "@type": "classes/Permission",
+      "name": {
+        "en": "write access",
+        "de": "schreibender Zugriff"
+      },
+      "sameAs": "acl:Write"
+    },
+    {
+      "@id": "append",
+      "@type": "classes/Permission",
+      "name": {
+        "en": "append entries to a collection",
+        "de": "Einträge einer Liste hinzufügen"
+      },
+      "sameAs": "acl:Append"
+    }
+  ]
+}

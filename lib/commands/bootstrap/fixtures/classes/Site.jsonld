@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Site",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Site",
+        "de": "Standort"
+      },
+      "description": {
+        "en": "An office or other premise at which the organization is located.",
+        "de": "Ein Büro oder Betriebsgelände, an welchem eine Organisation ansässig ist."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

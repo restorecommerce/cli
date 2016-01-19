@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Image_Gallery",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Image Gallery",
+        "de": "Bildergalerie"
+      },
+      "description": {
+        "en": "An ordered set of digital images.",
+        "de": "Ein geordnete Menge von digitalen Bildern."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

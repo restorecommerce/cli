@@ -1,0 +1,41 @@
+{
+  "@graph": [
+    {
+      "@id": "Cron_Service",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Cron Service",
+        "de": "Cron-Dienst"
+      },
+      "description": {
+        "en": "A service to create tasks for a job server according to a the schedule specified in cron syntax.",
+        "de": "Ein Dienst für die Generierung von Aufgaben für einen Job-Server nach einem Zeitplan spezifiziert in cron Syntax."
+      },
+      "prototype": "classes/API_Resource",
+      "instanceOperation": [
+        {
+          "@id": "classes/Cron_Service#InitCronServiceOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "InitCronServiceOperation.",
+            "de": "."
+          },
+          "method": "PUT",
+          "expects": "classes/Cron_Service#InitCronServiceOperation",
+          "returns": "classes/Cron_Service"
+        },
+        {
+          "@id": "classes/Cron_Service#GetCronScheduleOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "GetCronScheduleOperation.",
+            "de": "."
+          },
+          "method": "GET",
+          "expects": "classes/Cron_Service#GetCronScheduleOperation",
+          "returns": "classes/Cron_Service"
+        }
+      ]
+    }
+  ]
+}

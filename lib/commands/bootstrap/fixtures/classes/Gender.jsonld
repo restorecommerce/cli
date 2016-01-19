@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Gender",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Gender",
+        "de": "Geschlecht"
+      },
+      "description": {
+        "en": "Human gender.",
+        "de": "Menschliches Geschlecht."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

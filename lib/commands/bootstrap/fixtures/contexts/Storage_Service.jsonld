@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "dct": "http://purl.org/dc/terms/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "name": { "@id": "rdfs:label", "@container": "@language" },
+    "description": { "@id": "dct:description", "@container": "@language" },
+    "type": {"@type": "@id", "@id": "rstc:classes/Storage_Service#type" },
+    "consistency": {"@type": "@id", "@id": "rstc:classes/Storage_Service#consistency" },
+    "created": "dct:created",
+    "modified": "dct:modified",
+    "creator": { "@id": "dct:creator", "@type": "@id" }
+  }
+}

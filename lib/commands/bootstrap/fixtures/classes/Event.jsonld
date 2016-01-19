@@ -1,0 +1,142 @@
+{
+  "@graph": [
+    {
+      "@id": "Event",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Event",
+        "de": "Veranstaltung"
+      },
+      "description": {
+        "en": "An event taking place in a defined time frame at a geographic or virtual location.",
+        "de": "Eine Begebenheit, welche in einem definierten Zeitraum, an einem virtuellen oder geografischen Ort stattfindet."
+      },
+      "prototype": "classes/API_Resource",
+      "instanceOperation": [
+        {
+          "@id": "classes/Event#RetrieveResourceOperationES",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "RetrieveSingleResourceOperationES.",
+            "de": ""
+          },
+          "method": "GET",
+          "expects": null,
+          "returns": "classes/Event"
+        },
+        {
+          "@id": "classes/Event#PreReserveOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "Pre-reserve operation.",
+            "de": "."
+          },
+          "method": "PUT",
+          "expects": "classes/Event#PreReserveOperation",
+          "returns": null
+        },
+        {
+          "@id": "classes/Event#ExtendPreReservationOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "Pre-reserve operation.",
+            "de": "."
+          },
+          "method": "PUT",
+          "expects": "classes/Event#ExtendPreReservationOperation",
+          "returns": null
+        },
+        {
+          "@id": "classes/Event#FreePreReservationOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "Pre-reserve operation.",
+            "de": "."
+          },
+          "method": "PUT",
+          "expects": "classes/Event#FreePreReservationOperation",
+          "returns": null
+        },
+        {
+          "@id": "classes/Event#PatchResourceOperationES",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "PatchResourceOperationES.",
+            "de": "."
+          },
+          "method": "PATCH",
+          "expects": "classes/Event",
+          "returns": null
+        },
+        {
+          "@id": "classes/Event#DeleteResourceOperationES",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "DeleteResourceOperationES.",
+            "de": "."
+          },
+          "method": "DELETE",
+          "expects": "classes/Event",
+          "returns": null
+        },
+        {
+          "@id": "classes/Event#CancelEventOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "Pre-reserve operation.",
+            "de": "."
+          },
+          "method": "PUT",
+          "expects": "classes/Event#CancelEventOperation",
+          "returns": null
+        },
+        {
+          "@id": "classes/Event#ScheduleEventOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "Schedule event operation.",
+            "de": "Schedule event operation."
+          },
+          "method": "PUT",
+          "expects": "classes/Event#ScheduleEventOperation",
+          "returns": null
+        },
+        {
+          "@id": "classes/Event#UnscheduleEventOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "Unschedule event operation.",
+            "de": "Unschedule event operation."
+          },
+          "method": "PUT",
+          "expects": "classes/Event#UnscheduleEventOperation",
+          "returns": null
+        }
+      ],
+      "collectionOperation": [
+        {
+          "@id": "classes/Event#RetrieveCollectionOperationES",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "RetrieveResourceOperationES.",
+            "de": ""
+          },
+          "method": "GET",
+          "expects": null,
+          "returns": "classes/Event"
+        },
+        {
+          "@id": "classes/Event#CreateResourceOperationES",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "CreateResourceOperationES.",
+            "de": "CreateResourceOperationES."
+          },
+          "method": "POST",
+          "expects": "classes/Event",
+          "returns": "classes/Event"
+        }
+      ]
+    }
+  ]
+}

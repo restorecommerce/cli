@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Startup_Package",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "StartupPackage",
+        "de": "StartupPackage"
+      },
+      "description": {
+        "en": "StartupPackage",
+        "de": "StartupPackage"
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

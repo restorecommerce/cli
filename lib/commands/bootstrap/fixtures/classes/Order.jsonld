@@ -1,0 +1,109 @@
+{
+  "@graph": [
+    {
+      "@id": "Order",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Order",
+        "de": "Bestellung"
+      },
+      "description": {
+        "en": "A stated intention to engage in a commercial transaction based on offers.",
+        "de": "Eine ausdrücklich erklärte Intension eine kommerzielle Transaktion basierend auf Angeboten einzugehen."
+      },
+      "prototype": "classes/API_Resource",
+      "instanceOperation": [
+        {
+          "@id": "classes/Order#GetPublicOrderOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "GetPublicOrderOperation",
+            "de": ""
+          },
+          "method": "GET",
+          "expects": null,
+          "returns": "classes/Order"
+        },
+        {
+          "@id": "classes/Order#MarkOrderAsPaidOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "MarkOrderAsPaidOperation.",
+            "de": "MarkOrderAsPaidOperation."
+          },
+          "method": "PUT",
+          "expects": "/classes/Order#MarkOrderAsPaidOperation",
+          "returns": "/classes/Order"
+        },
+        {
+          "@id": "/classes/Order#GenerateInvoiceOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "Generates the Invoice for a certain Order",
+            "de": "Generates the Invoice for a certain Order"
+          },
+          "method": "PUT",
+          "expects": "/classes/Order#GenerateInvoiceOperation",
+          "returns": "/classes/Order"
+        },
+        {
+          "@id": "/classes/Order#SendOrderOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "Sends an Order via e-mail",
+            "de": "Sends an Order via e-mail"
+          },
+          "method": "PUT",
+          "expects": "/classes/Order#SendOrderOperation",
+          "returns": "/classes/Order"
+        }
+      ],
+      "collectionOperation": [
+        {
+          "@id": "classes/Order#CreateOrderOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "CreateOrderOperation.",
+            "de": ""
+          },
+          "method": "POST",
+          "expects": "classes/Order",
+          "returns": "classes/Order"
+        },
+        {
+          "@id": "classes/Order#PayOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "CreateOrderOperation.",
+            "de": ""
+          },
+          "method": "POST",
+          "expects": "classes/Order#PayOperation",
+          "returns": "classes/Order"
+        },
+        {
+          "@id": "classes/Order#PayCancelOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "CreateOrderOperation.",
+            "de": ""
+          },
+          "method": "POST",
+          "expects": "classes/Order#PayCancelOperation",
+          "returns": "classes/Order"
+        },
+        {
+          "@id": "classes/Order#RetrieveCollectionOperationES",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "RetrieveResourceOperationES.",
+            "de": ""
+          },
+          "method": "GET",
+          "expects": null,
+          "returns": "classes/Order"
+        }
+      ]
+    }
+  ]
+}

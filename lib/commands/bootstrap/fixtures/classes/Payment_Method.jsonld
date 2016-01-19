@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Payment_Method",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Payment Method",
+        "de": "Bezahlmethode"
+      },
+      "description": {
+        "en": "A description of a service or method for the payment of things.",
+        "de": "Eine Dienstbeschreibung eines Dienstes oder einer Methode für die Bezahlung von Dingen."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

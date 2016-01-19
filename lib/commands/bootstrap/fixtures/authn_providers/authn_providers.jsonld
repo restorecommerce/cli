@@ -1,0 +1,16 @@
+{
+  "@graph": [
+    {
+      "@id": "restore_commerce_oauth2",
+      "@type": "classes/AuthN_Provider",
+      "name": {
+        "en": "Restore Commerce OAuth 2",
+        "de": "Restore Commerce OAuth 2"
+      },
+      "description": {
+        "en": "Authentication based on the Restore Commerce OAuth 2 Service.",
+        "de": "Authentifizierung basierend auf dem Restore Commerce' OAuth 2 Dienst."
+      }
+    }
+  ]
+}

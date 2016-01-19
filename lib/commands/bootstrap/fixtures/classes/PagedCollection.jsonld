@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "PagedCollection",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "PagedCollection",
+        "de": "PagedCollection"
+      },
+      "description": {
+        "en": "A PagedCollection.",
+        "de": "A PagedCollection."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

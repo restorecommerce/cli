@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Storage_Service",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Storage Service",
+        "de": "Speicherdienst"
+      },
+      "description": {
+        "en": "A service with specific qualities to store data.",
+        "de": "Ein Dienst mit spezifischen Qualitäten, um Daten zu speichern."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

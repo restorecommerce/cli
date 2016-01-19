@@ -1,0 +1,50 @@
+{
+  "@graph": [
+    {
+      "@id": "application",
+      "@type": "classes/Application",
+      "active": true,
+      "name": "Restore Commerce Booking",
+      "icon": "images/logo.png",
+      "provider": "",
+      "unauthUser": "users/unauthenticated",
+      "domains": [
+        {
+          "domain": "bookingdemo.restorecommerce.io",
+          "mailDomain": "bookingdemo.restorecommerce.io",
+          "main": true,
+          "api": true
+        }
+      ],
+      "tlsOnly": false,
+      "redirectToMainDomain": true,
+      "cors": [
+        {
+          "maxAgeSeconds": 1728000,
+          "method": ["HEAD", "GET", "PUT", "POST", "PATCH", "DELETE", "OPTIONS"],
+          "origin": ["*"],
+          "responseHeader": [
+            "X-Rate-Limit-Limit",
+            "X-Rate-Limit-Remaining",
+            "X-Rate-Limit-Reset",
+            "X-OAuth-Scopes",
+            "X-Accepted-OAuth-Scopes",
+            "Link",
+            "Cache-Control",
+            "ETag",
+            "Last-Modified",
+            "X-Restore-Transformation",
+            "X-Restore-Compile-Template"
+          ]
+        }
+      ],
+      "localeSet": "locale_sets/default",
+      "lastDeployment": "",
+      "runMode": "prod",
+      "debugLevel": 0,
+      "areas": [
+        { "path": "" }
+      ]
+    }
+  ]
+}

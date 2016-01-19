@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Newsletter_Issue",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Newsletter issue",
+        "de": "Newsletter issue"
+      },
+      "description": {
+        "en": "A newsletter is a regularly or event based distributed publication that is generally about one main topic of interest to its subscribers.",
+        "de": "Ein Newsletter ist eine regelmäßig oder ereignissgesteuert verteilte Publikation, im Allgemeinen zu einem bestimmten Thema, für welches sich dessen Abonnenten interessieren."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

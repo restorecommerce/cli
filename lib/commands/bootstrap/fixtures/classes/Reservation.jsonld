@@ -1,0 +1,30 @@
+{
+  "@graph": [
+    {
+      "@id": "Reservation",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Reservation",
+        "de": "Buchung"
+      },
+      "description": {
+        "en": "A reservation of an offer.",
+        "de": "TODO"
+      },
+      "prototype": "classes/API_Resource",
+      "instanceOperation": [
+        {
+          "@id": "classes/Reservation#CancelReservationOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "CancelReservationOperation.",
+            "de": ""
+          },
+          "method": "PUT",
+          "expects": "classes/Reservation#CancelReservationOperation",
+          "returns": "classes/Reservation"
+        }
+      ]
+    }
+  ]
+}

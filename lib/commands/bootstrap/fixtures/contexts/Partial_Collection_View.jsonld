@@ -1,0 +1,7 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "membersPerView": "rstc:classes/PartialCollectionView#itemsPerView",
+    "offset": "rstc:classes/PartialCollectionView#offset"
+  }
+}

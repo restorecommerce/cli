@@ -1,0 +1,30 @@
+{
+  "@graph": [
+    {
+      "@id": "Payment",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Payment",
+        "de": "Bezahlung"
+      },
+      "description": {
+        "en": "A transaction of money to meet a bill.",
+        "de": "Eine Geldtransaktion, um eine Rechnung zu begleichen."
+      },
+      "prototype": "classes/API_Resource",
+      "collectionOperation": [
+        {
+          "@id": "classes/Payment#PayExecuteOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "PayExecuteOperation",
+            "de": ""
+          },
+          "method": "GET",
+          "expects": null,
+          "returns": "classes/Payment"
+        }
+      ]
+    }
+  ]
+}

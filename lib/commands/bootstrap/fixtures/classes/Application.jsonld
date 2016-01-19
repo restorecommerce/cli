@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Application",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Application",
+        "de": "Applikation"
+      },
+      "description": {
+        "en": "Description of a Web application.",
+        "de": "Beschreibung einer Web Applikation."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "@graph": [
+    {
+      "@id": "setRedisKey",
+      "@type": "classes/Command",
+      "operation": {
+        "@id": "classes/Command#SetRedisKeyOperation",
+        "@type": "hydra:Operation",
+        "method": "POST",
+        "expects": {
+          "@id": "classes/Command",
+          "supportedProperty": [
+            {
+              "@type": "hydra:SupportedProperty",
+              "property": "redisKey",
+              "required": true
+            },
+            {
+              "@type": "hydra:SupportedProperty",
+              "property": "redisValue",
+              "required": true
+            },
+            {
+              "@type": "hydra:SupportedProperty",
+              "property": "ttl"
+            }
+          ]
+        },
+        "returns": "classes/Command"
+      }
+    },
+    {
+      "@id": "generateEvent",
+      "@type": "classes/Command",
+      "operation": {
+        "@id": "classes/Command#GenerateEventOperation",
+        "@type": "hydra:Operation",
+        "method": "POST",
+        "expects": {
+          "@id": "classes/Command",
+          "supportedProperty": [
+          ]
+        },
+        "returns": "classes/Command"
+      }
+    }
+  ]
+}

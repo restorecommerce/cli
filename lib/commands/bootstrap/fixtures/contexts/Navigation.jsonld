@@ -1,0 +1,32 @@
+{
+  "@context" : {
+    "rstc": "http://restorecommerce.io/",
+    "dct": "http://purl.org/dc/terms/",
+    "nav": "rstc:navigation#",
+    "area": "nav:area",
+    "items": {
+      "@id": "nav:items",
+      "@container": "@list"
+    },
+    "active": "nav:active",
+    "class": "nav:class",
+    "classActive": "nav:classActive",
+    "classHover": "nav:classHover",
+    "href": "nav:href",
+    "icon": "nav:icon",
+    "label": {
+      "@id": "nav:label",
+      "@container": "@language"
+    },
+    "title": {
+      "@id": "nav:title",
+      "@container": "@language"
+    },
+    "page": { "@id": "nav:page", "@type": "@id" },
+    "created": "dct:created",
+    "modified": "dct:modified",
+    "append": "nav:append",
+    "customComponent": "nav:customComponent",
+    "displayOrder": "nav:displayOrder"
+  }
+}

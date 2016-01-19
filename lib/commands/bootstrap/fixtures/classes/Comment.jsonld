@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Comment",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Comment",
+        "de": "Kommentar"
+      },
+      "description": {
+        "en": "A comment on an item.",
+        "de": "Ein Kommentar über einen Eintrag."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

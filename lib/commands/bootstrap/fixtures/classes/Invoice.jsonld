@@ -1,0 +1,41 @@
+{
+  "@graph": [
+    {
+      "@id": "Invoice",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Invoice",
+        "de": "Rechnung"
+      },
+      "description": {
+        "en": "A commercial document issued by a seller to a buyer, relating to a sale transaction.",
+        "de": "Ein kommerzielles Dokument welches eine Verkaufstransaktion beschreibt und von einem Verkäufer an einen Käufer ausgestellt wird."
+      },
+      "prototype": "classes/API_Resource",
+      "instanceOperation": [
+        {
+          "@id": "classes/Invoice#SendInvoiceOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "SendInvoiceOperation.",
+            "de": "SendInvoiceOperation."
+          },
+          "method": "PUT",
+          "expects": "classes/Invoice#SendInvoiceOperation",
+          "returns": "classes/Invoice"
+        },
+        {
+          "@id": "classes/Invoice#GenerateHTMLVersionOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "GenerateHTMLVersionOperation.",
+            "de": "GenerateHTMLVersionOperation."
+          },
+          "method": "PUT",
+          "expects": "classes/Invoice#GenerateHTMLVersionOperation",
+          "returns": "classes/Invoice"
+        }
+      ]
+    }
+  ]
+}

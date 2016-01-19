@@ -1,0 +1,659 @@
+{
+  "@graph": [
+    {
+      "@id": "free",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/free",
+      "variant": "classes/Tax#free",
+      "rate": 0
+    },
+    {
+      "@id": "be_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/2802361/",
+      "rate": 0.06
+    },
+    {
+      "@id": "be_reduced_2",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/2802361/",
+      "rate": 0.12
+    },
+    {
+      "@id": "be_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/2802361/",
+      "rate": 0.21
+    },
+    {
+      "@id": "be_parking_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#parking_rate",
+      "raisedIn": "http://sws.geonames.org/2802361/",
+      "rate": 0.12
+    },
+    {
+      "@id": "bg_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/732800/",
+      "rate": 0.09
+    },
+    {
+      "@id": "bg_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/732800/",
+      "rate": 0.2
+    },
+    {
+      "@id": "cz_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/3077311/",
+      "rate": 0.15
+    },
+    {
+      "@id": "cz_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/3077311/",
+      "rate": 0.21
+    },
+    {
+      "@id": "dk_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/2623032/",
+      "rate": 0.25
+    },
+    {
+      "@id": "de_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/2921044/",
+      "rate": 0.07
+    },
+    {
+      "@id": "de_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/2921044/",
+      "rate": 0.19
+    },
+    {
+      "@id": "ee_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/453733/",
+      "rate": 0.09
+    },
+    {
+      "@id": "ee_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/453733/",
+      "rate": 0.2
+    },
+    {
+      "@id": "gr_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/390903/",
+      "rate": 0.065
+    },
+    {
+      "@id": "gr_reduced_2",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/390903/",
+      "rate": 0.13
+    },
+    {
+      "@id": "gr_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/390903/",
+      "rate": 0.23
+    },
+    {
+      "@id": "es_super_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "classes/Tax#super_reduced_rate",
+      "variant": "classes/Tax#super_reduced_rate",
+      "raisedIn": "http://sws.geonames.org/2510769/",
+      "rate": 0.04
+    },
+    {
+      "@id": "es_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/2510769/",
+      "rate": 0.1
+    },
+    {
+      "@id": "es_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/2510769/",
+      "rate": 0.21
+    },
+    {
+      "@id": "fr_super_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "classes/Tax#super_reduced_rate",
+      "variant": "classes/Tax#super_reduced_rate",
+      "raisedIn": "http://sws.geonames.org/3017382/",
+      "rate": 0.021
+    },
+    {
+      "@id": "fr_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/3017382/",
+      "rate": 0.055
+    },
+    {
+      "@id": "fr_reduced_2",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/3017382/",
+      "rate": 0.1
+    },
+    {
+      "@id": "fr_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/3017382/",
+      "rate": 0.2
+    },
+    {
+      "@id": "hr_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/3202326/",
+      "rate": 0.05
+    },
+    {
+      "@id": "hr_reduced_2",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/3202326/",
+      "rate": 0.13
+    },
+    {
+      "@id": "hr_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/3202326/",
+      "rate": 0.25
+    },
+    {
+      "@id": "ie_super_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#super_reduced_rate",
+      "raisedIn": "http://sws.geonames.org/2963597/",
+      "rate": 0.048
+    },
+    {
+      "@id": "ie_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/2963597/",
+      "rate": 0.09
+    },
+    {
+      "@id": "ie_reduced_2",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/2963597/",
+      "rate": 0.135
+    },
+    {
+      "@id": "ie_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/2963597/",
+      "rate": 0.23
+    },
+    {
+      "@id": "ie_parking_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#parking_rate",
+      "raisedIn": "http://sws.geonames.org/2963597/",
+      "rate": 0.135
+    },
+    {
+      "@id": "it_super_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#super_reduced_rate",
+      "raisedIn": "http://sws.geonames.org/3175395/",
+      "rate": 0.04
+    },
+    {
+      "@id": "it_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/3175395/",
+      "rate": 0.1
+    },
+    {
+      "@id": "it_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/3175395/",
+      "rate": 0.22
+    },
+    {
+      "@id": "cy_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/146669/",
+      "rate": 0.05
+    },
+    {
+      "@id": "cy_reduced_2",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/146669/",
+      "rate": 0.09
+    },
+    {
+      "@id": "cy_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/146669/",
+      "rate": 0.19
+    },
+    {
+      "@id": "lv_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/458258/",
+      "rate": 0.12
+    },
+    {
+      "@id": "lv_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/458258/",
+      "rate": 0.21
+    },
+    {
+      "@id": "lt_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/597427/",
+      "rate": 0.05
+    },
+    {
+      "@id": "lt_reduced_2",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/597427/",
+      "rate": 0.09
+    },
+    {
+      "@id": "lt_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/597427/",
+      "rate": 0.19
+    },
+    {
+      "@id": "lu_super_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#super_reduced_rate",
+      "raisedIn": "http://sws.geonames.org/2960313/",
+      "rate": 0.03
+    },
+    {
+      "@id": "lu_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/2960313/",
+      "rate": 0.06
+    },
+    {
+      "@id": "lu_reduced_2",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/2960313/",
+      "rate": 0.12
+    },
+    {
+      "@id": "lu_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/2960313/",
+      "rate": 0.15
+    },
+    {
+      "@id": "lu_parking_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#parking_rate",
+      "raisedIn": "http://sws.geonames.org/2960313/",
+      "rate": 0.12
+    },
+    {
+      "@id": "hu_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/719819/",
+      "rate": 0.05
+    },
+    {
+      "@id": "hu_reduced_2",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/719819/",
+      "rate": 0.18
+    },
+    {
+      "@id": "hu_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/719819/",
+      "rate": 0.27
+    },
+    {
+      "@id": "mt_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/2562770/",
+      "rate": 0.05
+    },
+    {
+      "@id": "mt_reduced_2",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/2562770/",
+      "rate": 0.07
+    },
+    {
+      "@id": "mt_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/2562770/",
+      "rate": 0.18
+    },
+    {
+      "@id": "nl_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/2750405/",
+      "rate": 0.06
+    },
+    {
+      "@id": "nl_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/2750405/",
+      "rate": 0.21
+    },
+    {
+      "@id": "at_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/2782113/",
+      "rate": 0.1
+    },
+    {
+      "@id": "at_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/2782113/",
+      "rate": 0.2
+    },
+    {
+      "@id": "pl_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/798544/",
+      "rate": 0.05
+    },
+    {
+      "@id": "pl_reduced_2",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/798544/",
+      "rate": 0.08
+    },
+    {
+      "@id": "pl_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/798544/",
+      "rate": 0.23
+    },
+    {
+      "@id": "pt_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/2264397/",
+      "rate": 0.06
+    },
+    {
+      "@id": "pt_reduced_2",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/2264397/",
+      "rate": 0.13
+    },
+    {
+      "@id": "pt_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/2264397/",
+      "rate": 0.23
+    },
+    {
+      "@id": "ro_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/798549/",
+      "rate": 0.05
+    },
+    {
+      "@id": "ro_reduced_2",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/798549/",
+      "rate": 0.09
+    },
+    {
+      "@id": "ro_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/798549/",
+      "rate": 0.24
+    },
+    {
+      "@id": "si_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/3190538/",
+      "rate": 0.095
+    },
+    {
+      "@id": "si_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/3190538/",
+      "rate": 0.22
+    },
+    {
+      "@id": "sk_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/3057568/",
+      "rate": 0.1
+    },
+    {
+      "@id": "sk_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/3057568/",
+      "rate": 0.2
+    },
+    {
+      "@id": "fi_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/660013/",
+      "rate": 0.1
+    },
+    {
+      "@id": "fi_reduced_2",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/660013/",
+      "rate": 0.14
+    },
+    {
+      "@id": "fi_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/660013/",
+      "rate": 0.24
+    },
+    {
+      "@id": "se_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/2661886/",
+      "rate": 0.06
+    },
+    {
+      "@id": "se_reduced_2",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/2661886/",
+      "rate": 0.12
+    },
+    {
+      "@id": "se_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/2661886/",
+      "rate": 0.25
+    },
+    {
+      "@id": "gb_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/2635167/",
+      "rate": 0.05
+    },
+    {
+      "@id": "gb_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/2635167/",
+      "rate": 0.2
+    },
+    {
+      "@id": "ch_reduced_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/2658434/",
+      "rate": 0.025
+    },
+    {
+      "@id": "ch_reduced_2",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#reduced_rate",
+      "raisedIn": "http://sws.geonames.org/2658434/",
+      "rate": 0.038
+    },
+    {
+      "@id": "ch_standard_1",
+      "@type": "http://dbpedia.org/ontology/Tax",
+      "type": "tax_types/value_added_tax",
+      "variant": "classes/Tax#standard_rate",
+      "raisedIn": "http://sws.geonames.org/2658434/",
+      "rate": 0.08
+    }
+  ]
+}

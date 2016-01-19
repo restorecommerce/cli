@@ -1,0 +1,21 @@
+{
+  "@graph": [
+    {
+      "@id": "default",
+      "@type": "classes/Discount_Scheme",
+      "name": "default",
+      "active": false,
+      "percentage": 10
+    },
+    {
+      "@id": "onlyAddons",
+      "@type": "classes/Discount_Scheme",
+      "name": "onlyAddons",
+      "active": false,
+      "percentage": 10,
+      "appliesToProductGroups": [
+        "http://bookingdemo.restorecommerce.io/product_prototypes/addon"
+      ]
+    }
+  ]
+}

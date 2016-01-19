@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "dct": "http://purl.org/dc/terms/",
+    "application": "rstc:classes/Session#application",
+    "client": "rstc:classes/Session#client",
+    "user": "rstc:classes/Session#user",
+    "accessToken": "rstc:classes/Session#accessToken",
+    "accessTokenExpiresAt": "rstc:classes/Session#accessTokenExpiresAt",
+    "refreshToken": "rstc:classes/Session#refreshToken",
+    "refreshTokenExpiresAt": "rstc:classes/Session#refreshTokenExpiresAt",
+    "tokenSecondsValid": "rstc:classes/Session#tokenSecondsValid",
+    "lastActivity": "rstc:classes/Session#lastActivity",
+    "created": "dct:created",
+    "modified": "dct:modified"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "dct": "http://purl.org/dc/terms/",
+    "payment": "rstc:classes/Invoice#",
+    "order": { "@id": "rstc:classes/Order", "@type": "@id"},
+    "invoice": { "@id": "rstc:classes/Invoice", "@type": "@id"},
+    "payDate": "payment:payDate",
+    "dueDate": "payment:dueDate",
+    "created": "dct:created",
+    "modified": "dct:modified",
+    "creator": { "@id": "dct:creator", "@type": "@id" }
+  }
+}

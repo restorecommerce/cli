@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "rdf": "http://www.w3.org/ns/org#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "slug": { "@id" : "rstc:classes/Pre_Reservation#slug", "@container" : "@language"},
+    "event": "rstc:classes/Pre_Reservation#event",
+    "reservedUntil": "dct:date",
+    "reservedForToken": "rstc:classes/Pre_Reservation#reservedForToken",
+    "created": "dct:created",
+    "modified": "dct:modified",
+    "creator": { "@id": "dct:creator", "@type": "@id" }
+  }
+}

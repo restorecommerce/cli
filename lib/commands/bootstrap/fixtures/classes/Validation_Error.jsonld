@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "ValidationError",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Validation Error",
+        "de": "Validation Error"
+      },
+      "description": {
+        "en": "Validation errors from tv4 schema validation.",
+        "de": "Eine Begebenheit, welche in einem definierten Zeitraum, an einem virtuellen oder geografischen Ort stattfindet."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

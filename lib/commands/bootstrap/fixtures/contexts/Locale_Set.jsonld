@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "dct": "http://purl.org/dc/terms/",
+    "name": { "@id": "rdfs:label", "@container": "@language" },
+    "description": { "@id": "dct:description", "@container": "@language" },
+    "key": "rstc:classes/Locale_Set#key",
+    "lines": {
+      "@id": "rstc:classes/Locale_Set#lines",
+      "@container": "@list"
+    },
+    "default": "rstc:classes/Locale_Set#default",
+    "fallback": "rstc:classes/Locale_Set#fallback",
+    "created": "dct:created",
+    "modified": "dct:modified"
+  }
+}

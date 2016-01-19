@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "dct": "http://purl.org/dc/terms/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "created": "dct:created",
+    "modified": "dct:modified",
+    "creator": "dct:creator",
+    "operation": "hydra:operation",
+    "method": "hydra:method",
+    "expects": "hydra:expects",
+    "returns": "hydra:returns",
+    "supportedProperty": "hydra:supportedProperty",
+    "property": "hydra:property",
+    "required": "hydra:required"
+  }
+}

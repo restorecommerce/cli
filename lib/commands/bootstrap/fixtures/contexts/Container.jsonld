@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "dct": "http://purl.org/dc/terms/",
+    "created": "dct:created",
+    "modified": "dct:modified",
+    "creator": "dct:creator",
+    "name": "rstc:classes/Container#name",
+    "imageName": "rstc:classes/Container#imageName",
+    "imageTag": "rstc:classes/Container#imageTag",
+    "cpu": "rstc:classes/Container#cpu",
+    "ram": "rstc:classes/Container#ram",
+    "fqdn": "rstc:classes/Container#fqdn",
+    "runCommand": "rstc:classes/Container#runCommand",
+    "lastStarted": "rstc:classes/Container#lastStarted",
+    "lastStopped": "rstc:classes/Container#lastStopped",
+    "destroyed": "rstc:classes/Container#destroyed",
+    "state": "rstc:classes/Container#state",
+    "envVars": {
+      "@id": "rstc:classes/Container#envVars",
+      "@container": "@set"
+    },
+    "ports": {
+      "@id": "rstc:classes/Container#ports",
+      "@container": "@set"
+    },
+    "innerPort": "rstc:classes/Container#innerPort",
+    "outerPort": "rstc:classes/Container#outerPort",
+    "protocol": "rstc:classes/Container#protocol",
+    "destroyOnExit": "rstc:classes/Container#destroyOnExit",
+    "entryPoint": "rstc:classes/Container#entryPoint",
+    "autoRestart": "rstc:classes/Container#autoRestart"
+  }
+}
+
+

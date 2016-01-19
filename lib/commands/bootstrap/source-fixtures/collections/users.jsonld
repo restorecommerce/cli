@@ -1,0 +1,44 @@
+{
+  "@graph": [
+    {
+      "@id": "unauthenticated",
+      "name": "unauthenticated",
+      "@type": "classes/User",
+      "email": "unauthenticated@bookingdemo.restorecommerce.io",
+      "active": true,
+      "businessRoles": [
+        {
+          "br": "business_roles/unauthenticated",
+          "scopes": [
+            {
+              "scope": "domain",
+              "scopeInst": "//bookingdemo.restorecommerce.io/"
+            }
+          ]
+        }
+      ],
+      "passwordHash": "",
+      "creator": "users/unauthenticated"
+    },
+    {
+      "@id": "admin",
+      "name": "admin",
+      "@type": "classes/User",
+      "email": "itp0001@invend.co",
+      "active": true,
+      "businessRoles": [
+        {
+          "br": "business_roles/appadmin",
+          "scopes": [
+            {
+              "scope": "domain",
+              "scopeInst": "//bookingdemo.restorecommerce.io/"
+            }
+          ]
+        }
+      ],
+      "passwordHash": "$2a$10$yhxSrRX/HdcsD0tHYNUTQuDlbdLT1FtFAS9T2lGRnXph61E8tAtYq",
+      "creator": "users/admin"
+    }
+  ]
+}

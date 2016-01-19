@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "ratingValue": "rstc:classes/Rating#ratingValue",
+    "bestRating": "schema:bestRating",
+    "worstRating": "schema:worstRating",
+    "itemRated":  { "@id": "rstc:classes/Rating#itemRated", "@type": "@id" },
+    "comment": { "@id": "schema:comment", "@type": "@id" },
+    "created": "dct:created",
+    "modified": "dct:modified",
+    "creator": { "@id": "dct:creator", "@type": "@id" }
+  }
+}

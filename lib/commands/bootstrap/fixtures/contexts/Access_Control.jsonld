@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "acl": "http://www.w3.org/ns/auth/acl#",
+    "rstc": "http://restorecommerce.io/",
+    "name": { "@id": "rdfs:label", "@container": "@language" },
+    "description": { "@id": "dct:description", "@container": "@language" },
+    "key": "rstc:classes/Access_Control#key",
+    "agent": {
+      "@id": "acl:agent",
+      "@type": "@id"
+    },
+    "agentClass": {
+      "@id": "acl:agentClass",
+      "@type": "@id"
+    },
+    "mode": "acl:mode",
+    "accessTo": {
+      "@id": "acl:accessTo",
+      "@type": "@id"
+    },
+    "accessToClass": {
+      "@id": "acl:accessToClass",
+      "@type": "@id"
+    },
+    "permission": {
+      "@id": "rstc:classes/Access_Control#permission",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "accessControl": "rstc:classes/Access_Control#accessControl",
+    "created": "dct:created",
+    "modified": "dct:modified",
+    "creator": { "@id": "dct:creator", "@type": "@id" }
+  }
+}

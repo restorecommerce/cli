@@ -1,0 +1,52 @@
+{
+  "@graph": [
+    {
+      "@id": "Job_Service",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Job Service",
+        "de": "Jobdienst"
+      },
+      "description": {
+        "en": "A service to run long running jobs.",
+        "de": "Ein dienst für die Ausführung von lang andauernden Aufgaben."
+      },
+      "prototype": "classes/API_Resource",
+      "instanceOperation": [
+        {
+          "@id": "classes/Job_Service#ReindexOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "ReindexOperation.",
+            "de": "."
+          },
+          "method": "PUT",
+          "expects": "classes/Job_Service#ReindexOperation",
+          "returns": "classes/Job_Service"
+        },
+        {
+          "@id": "classes/Job_Service#StartJobOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "StartJobOperation.",
+            "de": "."
+          },
+          "method": "PUT",
+          "expects": "classes/Job_Service#StartJobOperation",
+          "returns": "classes/Job_Service"
+        },
+        {
+          "@id": "classes/Job_Service#UpdateSequenceAttributeOperation",
+          "@type": "hydra:Operation",
+          "description": {
+            "en": "UpdateSequenceAttribute.",
+            "de": "."
+          },
+          "method": "PUT",
+          "expects": "classes/Job_Service#UpdateSequenceAttributeOperation",
+          "returns": "classes/Job_Service"
+        }
+      ]
+    }
+  ]
+}

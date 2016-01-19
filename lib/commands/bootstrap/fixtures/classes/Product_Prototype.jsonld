@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Product_Prototype",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Product Prototype",
+        "de": "Produktprototype"
+      },
+      "description": {
+        "en": "Common properties for products.",
+        "de": "Common properties for products."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

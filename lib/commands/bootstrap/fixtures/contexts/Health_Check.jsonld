@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "dct": "http://purl.org/dc/terms/",
+    "created": "dct:created",
+    "modified": "dct:modified",
+    "type": "rstc:classes/Health_Check#type",
+    "timeout": "rstc:classes/Health_Check#timeout",
+    "maxConsecutiveFailures": "rstc:classes/Health_Check#maxConsecutiveFailures",
+    "portIndex": "rstc:classes/Health_Check#portIndex",
+    "method": "rstc:classes/Health_Check#method",
+    "path": "rstc:classes/Health_Check#path",
+    "httpVersion": "rstc:classes/Health_Check#httpVersion",
+    "internal": "rstc:classes/Health_Check#internal"
+  }
+}

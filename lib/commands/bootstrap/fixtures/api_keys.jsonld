@@ -1,0 +1,25 @@
+{
+  "@graph": [
+    {
+      "@id": "system",
+      "@type": "classes/API_Key",
+      "businessRoles": [
+        {
+          "br": "business_roles/appadmin",
+          "scopes": [
+           {
+              "scope": "domain",
+              "scopeInst": "./"
+            }
+          ]
+        }
+      ],
+      "created": "2015-05-27T10:39:01.159Z",
+      "creator": "users/admin",
+      "user": "users/admin",
+      "modified": "2015-05-27T10:39:01.159Z",
+      "key": "60f4c110972d03f82c779f639c2abf8cfd66d9313b2de76eb04c4874b7072e1e",
+      "validUntil": "2030-12-31T23:59:59.000Z"
+    }
+  ]
+}

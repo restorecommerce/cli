@@ -1,0 +1,60 @@
+{
+  "@graph": [
+    {
+      "@id": "voucher70",
+      "@type": [
+        "classes/Offer",
+        "classes/Voucher"
+      ],
+      "itemOffered": "products/voucher70",
+      "price": 70.00,
+      "priceCurrency": "currencies/EUR",
+      "inventoryLevel": 9999999,
+      "applicableTax": "taxes/free",
+      "prototype": "product_prototypes/voucher",
+      "valueAddedTaxIncluded": true
+    },
+    {
+      "@id": "voucher90",
+      "@type": [
+        "classes/Offer",
+        "classes/Voucher"
+      ],
+      "itemOffered": "products/voucher90",
+      "price": 90.00,
+      "priceCurrency": "currencies/EUR",
+      "inventoryLevel": 9999999,
+      "applicableTax": "taxes/free",
+      "prototype": "product_prototypes/voucher",
+      "valueAddedTaxIncluded": true
+    },
+    {
+      "@id": "voucher100",
+      "@type": [
+        "classes/Offer",
+        "classes/Voucher"
+      ],
+      "itemOffered": "products/voucher100",
+      "price": 100.00,
+      "priceCurrency": "currencies/EUR",
+      "inventoryLevel": 9999999,
+      "applicableTax": "taxes/free",
+      "prototype": "product_prototypes/voucher",
+      "valueAddedTaxIncluded": true
+    },
+    {
+      "@id": "voucher110",
+      "@type": [
+        "classes/Offer",
+        "classes/Voucher"
+      ],
+      "itemOffered": "products/voucher110",
+      "price": 110.00,
+      "priceCurrency": "currencies/EUR",
+      "inventoryLevel": 9999999,
+      "applicableTax": "taxes/free",
+      "prototype": "product_prototypes/voucher",
+      "valueAddedTaxIncluded": true
+    }
+  ]
+}

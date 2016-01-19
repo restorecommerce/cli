@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "dct": "http://purl.org/dc/terms/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "contentEncoding": "rstc:classes/Object_Data_Resource#encoding",
+    "storageClass": "rstc:classes/Object_Data_Resource#storageClass",
+    "website": "rstc:classes/Object_Data_Resource#website",
+    "mainPageSuffix": "rstc:classes/Object_Data_Resource#mainPageSuffix",
+    "routingRules": {
+      "@id": "rstc:classes/Object_Data_Resource#routingRules",
+      "@container": "@set"
+    },
+    "httpErrorCodeReturnedEquals": {
+      "@id": "rstc:classes/Object_Data_Resource#httpErrorCodeReturnedEquals",
+      "@type": "xsd:integer"
+    },
+    "keyPrefixEquals": "rstc:classes/Object_Data_Resource#keyPrefixEquals",
+    "replaceKeyWith": "rstc:classes/Object_Data_Resource#replaceKeyWith",
+    "replaceKeyPrefixWith": "rstc:classes/Object_Data_Resource#replaceKeyPrefixWith",
+    "feature": {
+      "@id": "rstc:classes/Object_Data_Resource#feature",
+      "@container": "@set"
+    },
+    "plugin": "rstc:classes/Object_Data_Resource#plugin",
+    "prefix": "rstc:classes/Object_Data_Resource#prefix",
+    "options": {
+      "@id": "rstc:classes/Object_Data_Resource#options",
+      "@container": "@set"
+    },
+    "key": "rstc:classes/Object_Data_Resource#key",
+    "value": "rstc:classes/Object_Data_Resource#value",
+    "created": "dct:created",
+    "modified": "dct:modified"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "@graph": [
+    {
+      "@id": "behindTheScene",
+      "@type": [
+        "classes/Product"
+      ],
+      "name": {
+        "en": "Behind the Scene",
+        "de": "Behind the Scene"
+      },
+      "description": {
+        "en": "This option enables you to observe and analyse the course of play from outside. Thus you can analyse the behaviour of players and team dynamics – an offer that is particularly interesting for companies. For this purpose we provide you a monitor and headphones. An evaluation sheet and a privacy policy are inclusive",
+        "de": "Diese Option bietet die Möglichkeit, den Spielverlauf/Teamdynamik von außen zu beobachten und zu analysieren. Hierfür steht euch ein eigener Bildschirm und eigene Kopfhörer zur Verfügung. Auch ein Bewertungsbogen ist inklusive, sowie eine Datenschutzerklärung. ieses Angebot ist besonders interessant für Firmen. "
+      },
+      "image": [
+        "data-img/behindTheScene.jpg"
+      ],
+      "prototype": "product_prototypes/addon"
+    },
+    {
+      "@id": "welcomeDrink",
+      "@type": [
+        "classes/Product"
+      ],
+      "name": {
+        "en": "Welcome drink",
+        "de": "Welcome Drink"
+      },
+      "description": {
+        "en": "Before the game starts each of you gets a glass of sparkling wine as a welcome drink (2-5 persons).",
+        "de": "Vor dem Spiel bekommt jeder von euch jeweils ein Glas Sekt zur Begrüßung (2 - 5 Personen)."
+      },
+      "image": [
+        "data-img/welcomeDrink.jpg"
+      ],
+      "prototype": "product_prototypes/addon"
+    },
+    {
+      "@id": "jgaUeberraschung",
+      "@type": [
+        "classes/Product"
+      ],
+      "name": {
+        "en": "Bachelor Party Surprise",
+        "de": "JGA Überraschung"
+      },
+      "description": {
+        "de": "Hier bekommt ihr alles, was eurem Junggesellenabschied das gewisse Etwas verleiht: fünf pinke Sonnenbrillen, fünf pinke Knicklichter, eine Einwegkamera, ein Jutebeutel sowie Handschellen für den Junggesellen bzw. die Junggesellin. (ein Schlüssel wird im Raum versteckt)",
+        "en": "The escape game is sweetened by small alcoholic drinks that are hide additionally in the room. When you find one, you can drink it."
+      },
+      "image": [
+        "data-img/jgaUeberraschung.jpg"
+      ],
+      "prototype": "product_prototypes/addon"
+    },
+    {
+      "@id": "jgaPaket",
+      "@type": [
+        "classes/Product"
+      ],
+      "name": {
+        "en": "Bachelor Party Package",
+        "de": "JGA Paket"
+      },
+      "description": {
+        "en": "Here you get everything that turns your bachelor party into something special: five pink sun glasses, five pink glow sticks, one disposable camera, one cloth bag made of jute, handcuffs for the bachelor/bachelorette (a key is hidden in the room).",
+        "de": "Hier bekommt ihr alles, was eurem Junggesellenabschied das gewisse Etwas verleiht: fünf pinke Sonnenbrillen, fünf pinke Knicklichter, eine Einwegkamera, ein Jutebeutel sowie Handschellen für den Junggesellen bzw. die Junggesellin. (ein Schlüssel wird im Raum versteckt)"
+      },
+      "image": [
+        "data-img/jgaPaket.jpg"
+      ],
+      "prototype": "product_prototypes/addon"
+    },
+    {
+      "@id": "geburtstagsUeberraschung",
+      "@type": [
+        "classes/Product"
+      ],
+      "name": {
+        "en": "­Birthday Surprise",
+        "de": "­Geburtstagsüberraschung"
+      },
+      "description": {
+        "en": "With the birthday surprise you can make the birthday child very happy. When you step out of the room you will find an adorably decorated gift table with some glasses of sparkling wine.",
+        "de": "Bei der Geburtstagsüberraschung könnt ihr der Hauptperson eine ganz besondere Freude bereiten. Sobald ihr aus dem Raum tretet, steht für euch ein hübsch geschmückter Gabentisch mit ein paar Gläsern Sekt bereit."
+      },
+      "image": [
+        "data-img/geburtstagsUeberraschung.jpg"
+      ],
+      "prototype": "product_prototypes/addon"
+    },
+    {
+      "@id": "photo",
+      "@type": [
+        "classes/Product"
+      ],
+      "name": {
+        "en": "Souvenir Photo",
+        "de": "Foto"
+      },
+      "description": {
+        "en": "After you successfully fulfilled your mission, you get a winning photo and a certificate. More photos are available at an extra cost of 2.50 €  per photo.",
+        "de": "Nachdem ihr eure Mission erfolgreich erfüllt habt, bekommt ihr ein Siegerfoto inklusive Urkunde ausgehändigt. Jedes weitere Foto könnt ihr gegen einen Aufpreis von je 2,50 €  erwerben."
+      },
+      "image": [
+        "data-img/photo.jpg"
+      ],
+      "prototype": "product_prototypes/addon"
+    },
+    {
+      "@id": "voucher90",
+      "@type": [
+        "classes/Product"
+      ],
+      "name": {
+        "en": "€ 90 Voucher",
+        "de": "€ 90 Gutschein"
+      },
+      "description": {
+        "en": "The € 90 Voucher is the best gift for 3-5 persons",
+        "de": "Der € 90 Gutschein ist das passende Geschenk für 3-5 Personen"
+      },
+      "prototype": "product_prototypes/voucher"
+    },
+    {
+      "@id": "voucher70",
+      "@type": [
+        "classes/Product"
+      ],
+      "name": {
+        "en": "€ 70 Voucher",
+        "de": "€ 70 Gutschein"
+      },
+      "description": {
+        "en": "The € 70 Voucher is the best gift for 2 persons",
+        "de": "Der € 70 Gutschein ist das passende Geschenk für 2 Personen"
+      },
+      "prototype": "product_prototypes/voucher"
+    },
+    {
+      "@id": "voucher100",
+      "@type": [
+        "classes/Product"
+      ],
+      "name": {
+        "en": "€ 100 Voucher",
+        "de": "€ 100 Gutschein"
+      },
+      "description": {
+        "en": "The € 100 Voucher is the best gift for 6 persons",
+        "de": "Der € 100 Gutschein ist das passende Geschenk für 6 Personen"
+      },
+      "prototype": "product_prototypes/voucher"
+    },
+    {
+      "@id": "voucher110",
+      "@type": [
+        "classes/Product"
+      ],
+      "name": {
+        "en": "€ 110 Voucher",
+        "de": "€ 110 Gutschein"
+      },
+      "description": {
+        "en": "The € 110 Voucher is the best gift for 7 persons",
+        "de": "Der € 110 Gutschein ist das passende Geschenk für 7 Personen"
+      },
+      "prototype": "product_prototypes/voucher"
+    }
+  ]
+}

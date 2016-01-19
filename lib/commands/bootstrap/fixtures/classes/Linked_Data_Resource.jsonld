@@ -1,0 +1,16 @@
+{
+  "@graph": [
+    {
+      "@id": "Linked_Data_Resource",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Linked Data Resource",
+        "de": "Linked Data Ressource"
+      },
+      "description": {
+        "en": "A Web resource which represents linked data.",
+        "de": "Eine Web Ressource, welche linked Daten repräsentiert."
+      }
+    }
+  ]
+}

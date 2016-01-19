@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "dct": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "schema": "http://schema.org/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "givenName": "schema:givenName",
+    "salutation": "rstc:classes/Person#salutation",
+    "familyName": "schema:familyName",
+    "additionalName": "schema:additionalName",
+    "honorificPrefix": "schema:honorificPrefix",
+    "honorificSuffix": "schema:honorificSuffix",
+    "nickName": "foaf:nick",
+    "displayName": "rstc:classes/Person#displayName",
+    "image": "schema:image",
+    "website": "schema:url",
+    "email": "schema:email",
+    "worksFor": "schema:worksFor",
+    "address": { "@id": "schema:PostalAddress", "@type": "@id" },
+    "gender": { "@id": "rstc:classes/Person#gender", "@type": "@id" },
+    "birthDate": "schema:birthDate",
+    "prefLocale": "rstc:classes/Person#prefLocale",
+    "prefCurrency": { "@id": "dbo:Currency", "@type": "@id" },
+    "taxID": "schema:taxID",
+    "vatID": "schema:vatID",
+    "telephone": "schema:telephone",
+    "faxNumber": "schema:faxNumber",
+    "created": "dct:created",
+    "modified": "dct:modified",
+    "creator": { "@id": "dct:creator", "@type": "@id" }
+  }
+}

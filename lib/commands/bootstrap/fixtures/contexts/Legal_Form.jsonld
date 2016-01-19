@@ -1,0 +1,14 @@
+{
+  "@context" : {
+    "rstc": "http://restorecommerce.io/",
+    "dct": "http://purl.org/dc/terms/",
+    "lfov": "https://github.com/n-fuse/legal-form-vocab#",
+    "acronym": "lfov:acronym",
+    "name": { "@id": "lfov:name", "@container": "@language" },
+    "registrableIn": { "@id": "lfov:registrableIn", "@type": "@id" },
+    "type": { "@id": "lfov:type", "@type": "@id" },
+    "created": "dct:created",
+    "modified": "dct:modified",
+    "creator": { "@id": "dct:creator", "@type": "@id" }
+  }
+}

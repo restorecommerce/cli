@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "dct": "http://purl.org/dc/terms/",
+    "name": "rstc:classes/Application#name",
+    "icon": { "@id": "rstc:classes/Application#icon", "@type": "@id" },
+    "active": "rstc:classes/Application#active",
+    "provider": { "@id": "rstc:classes/Application#provider", "@type": "@id" },
+    "unauthUser": {
+      "@id": "rstc:classes/Application#unauthUser",
+      "@type": "@id"
+    },
+    "domains": {
+      "@id": "rstc:classes/Application#domains",
+      "@container": "@set"
+    },
+    "domain": "rstc:classes/Application#domain",
+    "mailDomain": "rstc:classes/Application#mailDomain",
+    "mapToArea":  "rstc:classes/Application#mapToArea",
+    "api": "rstc:classes/Application#api",
+    "main": "rstc:classes/Application#main",
+    "tlsOnly": "rstc:classes/Application#tlsOnly",
+    "redirectToMainDomain": "rstc:classes/Application#redirectToMainDomain",
+    "corsAllowFrom": "rstc:classes/Application#corsAllowFrom",
+    "cors": {
+      "@id": "rstc:classes/Application#cors",
+      "@container": "@set"
+    },
+    "maxAgeSeconds": "rstc:classes/Application#maxAgeSeconds",
+    "method": {
+      "@id": "rstc:classes/Application#method",
+      "@container": "@set"
+    },
+    "origin": {
+      "@id": "rstc:classes/Application#origin",
+      "@container": "@set"
+    },
+    "responseHeader": {
+      "@id": "rstc:classes/Application#responseHeader",
+      "@container": "@set"
+    },
+    "localeSet": { "@id": "rstc:classes/Application#localeSet", "@type": "@id" },
+    "lastDeployment": "rstc:classes/Application#lastDeployment",
+    "runMode": "rstc:classes/Application#runMode",
+    "debugLevel": "rstc:classes/Application#debugLevel",
+    "path": "rstc:classes/Application#path",
+    "areas": {
+      "@id": "rstc:classes/Application#areas",
+      "@container": "@set"
+    }
+  }
+}

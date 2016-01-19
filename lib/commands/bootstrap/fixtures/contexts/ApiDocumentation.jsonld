@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ApiDocumentation": "hydra:ApiDocumentation",
+    "entrypoint": "hydra:entrypoint",
+    "supportedClass": "hydra:supportedClass",
+    "supportedProperty": "hydra:supportedProperty",
+    "supportedOperation": "hydra:supportedOperation",
+    "method": "hydra:method",
+    "expects": {
+      "@id": "hydra:expects",
+      "@type": "@id"
+    },
+    "returns": {
+      "@id": "hydra:returns",
+      "@type": "@id"
+    },
+    "sameAs": "owl:sameAs",
+    "RetrieveResourceOperation": "hydra:RetrieveResourceOperation",
+    "AppendResourceOperation": "hydra:AppendResourceOperation",
+    "CreateOrReplaceOperation": "hydra:CreateOrReplaceOperation",
+    "UpdateResourceOperation": "hydra:UpdateResourceOperation",
+    "DeleteResourceOperation": "hydra:DeleteResourceOperation"
+  }
+}

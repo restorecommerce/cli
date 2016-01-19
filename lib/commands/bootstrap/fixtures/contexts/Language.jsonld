@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "schema": "http://schema.org/",
+    "lingvoj": "http://www.lingvoj.org/ontology#",
+    "lvont": "http://lexvo.org/ontology#",
+    "name": {
+      "@id": "rdfs:label",
+      "@container": "@language"
+    },
+    "sameAs": "owl:sameAs",
+    "iso639P1Code": "lvont:iso639P1Code",
+    "fromCountry": "lingvoj:fromCountry",
+    "comment": "rdfs:comment",
+    "image": "schema:image",
+    "created": "dct:created",
+    "modified": "dct:modified"
+  }
+}

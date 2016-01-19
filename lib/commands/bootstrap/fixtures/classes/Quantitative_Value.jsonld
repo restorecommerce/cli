@@ -1,0 +1,17 @@
+{
+  "@graph": [
+    {
+      "@id": "Quantitative_Value",
+      "@type": "rdfs:Class",
+      "label": {
+        "en": "Quantitative Value",
+        "de": "Quantitativer Wert"
+      },
+      "description": {
+        "en": "A point value or interval for product characteristics and other purposes.",
+        "de": "Ein quantitativer wert oder interval, der bspw. Produktcharakteristiken beschreibt."
+      },
+      "prototype": "classes/API_Resource"
+    }
+  ]
+}

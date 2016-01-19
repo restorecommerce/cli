@@ -1,0 +1,60 @@
+{
+  "@graph": [
+    {
+      "@id": "gss",
+      "@type": "classes/Storage_Service",
+      "type": "http://en.wikipedia.org/wiki/Graph_database",
+      "consistency": "http://en.wikipedia.org/wiki/Eventual_consistency",
+      "name": {
+        "en": "Restore Commerce Graph Storage Service",
+        "de": "Restore Commerce Graph Storage Service"
+      },
+      "description": {
+        "en": "Graph based storage with cloud level scalability.",
+        "de": "Graphbasierter Speicher mit Skalierbarkeit auf Cloud Niveau."
+      }
+    },
+    {
+      "@id": "oss",
+      "@type": "classes/Storage_Service",
+      "type": "http://en.wikipedia.org/wiki/Object_storage",
+      "consistency": "http://en.wikipedia.org/wiki/Eventual_consistency",
+      "name": {
+        "en": "Restore Commerce Object Storage Service",
+        "de": "Restore Commerce Object Storage Service"
+      },
+      "description": {
+        "en": "Object based storage with cloud level scalability.",
+        "de": "Objektbasierter Speicher mit Skalierbarkeit auf Cloud Niveau."
+      }
+    },
+    {
+      "@id": "imss",
+      "@type": "classes/Storage_Service",
+      "type": "http://en.wikipedia.org/wiki/In-memory_database",
+      "consistency": "http://en.wikipedia.org/wiki/Eventual_consistency",
+      "name": {
+        "en": "Restore Commerce In-Memory Storage Service",
+        "de": "Restore Commerce In-Memory Storage Service"
+      },
+      "description": {
+        "en": "Storage Service which keeps data permanently in main memory for fast access.",
+        "de": "Speicherdienst, der Daten permanent im Hauptspeicher hält, um schnellen Zugriff zu ermöglichen."
+      }
+    },
+    {
+      "@id": "git",
+      "@type": "classes/Storage_Service",
+      "type": "http://en.wikipedia.org/wiki/Git_%28software%29",
+      "consistency": "http://en.wikipedia.org/wiki/Eventual_consistency",
+      "name": {
+        "en": "Restore Commerce Git Storage Service",
+        "de": "Restore Commerce Git Storage Service"
+      },
+      "description": {
+        "en": "Git repository.",
+        "de": "Git Repository."
+      }
+    }
+  ]
+}

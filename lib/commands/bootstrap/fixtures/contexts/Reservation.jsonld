@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "rstc": "http://restorecommerce.io/",
+    "@vocab": "http://schema.org/",
+    "rdf": "http://www.w3.org/ns/org#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "order": { "@id": "rstc:classes/Order#order", "@type": "@id" },
+    "created": "dct:created",
+    "modified": "dct:modified",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "creator": { "@id": "dct:creator", "@type": "@id" },
+    "comment": "schema:comment",
+    "startDate": {
+      "@id": "schema:startDate",
+      "@type": "xsd:dateTime"
+    },
+    "googleCalendarId": "rstc:classes/Reservation#googleCalendarId",
+    "googleCalendarEventId": "rstc:classes/Reservation#googleCalendarEventId"
+  }
+}
+
