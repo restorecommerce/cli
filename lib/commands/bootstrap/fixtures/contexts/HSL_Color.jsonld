@@ -1,7 +1,0 @@
-{
-  "@context": {
-    "hue": "rstc:classes/HSL_Color#hue",
-    "saturation": "rstc:classes/HSL_Color#saturation",
-    "lightness": "rstc:classes/HSL_Color#lightness"
-  }
-}

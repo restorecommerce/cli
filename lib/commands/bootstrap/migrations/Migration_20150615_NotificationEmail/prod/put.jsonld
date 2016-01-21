@@ -1,7 +1,0 @@
-[
-  {
-    "@id": "orderNotificationEMailAddress",
-    "@type": "/classes/Setting",
-    "value": "bookings@exitventures.de"
-  }
-]

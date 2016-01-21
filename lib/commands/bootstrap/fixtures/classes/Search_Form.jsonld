@@ -1,9 +1,0 @@
-{
-  "@graph": [
-    {
-      "@id": "SearchForm",
-      "@type": "rdfs:Class",
-      "prototype": "classes/API_Resource"
-    }
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "@context": {
-    "rstc": "http://restorecommerce.io/",
-    "name": { "@id" : "rstc:classes/Discount_Scheme#name", "@container": "@language"},
-    "active": "rstc:classes/Discount_Scheme#active",
-    "percentage": "rstc:classes/Discount_Scheme#percentage",
-    "appliesToProductGroups": { "@id" : "rstc:classes/Discount#appliesToProductGroups", "@container": "@set"}
-  }
-}

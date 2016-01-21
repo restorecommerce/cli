@@ -1,6 +1,0 @@
-{
-  "@context": {
-    "rstc": "http://restorecommerce.io/",
-    "aggregations" : {"@id" : "rstc:aggregation", "@container" : "@set"}
-  }
-}

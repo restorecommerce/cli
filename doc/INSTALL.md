@@ -9,3 +9,11 @@
 Use:
 node node_modules/restore-cli/lib/cli/index.js (with or without DEBUG='rstc:*')
 
+Setup:
+
+node node_modules/restore-cli/lib/cli/index.js project init --id egbooking-bootstrap-demo --entry bookingdemo.restorecommerce.io --apikey *********PASTE API KEY HERE *********
+
+
+node node_modules/restore-cli/lib/cli/index.js bootstrap --project egbooking-bootstrap-demo
+node node_modules/restore-cli/lib/cli/index.js gss --project egbooking-bootstrap-demo import
+
