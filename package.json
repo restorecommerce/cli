@@ -32,7 +32,7 @@
     "uuid": "^2.0.1",
     "yam": "0.0.18",
     "restore-bootstrap": "git+https://github.com/restorecommerce/bootstrap.git",
-    "restore-gss-client": "git+https://github.com/restorecommerce/gss-client.git",
+    "restore-gss-client": "git+https://github.com/restorecommerce/gss-client.git#makeover",
     "restore-oss-client": "git+https://github.com/restorecommerce/oss-client.git"
   },
   "devDependencies": {
@@ -68,8 +68,9 @@
     "jshint": "./node_modules/.bin/jshint *.json *.js",
     "jscs": "./node_modules/.bin/jscs *.js",
     "mocha": "./node_modules/mocha/bin/mocha --harmony --harmony_arrow_functions ./test/*",
-    "coveralls": "node --harmony --harmony_arrow_functions node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec ./test/*"
-  },
+    "coveralls": "node --harmony --harmony_arrow_functions node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec ./test/*",
+    "git-update": "rm -rf node_modules/restore-bootstrap node_modules/restore-oss-client node_modules/restore-gss-client; npm install" 
+ },
   "engines": {
     "node": ">= 0.12.0"
   }
