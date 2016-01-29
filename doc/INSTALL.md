@@ -1,3 +1,1 @@
-npm install
-
-To update to newest master: npm run git-update
+To update the git dependencies to the newest master: npm run git-update
