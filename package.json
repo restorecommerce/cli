@@ -1,7 +1,7 @@
 {
   "name": "restore-cli",
   "description": "Restore Commerce CLI",
-  "main": "index",
+  "main": "./lib/cli/index.js",
   "version": "0.1.0",
   "repository": {
     "type": "git",
@@ -30,7 +30,10 @@
     "string": "^3.3.1",
     "through2": "^2.0.0",
     "uuid": "^2.0.1",
-    "yam": "0.0.18"
+    "yam": "0.0.18",
+    "bootstrap": "git+https://github.com/restorecommerce/bootstrap",
+    "gss-client": "git+https://github.com/restorecommerce/gss-client",
+    "oss-client": "git+https://github.com/restorecommerce/oss-client"
   },
   "devDependencies": {
     "jshint": "^2.9.1-rc2",

@@ -1,5 +1,6 @@
 1. git clone https://github.com/restorecommerce/cli.git to Y
 2. npm install inside Y
+3. npm install in Y/lib/oss-client and Y/lib/gss-client
 3. Go to Y/node_modules
 4. npm link /Invend/int_modules/restore-server-bootstrap
 5. Go to /Invend/apps/egbooking-bootstrap-demo/node_modules 
