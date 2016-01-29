@@ -1,6 +1,0 @@
-[submodule "lib/oss-client"]
-	path = lib/oss-client
-	url = https://github.com/restorecommerce/oss-client.git
-[submodule "lib/gss-client"]
-	path = lib/gss-client
-	url = https://github.com/restorecommerce/gss-client.git
