@@ -31,7 +31,7 @@
     "through2": "^2.0.0",
     "uuid": "^2.0.1",
     "yam": "0.0.18",
-    "restore-bootstrap": "git+https://github.com/restorecommerce/bootstrap.git",
+    "restore-bootstrap": "git+https://github.com/restorecommerce/bootstrap.git#makeover",
     "restore-gss-client": "git+https://github.com/restorecommerce/gss-client.git#makeover",
     "restore-oss-client": "git+https://github.com/restorecommerce/oss-client.git"
   },
