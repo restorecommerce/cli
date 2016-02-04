@@ -31,9 +31,9 @@
     "through2": "^2.0.0",
     "uuid": "^2.0.1",
     "yam": "0.0.18",
-    "restore-bootstrap": "git+https://github.com/restorecommerce/bootstrap.git#makeover",
-    "restore-gss-client": "git+https://github.com/restorecommerce/gss-client.git#makeover",
-    "restore-oss-client": "git+https://github.com/restorecommerce/oss-client.git"
+    "restore-bootstrap": "restorecommerce/bootstrap#makeover",
+    "restore-gss-client": "restorecommerce/gss-client#makeover",
+    "restore-oss-client": "restorecommerce/oss-client"
   },
   "devDependencies": {
     "jshint": "^2.9.1-rc2",
