@@ -11,6 +11,8 @@
     "bcryptjs": "^2.3.0",
     "bluebird": "^3.1.1",
     "chalk": "^1.1.1",
+    "co": "^4.6.0",
+    "co-fs": "^1.2.0",
     "core-object": "0.0.2",
     "debug": "^2.2.0",
     "ember-cli-string-utils": "^1.0.0",
@@ -23,17 +25,17 @@
     "minimist": "^1.2.0",
     "nopt": "^3.0.6",
     "pleasant-progress": "^1.1.0",
-    "promise-streams": "^1.0.1",
+    "promise-streams": "^2.0.0",
     "ramda": "^0.19.1",
     "readable-stream": "^2.0.5",
+    "restore-bootstrap": "restorecommerce/bootstrap#makeover",
+    "restore-gss-client": "restorecommerce/gss-client#makeover",
+    "restore-oss-client": "restorecommerce/oss-client",
     "silent-error": "^1.0.0",
     "string": "^3.3.1",
     "through2": "^2.0.0",
     "uuid": "^2.0.1",
-    "yam": "0.0.18",
-    "restore-bootstrap": "restorecommerce/bootstrap#makeover",
-    "restore-gss-client": "restorecommerce/gss-client#makeover",
-    "restore-oss-client": "restorecommerce/oss-client"
+    "yam": "0.0.18"
   },
   "devDependencies": {
     "jshint": "^2.9.1-rc2",
@@ -69,8 +71,8 @@
     "jscs": "./node_modules/.bin/jscs *.js",
     "mocha": "./node_modules/mocha/bin/mocha --harmony --harmony_arrow_functions ./test/*",
     "coveralls": "node --harmony --harmony_arrow_functions node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec ./test/*",
-    "git-update": "rm -rf node_modules/restore-bootstrap node_modules/restore-oss-client node_modules/restore-gss-client; npm install" 
- },
+    "git-update": "rm -rf node_modules/restore-bootstrap node_modules/restore-oss-client node_modules/restore-gss-client; npm install"
+  },
   "engines": {
     "node": ">= 0.12.0"
   }
