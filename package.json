@@ -25,7 +25,7 @@
     "minimist": "^1.2.0",
     "nopt": "^3.0.6",
     "pleasant-progress": "^1.1.0",
-    "promise-streams": "^2.0.0",
+    "promise-streams": "^1.0.1",
     "ramda": "^0.19.1",
     "readable-stream": "^2.0.5",
     "restore-bootstrap": "restorecommerce/bootstrap#makeover",
