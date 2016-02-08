@@ -2,6 +2,9 @@
   "name": "restore-cli",
   "description": "Restore Commerce CLI",
   "main": "./lib/cli/index.js",
+  "bin": {
+    "rstc": "./lib/cli/index.js"
+  },
   "version": "0.1.0",
   "repository": {
     "type": "git",
@@ -17,16 +20,15 @@
     "debug": "^2.2.0",
     "ember-cli-string-utils": "^1.0.0",
     "exit": "^0.1.2",
+    "fs-extra": "^0.26.5",
+    "fs-extra-promise": "^0.3.1",
     "get-caller-file": "^1.0.1",
     "inquirer": "^0.11.1",
-    "is-git-url": "^0.2.3",
     "liftoff": "^2.2.0",
     "lodash": "^3.10.1",
-    "minimist": "^1.2.0",
     "nopt": "^3.0.6",
     "pleasant-progress": "^1.1.0",
     "promise-streams": "^1.0.1",
-    "ramda": "^0.19.1",
     "readable-stream": "^2.0.5",
     "restore-bootstrap": "restorecommerce/bootstrap#makeover",
     "restore-gss-client": "restorecommerce/gss-client#makeover",
