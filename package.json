@@ -21,7 +21,6 @@
     "ember-cli-string-utils": "^1.0.0",
     "exit": "^0.1.2",
     "fs-extra": "^0.26.5",
-    "fs-extra-promise": "^0.3.1",
     "get-caller-file": "^1.0.1",
     "inquirer": "^0.11.1",
     "liftoff": "^2.2.0",
