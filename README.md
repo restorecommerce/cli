@@ -4,18 +4,26 @@ Restore Commerce command-line utility.
 
 ## Installation
 
+First install the CLI globally, so the command becomes available:
 ```sh
 $ npm i -g restore-cli
+```
+Then install it locally in each of your Restore Commerce projects:
+```sh
+$ npm install restore-cli
 ```
 
 ## Usage
 
 ```sh
-# Print the help index
-$ rstc -h
+# Print all available commands
+$ rstc
 
 # Print the help for a command
 $ rstc <command> -h
+# or
+$ rstc help <command> <command> ...
+
 
 # General command invocation
 $ rstc <command> [OPTIONS] <command> [OPTIONS] ...
@@ -38,7 +46,7 @@ The CLI looks up these files in the following locations:
 Settings found in the config files are used automatically,
 command line arguments take precedence.
 
-### `restore-commerce-project.json`
+### `.restore-commerce-project.json`
 
 Containts settings for 1..n projects.
 
@@ -50,7 +58,7 @@ Containts settings for 1..n projects.
 }
 ```
 
-### `restore-commerce-credentials.json`
+### `.restore-commerce-credentials.json`
 
 Contains API keys for 1..n projects.
 
