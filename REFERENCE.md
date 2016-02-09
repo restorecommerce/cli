@@ -1,4 +1,4 @@
-# Global Command Line Options
+## Global Command Line Options
 
 Globally supported command line options:
 
@@ -12,78 +12,139 @@ Enable debugging output. This usually contains API calls.
 
 `-h, --help`
 
-Show help for a command.
-
-`--entry`
-
-The API endpoint to use.
-
-`--key`
-
 The API key to use.
 
-# Command Reference
+## Command Reference
 
 The following commands are supported.
 
-## `apikey`
-
-API key related commands.
+## `apikey <command>`
+  API key related commands.
 
 ### `gen`
+  Generate a random API key and output it. This will not create the generated API key in the API.
 
-Generate a random API key.
-This will not create the API key in the API.
+## `bootstrap <directory> <options>`
+  Used to bootstrap the application's API.  Directory defaults to current working project's directory.
+  * `--project` - Which project's configuration to use. The api key and entry point can be overridden by the following options. <br>
+    `aliases: -p <value>`
+  * `--entry` - Defaults to specified project's entry point. <br>
+    `aliases: -e <value>`
+  * `--apikey` - Defaults to specified project's api key. <br>
+    `aliases: -key <value>, -k <value>`
 
-## `bootstrap`
+## `gss <options> <command>`
+  Graph Storage Service Client related commands.
+  * `--project` - Which project's configuration to use. The api key and entry point can be overridden by the following options. <br>
+    `aliases: -p <value>`
+  * `--entry` - Defaults to specified project's entry point. <br>
+    `aliases: -e <value>`
+  * `--apikey` - Defaults to specified project's api key. <br>
+    `aliases: -key <value>, -k <value>`
+  * `--protocol` - Defaults to `http`.
 
-Application bootstrapping.
+  ### `import-directory <directory> <resource>`
+  Import a directory. If path is a file it will also be imported. <br>
+  `aliases: import-dir`
+  ### `import-file <file> <resource>`
+  Import only one resource. If path is a directory it will also be imported.
+  ### `import <file> <options>`
+  Imports the resources defined in a file which defaults to "import.json" in current, current project's or home directory (lists choices). <br>
+  `aliases: i`
+  * `--mode` - Either `prod` (production) (default) or `dev` (development). <br>
+  `aliases: -m <value>`
+  * `--only-modified` - Import only modified resources. <br>
+  `aliases: -om`
 
-Arguments:
+## `help <command-name> <options>`
+  Outputs the usage instructions for all commands or the requested command(s).
+  * `--json` - Output the command information as JSON.
 
-1. `data directory` the directory which contains the bootstrap data
+## `info <options>`
+  Print the information about a project or all project's in the current project's directory. <br>
+  `aliases: i`
+  * `--base` - Defaults to current project's directory. <br>
+      `aliases: -b <value>`
+  * `--project` <br>
+      `aliases: -p <value>`
+  * `--all` - Display information about all projects. <br>
+      `aliases: -a`
 
-## `info`
+## `merge <directory> <options>`
+  Directory defaults to current working project's directory.
+  * `--host` - Application's host name. <br>
+  * `--ignore` - Resources to ignore from merging. <br>
+    `aliases: -i <value - String/Array>`
 
-Print information about the current project.
-For example, the current API entry point.
+## migrate <options>
+### In work
 
-## `oss`
+## oss <options> <command>
+  Object Storage Service Client related commands.
+  * `--project` - Which project's configuration to use. The api key and entry point can be overridden by the following options. <br>
+      `aliases: -p <value>`
+  * `--entry` - Defaults to specified project's entry point. <br>
+      `aliases: -e <value>`
+  * `--apikey` - Defaults to specified project's api key. <br>
+      `aliases: -key <value>, -k <value>`
 
-Object storage service related commands.
+  ### `delete <iri>`
+   Delete a resource with a given IRI.
+   
+  ### `get <iri> <options>`
+   Get a resource with a given IRI.
+  * `--meta`
+ 
+  ### `head <iri>`
+  Get headers of a resource with a given IRI.
+ 
+  ### `job <job-file> <options>`
+  Start a job.
+  * `--diff` <br>
+    `aliases: -d`
+  * `--diff-base` - Defaults to `MD5`. <br>
+    `aliases: -db <value>`
 
-### `job`
+  ### `list <iri>`
+   List resources in a OSS resource with a given IRI.
 
-Arguments:
+  ### `put <iri> <resource> <options>`
+   Put an object, object + meta data or only meta data to a given IRI. 
+  * `--private` <br>
+    `aliases: -priv`
+  * `--max-age` - Defaults to `0`. <br>
+    `aliases: -ma <value>`
+  * `--no-cache` <br>
+    `aliases: -nc`
+  * `--must-revalidate` <br>
+    `aliases: -mr`
+  * `--proxy-revalidate` <br>
+    `aliases: -pr`
 
-1. `job path` the path to the job file to process
+## `project <command>`
+  Project related commands.
 
-## `project`
-
-### `init`
-
-- `--id` the project ID
-- `--entry` the API entry point
-- `--base` base directory, defaults to cwd
-
-This command creates project related config files in the
-base directory.
+### `init <options>`
+   This command creates project related configuration files in the base directory.
+   * `--id` - Application ID.
+   * `--entry` - Applicaton entry point. <br>
+      `aliases: -e <value>`
+   * `--base` - Directory to initialize the project to. Defaults to current working directory. <br>
+      `aliases: -b <value>`
+   * `--apikey` -  API key for the credentials file. Gets automatically generated if not provided. <br>
+      `aliases: -key <value>, -k <value>`
 
 Example:
 
 ```sh
-rstc project init --id example --entry http://example.com
+rstc project init --id example --entry http://example.com --apikey 123
 ```
 
-## `pwhashgen`
-
-Arguments:
-
-1. `password` the password to be hashed
-
-Generate a hash from the given string.
+## `pwhashgen <password>`
+  Generate a hash from the given string.
 
 ## `uuidgen`
+  Generate an ID.
 
-Generate a random v4 UUID.
-
+## `version`
+  Outputs `restore-cli` version.
