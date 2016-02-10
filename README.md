@@ -35,7 +35,7 @@ $ rstc <command> [OPTIONS] <command> [OPTIONS] ...
 
 There are two configuration files considered by the CLI:
 
-- `.restore-commerce-project.json`
+- `.restore-commerce-projects.json`
 - `.restore-commerce-credentials.json`
 
 The CLI looks up these files in the following locations:
@@ -46,7 +46,7 @@ The CLI looks up these files in the following locations:
 Settings found in the config files are used automatically,
 command line arguments take precedence.
 
-### `.restore-commerce-project.json`
+### `.restore-commerce-projects.json`
 
 Containts settings for 1..n projects.
 
