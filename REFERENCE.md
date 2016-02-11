@@ -31,7 +31,8 @@ The following commands are supported.
   * `--entry` - Defaults to specified project's entry point. <br>
     `aliases: -e <value>`
   * `--apikey` - Defaults to specified project's api key. <br>
-    `aliases: -key <value>, -k <value>`
+    `aliases: -key <value>, -k <value>` <br>
+  * `--protocol` - Defaults to `http`.
 
 ## `gss <options> <command>`
   Graph Storage Service Client related commands.
@@ -43,11 +44,6 @@ The following commands are supported.
     `aliases: -key <value>, -k <value>`
   * `--protocol` - Defaults to `http`.
 
-  ### `import-directory <directory> <resource>`
-  Import a directory. If path is a file it will also be imported. <br>
-  `aliases: import-dir`
-  ### `import-file <file> <resource>`
-  Import only one resource. If path is a directory it will also be imported.
   ### `import <file> <options>`
   Imports the resources defined in a file which defaults to "import.json" in current, current project's or home directory (lists choices). <br>
   `aliases: i`
@@ -55,6 +51,8 @@ The following commands are supported.
   `aliases: -m <value>`
   * `--only-modified` - Import only modified resources. <br>
   `aliases: -om`
+  ### `import-resource <resource or directory> <resource>`
+  Import a single resource or a directory. <br>
 
 ## `help <command-name> <options>`
   Outputs the usage instructions for all commands or the requested command(s).
@@ -70,9 +68,9 @@ The following commands are supported.
   * `--all` - Display information about all projects. <br>
       `aliases: -a`
 
-## `merge <directory> <options>`
-  Directory defaults to current working project's directory.
-  * `--host` - Application's host name. <br>
+## `merge <data source directory> <data target directory>`
+  Merge data.
+  * `--host` - Application's host name to append to `resourceType` (optional). <br>
   * `--ignore` - Resources to ignore from merging. <br>
     `aliases: -i <value - String/Array>`
 
@@ -87,29 +85,30 @@ The following commands are supported.
       `aliases: -e <value>`
   * `--apikey` - Defaults to specified project's api key. <br>
       `aliases: -key <value>, -k <value>`
+  * `--protocol` - Defaults to `http`.
 
   ### `delete <iri>`
    Delete a resource with a given IRI.
-   
+
   ### `get <iri> <options>`
    Get a resource with a given IRI.
   * `--meta`
- 
+
   ### `head <iri>`
   Get headers of a resource with a given IRI.
- 
+
   ### `job <job-file> <options>`
   Start a job.
-  * `--diff` <br>
-    `aliases: -d`
-  * `--diff-base` - Defaults to `MD5`. <br>
+  * `--diff-base` - The base to compare the local and remote objects. Defaults to `MD5`.<br>
     `aliases: -db <value>`
+  * `--diff-compare` - Resolve differences between the local and remote object. <br>
+    `aliases: -diff, -dc`
 
   ### `list <iri>`
    List resources in a OSS resource with a given IRI.
 
   ### `put <iri> <resource> <options>`
-   Put an object, object + meta data or only meta data to a given IRI. 
+   Put an object, object + meta data or only meta data to a given IRI.
   * `--private` <br>
     `aliases: -priv`
   * `--max-age` - Defaults to `0`. <br>
