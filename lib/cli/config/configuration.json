@@ -1,5 +1,6 @@
 {
   "name": "rstc",
   "projectsFileName":  "restore-commerce-projects.json",
-  "credentialsFileName": "restore-commerce-credentials.json"
+  "credentialsFileName": "restore-commerce-credentials.json",
+  "jsonFileIndent": 2
 }
