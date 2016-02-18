@@ -20,9 +20,9 @@ The following commands are supported.
 
 ## `apikey <command>`
   API key related commands.
-
-  ### `gen`
-   Generate a random API key and output it. This will not create the generated API key in the API.
+  
+### `gen` 
+ Generate a random API key and output it. This will not create the generated API key in the API.
 
 ## `bootstrap <directory> <options>`
   Used to bootstrap the application's API.  Directory defaults to current working project's directory.
@@ -170,7 +170,7 @@ The following commands are supported.
 ## `project <command>`
   Project related commands.
 
-  ### `init <options>`
+### `init <options>`
    This command creates project related configuration files in the base directory.
    Specifying the `--project` option for specific commands, the configuration files
    first are looked up in the project's base directory, if not found, then they are
